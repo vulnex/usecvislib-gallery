@@ -9,7 +9,7 @@ digraph "Web Application with Icons" {
 		fontname=Arial,
 		height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp8u_9ihb0.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp1s678re_.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>WAF / CDN</TD></TR>
 </TABLE>>,
 		pos="254.5,103.5",
@@ -40,7 +40,7 @@ digraph "Web Application with Icons" {
 		fontname=Arial,
 		height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp3ejuoy9_.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpohma9al_.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Web Server</TD></TR>
 </TABLE>>,
 		pos="649,103.5",
@@ -58,7 +58,7 @@ digraph "Web Application with Icons" {
 		fontname=Arial,
 		height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp0s3stov4.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp7wx3du8s.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Application Server</TD></TR>
 </TABLE>>,
 		pos="839,103.5",
@@ -78,7 +78,7 @@ digraph "Web Application with Icons" {
 		fontname=Arial,
 		height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpt3vedr1b.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpmdv3l8at.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Database</TD></TR>
 </TABLE>>,
 		pos="1081,173.5",
@@ -119,7 +119,7 @@ digraph "Web Application with Icons" {
 		fontname=Arial,
 		height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp7ghyhq55.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp80hgqd67.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Secrets Manager</TD></TR>
 </TABLE>>,
 		pos="1081,33.5",

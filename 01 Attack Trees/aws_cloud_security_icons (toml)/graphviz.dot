@@ -17,7 +17,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		width=3.5139];
 	Attack_IAM	[height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpumfjt70r.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpw69_1hsr.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Attack IAM</TD></TR>
 </TABLE>>,
 		pos="443,166.5",
@@ -30,7 +30,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=solid];
 	Attack_Network_Layer	[height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpji3zy4xx.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp5aeom6qj.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Attack Network Layer</TD></TR>
 </TABLE>>,
 		pos="1093,166.5",
@@ -43,7 +43,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=solid];
 	Attack_Data_Storage	[height=0.93056,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp0yy4pvfs.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp454w3lhk.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Attack Data Storage</TD></TR>
 </TABLE>>,
 		pos="1712,166.5",
@@ -56,7 +56,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=solid];
 	Credential_Theft	[height=1.1389,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpu_om1at4.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmplrnl71ug.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Credential Theft<BR/>(CVSS: 8.5 - High)</TD></TR>
 </TABLE>>,
 		pos="75,41",
@@ -111,7 +111,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=solid];
 	Security_Group_Bypass	[height=1.1389,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpppyx8_5t.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpujxjhek3.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Security Group Bypass<BR/>(CVSS: 6.5 - Medium)</TD></TR>
 </TABLE>>,
 		pos="1092,41",
@@ -124,7 +124,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=solid];
 	WAF_Evasion	[height=1.1389,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpzqh1zd7m.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp1nj_xpmn.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>WAF Evasion<BR/>(CVSS: 7.2 - High)</TD></TR>
 </TABLE>>,
 		pos="1346,41",
@@ -151,7 +151,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=solid];
 	RDS_Injection	[height=1.1389,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpmcgwtwge.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp5t496q1z.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>RDS Injection<BR/>(CVSS: 8.6 - High)</TD></TR>
 </TABLE>>,
 		pos="1834,41",
@@ -164,7 +164,7 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=solid];
 	DynamoDB_Access	[height=1.1389,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp6jao7gfl.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpxhbkda1j.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>DynamoDB Access<BR/>(CVSS: 7.5 - High)</TD></TR>
 </TABLE>>,
 		pos="2072,41",
