@@ -30,11 +30,11 @@ The gallery is generated, not hand-edited. From a USecVisLib checkout, with the 
 
 ```bash
 docker run --rm -v "$PWD":/repo -v /path/to/usecvislib-gallery:/out -w /repo \
-  -e PYTHONPATH=/repo/src --entrypoint python usecvislib-usecvislib-api \
+  -e PYTHONPATH=/repo/src -e PYTHONHASHSEED=0 --entrypoint python usecvislib-usecvislib-api \
   scripts/build_gallery.py /out
 ```
 
-The script keeps this README, the LICENSE and dotfiles, replaces everything else, and fails if any render errors or if an output contains host paths or e-mail addresses.
+The script keeps this README, the LICENSE and dotfiles, replaces everything else, and fails if any render errors or if an output contains a home-directory path or an e-mail address.
 
 ## License
 

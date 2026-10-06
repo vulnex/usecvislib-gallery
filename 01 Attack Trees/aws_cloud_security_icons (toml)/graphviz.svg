@@ -18,7 +18,7 @@
 <!-- Attack_IAM -->
 <g id="node2" class="node">
 <title>Attack_IAM</title>
-<image xlink:href="/tmp/tmpt6quiyds.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="425" y="-193.5"/>
+<image xlink:href="/tmp/tmphyz1rn6b.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="425" y="-193.5"/>
 <text text-anchor="start" x="403" y="-142.3" font-family="Times,serif" font-size="14.00">Attack IAM</text>
 </g>
 <!-- Compromise_AWS_Infrastructure&#45;&gt;Attack_IAM -->
@@ -31,7 +31,7 @@
 <!-- Attack_Network_Layer -->
 <g id="node3" class="node">
 <title>Attack_Network_Layer</title>
-<image xlink:href="/tmp/tmpl73y67nt.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1075.5" y="-193.5"/>
+<image xlink:href="/tmp/tmp5na1k2i0.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1075.5" y="-193.5"/>
 <text text-anchor="start" x="1015" y="-142.3" font-family="Times,serif" font-size="14.00">Attack Network Layer</text>
 </g>
 <!-- Compromise_AWS_Infrastructure&#45;&gt;Attack_Network_Layer -->
@@ -44,7 +44,7 @@
 <!-- Attack_Data_Storage -->
 <g id="node4" class="node">
 <title>Attack_Data_Storage</title>
-<image xlink:href="/tmp/tmpuo6kfd0r.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1694.5" y="-193.5"/>
+<image xlink:href="/tmp/tmp2wwxnb8e.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1694.5" y="-193.5"/>
 <text text-anchor="start" x="1640" y="-142.3" font-family="Times,serif" font-size="14.00">Attack Data Storage</text>
 </g>
 <!-- Compromise_AWS_Infrastructure&#45;&gt;Attack_Data_Storage -->
@@ -57,7 +57,7 @@
 <!-- Credential_Theft -->
 <g id="node5" class="node">
 <title>Credential_Theft</title>
-<image xlink:href="/tmp/tmpaieextvb.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="57" y="-76"/>
+<image xlink:href="/tmp/tmpdg1erzl9.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="57" y="-76"/>
 <text text-anchor="start" x="16" y="-24.8" font-family="Times,serif" font-size="14.00">Credential Theft</text>
 <text text-anchor="start" x="10" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 8.5 &#45; High)</text>
 </g>
@@ -113,7 +113,7 @@
 <!-- Security_Group_Bypass -->
 <g id="node9" class="node">
 <title>Security_Group_Bypass</title>
-<image xlink:href="/tmp/tmp8_dws_0i.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1074.5" y="-76"/>
+<image xlink:href="/tmp/tmpd44pjl17.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1074.5" y="-76"/>
 <text text-anchor="start" x="1010" y="-24.8" font-family="Times,serif" font-size="14.00">Security Group Bypass</text>
 <text text-anchor="start" x="1015.5" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 6.5 &#45; Medium)</text>
 </g>
@@ -127,7 +127,7 @@
 <!-- WAF_Evasion -->
 <g id="node10" class="node">
 <title>WAF_Evasion</title>
-<image xlink:href="/tmp/tmpge85izfq.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1328" y="-76"/>
+<image xlink:href="/tmp/tmpcqmu94i7.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1328" y="-76"/>
 <text text-anchor="start" x="1299" y="-24.8" font-family="Times,serif" font-size="14.00">WAF Evasion</text>
 <text text-anchor="start" x="1281" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 7.2 &#45; High)</text>
 </g>
@@ -155,7 +155,7 @@
 <!-- RDS_Injection -->
 <g id="node12" class="node">
 <title>RDS_Injection</title>
-<image xlink:href="/tmp/tmptvp6_8ev.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1816" y="-76"/>
+<image xlink:href="/tmp/tmpw2xoqka0.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1816" y="-76"/>
 <text text-anchor="start" x="1784.5" y="-24.8" font-family="Times,serif" font-size="14.00">RDS Injection</text>
 <text text-anchor="start" x="1769" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 8.6 &#45; High)</text>
 </g>
@@ -169,7 +169,7 @@
 <!-- DynamoDB_Access -->
 <g id="node13" class="node">
 <title>DynamoDB_Access</title>
-<image xlink:href="/tmp/tmpadlq3wqy.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="2054.5" y="-76"/>
+<image xlink:href="/tmp/tmpdqx6xmoy.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="2054.5" y="-76"/>
 <text text-anchor="start" x="2006" y="-24.8" font-family="Times,serif" font-size="14.00">DynamoDB Access</text>
 <text text-anchor="start" x="2007.5" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 7.5 &#45; High)</text>
 </g>

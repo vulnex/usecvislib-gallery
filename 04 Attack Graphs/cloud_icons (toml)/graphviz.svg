@@ -19,7 +19,7 @@
 <!-- waf -->
 <g id="node2" class="node">
 <title>waf</title>
-<image xlink:href="/tmp/tmpn8375dcz.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="232.086" y="-242.456"/>
+<image xlink:href="/tmp/tmpak19yrta.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="232.086" y="-242.456"/>
 <text text-anchor="start" x="224.09" y="-193.66" font-family="Arial" font-size="11.00">WAF/CDN</text>
 </g>
 <!-- attacker&#45;&gt;waf -->
@@ -44,7 +44,7 @@
 <!-- loadbalancer -->
 <g id="node3" class="node">
 <title>loadbalancer</title>
-<image xlink:href="/tmp/tmp1gg6_1eb.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="537.172" y="-367.456"/>
+<image xlink:href="/tmp/tmpg0hc_sdi.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="537.172" y="-367.456"/>
 <text text-anchor="start" x="520.17" y="-318.66" font-family="Arial" font-size="11.00">Load Balancer</text>
 </g>
 <!-- waf&#45;&gt;loadbalancer -->
@@ -85,7 +85,7 @@
 <!-- webserver -->
 <g id="node4" class="node">
 <title>webserver</title>
-<image xlink:href="/tmp/tmpiwqcrxsq.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="812.239" y="-367.456"/>
+<image xlink:href="/tmp/tmpqvyo4pw7.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="812.239" y="-367.456"/>
 <text text-anchor="start" x="801.24" y="-318.66" font-family="Arial" font-size="11.00">Web Server</text>
 </g>
 <!-- loadbalancer&#45;&gt;webserver -->
@@ -98,7 +98,7 @@
 <!-- appserver -->
 <g id="node5" class="node">
 <title>appserver</title>
-<image xlink:href="/tmp/tmp4p5xuj9h.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1083.3" y="-471.456"/>
+<image xlink:href="/tmp/tmp4o0ubghs.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1083.3" y="-471.456"/>
 <text text-anchor="start" x="1057.3" y="-422.66" font-family="Arial" font-size="11.00">Application Server</text>
 </g>
 <!-- webserver&#45;&gt;appserver -->
@@ -139,7 +139,7 @@
 <!-- database -->
 <g id="node6" class="node">
 <title>database</title>
-<image xlink:href="/tmp/tmpzz4i9o7m.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1374.3" y="-623.456"/>
+<image xlink:href="/tmp/tmp08w1_khj.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1374.3" y="-623.456"/>
 <text text-anchor="start" x="1355.3" y="-574.66" font-family="Arial" font-size="11.00">RDS Database</text>
 </g>
 <!-- appserver&#45;&gt;database -->
@@ -152,7 +152,7 @@
 <!-- secrets -->
 <g id="node7" class="node">
 <title>secrets</title>
-<image xlink:href="/tmp/tmpd0_yyoab.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1374.8" y="-523.456"/>
+<image xlink:href="/tmp/tmpled95595.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1374.8" y="-523.456"/>
 <text text-anchor="start" x="1351.3" y="-474.66" font-family="Arial" font-size="11.00">Secrets Manager</text>
 </g>
 <!-- appserver&#45;&gt;secrets -->

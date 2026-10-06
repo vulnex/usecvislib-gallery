@@ -12,7 +12,7 @@
 <!-- waf -->
 <g id="node1" class="node">
 <title>waf</title>
-<image xlink:href="/tmp/tmpntskwudr.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="237" y="-130.5"/>
+<image xlink:href="/tmp/tmpipz1tun0.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="237" y="-130.5"/>
 <text text-anchor="start" x="219.5" y="-79.3" font-family="Arial" font-size="14.00">WAF / CDN</text>
 </g>
 <!-- loadbalancer -->
@@ -31,7 +31,7 @@
 <!-- webserver -->
 <g id="node3" class="node">
 <title>webserver</title>
-<image xlink:href="/tmp/tmpkzyqwl18.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="631" y="-130.5"/>
+<image xlink:href="/tmp/tmpxwc6z5lp.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="631" y="-130.5"/>
 <text text-anchor="start" x="613" y="-79.3" font-family="Arial" font-size="14.00">Web Server</text>
 </g>
 <!-- loadbalancer&#45;&gt;webserver -->
@@ -44,7 +44,7 @@
 <!-- appserver -->
 <g id="node4" class="node">
 <title>appserver</title>
-<image xlink:href="/tmp/tmp6dwbayk7.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="821" y="-130.5"/>
+<image xlink:href="/tmp/tmpf_vz227d.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="821" y="-130.5"/>
 <text text-anchor="start" x="784" y="-79.3" font-family="Arial" font-size="14.00">Application Server</text>
 </g>
 <!-- webserver&#45;&gt;appserver -->
@@ -57,7 +57,7 @@
 <!-- database -->
 <g id="node5" class="node">
 <title>database</title>
-<image xlink:href="/tmp/tmp6cz8i6ef.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1063" y="-200.5"/>
+<image xlink:href="/tmp/tmp7qzryofj.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1063" y="-200.5"/>
 <text text-anchor="start" x="1052" y="-149.3" font-family="Arial" font-size="14.00">Database</text>
 </g>
 <!-- appserver&#45;&gt;database -->
@@ -84,7 +84,7 @@
 <!-- secrets -->
 <g id="node7" class="node">
 <title>secrets</title>
-<image xlink:href="/tmp/tmpvre5vsca.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1063" y="-60.5"/>
+<image xlink:href="/tmp/tmph4357s8j.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1063" y="-60.5"/>
 <text text-anchor="start" x="1029" y="-9.3" font-family="Arial" font-size="14.00">Secrets Manager</text>
 </g>
 <!-- appserver&#45;&gt;secrets -->

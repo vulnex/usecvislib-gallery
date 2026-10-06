@@ -30,162 +30,162 @@
 <path fill="#e5f5fd" stroke="#aeb6be" d="M1244,-33C1244,-33 1492,-33 1492,-33 1498,-33 1504,-39 1504,-45 1504,-45 1504,-376 1504,-376 1504,-382 1498,-388 1492,-388 1492,-388 1244,-388 1244,-388 1238,-388 1232,-382 1232,-376 1232,-376 1232,-45 1232,-45 1232,-39 1238,-33 1244,-33"/>
 <text text-anchor="middle" x="1298.5" y="-374.4" font-family="Sans-Serif" font-size="12.00" fill="#2d3436">Security Monitoring</text>
 </g>
-<!-- 2949f43310d0429d90fe73167427b073 -->
+<!-- c597795ed8d8435c9f5f421b9a9f9dcd -->
 <g id="node1" class="node">
-<title>2949f43310d0429d90fe73167427b073</title>
+<title>c597795ed8d8435c9f5f421b9a9f9dcd</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/general/user.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="0" y="-786.5"/>
 <text text-anchor="middle" x="50.5" y="-671.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Users</text>
 </g>
-<!-- 5e6908581c8d41049cca12bc40cf5986 -->
+<!-- 45878353a7e644169afa3b2c720bb96b -->
 <g id="node3" class="node">
-<title>5e6908581c8d41049cca12bc40cf5986</title>
+<title>45878353a7e644169afa3b2c720bb96b</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/identity-and-access-management-iam.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="155" y="-786.5"/>
 <text text-anchor="middle" x="205.5" y="-671.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Identity Provider</text>
 </g>
-<!-- 2949f43310d0429d90fe73167427b073&#45;&gt;5e6908581c8d41049cca12bc40cf5986 -->
+<!-- c597795ed8d8435c9f5f421b9a9f9dcd&#45;&gt;45878353a7e644169afa3b2c720bb96b -->
 <g id="edge1" class="edge">
-<title>2949f43310d0429d90fe73167427b073&#45;&gt;5e6908581c8d41049cca12bc40cf5986</title>
+<title>c597795ed8d8435c9f5f421b9a9f9dcd&#45;&gt;45878353a7e644169afa3b2c720bb96b</title>
 <path fill="none" stroke="#7b8894" d="M101.25,-736C101.25,-736 144.9,-736 144.9,-736"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="144.9,-739.5 154.9,-736 144.9,-732.5 144.9,-739.5"/>
 </g>
-<!-- 8e1a1b8f9ae54e24b6eb3e1d42586a64 -->
+<!-- 77ce8380a1974993ae86cdfdefaae8b6 -->
 <g id="node2" class="node">
-<title>8e1a1b8f9ae54e24b6eb3e1d42586a64</title>
+<title>77ce8380a1974993ae86cdfdefaae8b6</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/compute/ec2.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1085" y="-786.5"/>
 <text text-anchor="middle" x="1135.5" y="-671.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Applications</text>
 </g>
-<!-- 2f8cf67b9f804306ab3dc80f9ad82b0a -->
+<!-- dd7579e65abe41519646954c33edc28f -->
 <g id="node9" class="node">
-<title>2f8cf67b9f804306ab3dc80f9ad82b0a</title>
+<title>dd7579e65abe41519646954c33edc28f</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/key-management-service.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1240" y="-883.5"/>
 <text text-anchor="middle" x="1290.5" y="-768.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Key Management</text>
 </g>
-<!-- 8e1a1b8f9ae54e24b6eb3e1d42586a64&#45;&gt;2f8cf67b9f804306ab3dc80f9ad82b0a -->
+<!-- 77ce8380a1974993ae86cdfdefaae8b6&#45;&gt;dd7579e65abe41519646954c33edc28f -->
 <g id="edge8" class="edge">
-<title>8e1a1b8f9ae54e24b6eb3e1d42586a64&#45;&gt;2f8cf67b9f804306ab3dc80f9ad82b0a</title>
+<title>77ce8380a1974993ae86cdfdefaae8b6&#45;&gt;dd7579e65abe41519646954c33edc28f</title>
 <path fill="none" stroke="#7b8894" d="M1186.25,-784.5C1186.25,-784.5 1229.9,-784.5 1229.9,-784.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1229.9,-788 1239.9,-784.5 1229.9,-781 1229.9,-788"/>
 <text text-anchor="middle" x="1233.58" y="-774.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Encrypt</text>
 </g>
-<!-- 6bdaed9f679345a78fb0be155fda27af -->
+<!-- fbdeaf76cb3941e0ab1e1f4b908ddf48 -->
 <g id="node10" class="node">
-<title>6bdaed9f679345a78fb0be155fda27af</title>
+<title>fbdeaf76cb3941e0ab1e1f4b908ddf48</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/secrets-manager.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1240" y="-703.5"/>
 <text text-anchor="middle" x="1290.5" y="-588.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Secrets Manager</text>
 </g>
-<!-- 8e1a1b8f9ae54e24b6eb3e1d42586a64&#45;&gt;6bdaed9f679345a78fb0be155fda27af -->
+<!-- 77ce8380a1974993ae86cdfdefaae8b6&#45;&gt;fbdeaf76cb3941e0ab1e1f4b908ddf48 -->
 <g id="edge9" class="edge">
-<title>8e1a1b8f9ae54e24b6eb3e1d42586a64&#45;&gt;6bdaed9f679345a78fb0be155fda27af</title>
+<title>77ce8380a1974993ae86cdfdefaae8b6&#45;&gt;fbdeaf76cb3941e0ab1e1f4b908ddf48</title>
 <path fill="none" stroke="#7b8894" d="M1186.25,-694.5C1186.25,-694.5 1229.9,-694.5 1229.9,-694.5"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1229.9,-698 1239.9,-694.5 1229.9,-691 1229.9,-698"/>
 <text text-anchor="middle" x="1252.58" y="-684.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Fetch secrets</text>
 </g>
-<!-- af1a5d3969284b838c5ac28bc3957d5b -->
+<!-- 1a14f627515040179cffb1a7eb7a8ed3 -->
 <g id="node4" class="node">
-<title>af1a5d3969284b838c5ac28bc3957d5b</title>
+<title>1a14f627515040179cffb1a7eb7a8ed3</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/directory-service.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="310" y="-786.5"/>
 <text text-anchor="middle" x="360.5" y="-671.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">MFA Service</text>
 </g>
-<!-- 5e6908581c8d41049cca12bc40cf5986&#45;&gt;af1a5d3969284b838c5ac28bc3957d5b -->
+<!-- 45878353a7e644169afa3b2c720bb96b&#45;&gt;1a14f627515040179cffb1a7eb7a8ed3 -->
 <g id="edge2" class="edge">
-<title>5e6908581c8d41049cca12bc40cf5986&#45;&gt;af1a5d3969284b838c5ac28bc3957d5b</title>
+<title>45878353a7e644169afa3b2c720bb96b&#45;&gt;1a14f627515040179cffb1a7eb7a8ed3</title>
 <path fill="none" stroke="#7b8894" d="M256.25,-736C256.25,-736 299.9,-736 299.9,-736"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="299.9,-739.5 309.9,-736 299.9,-732.5 299.9,-739.5"/>
 </g>
-<!-- e04a68305b1d423c86850662dd404575 -->
+<!-- de16c08d02e6425a92fb2f8bbb64ad33 -->
 <g id="node5" class="node">
-<title>e04a68305b1d423c86850662dd404575</title>
+<title>de16c08d02e6425a92fb2f8bbb64ad33</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/single-sign-on.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="465" y="-786.5"/>
 <text text-anchor="middle" x="515.5" y="-671.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">SSO</text>
 </g>
-<!-- af1a5d3969284b838c5ac28bc3957d5b&#45;&gt;e04a68305b1d423c86850662dd404575 -->
+<!-- 1a14f627515040179cffb1a7eb7a8ed3&#45;&gt;de16c08d02e6425a92fb2f8bbb64ad33 -->
 <g id="edge3" class="edge">
-<title>af1a5d3969284b838c5ac28bc3957d5b&#45;&gt;e04a68305b1d423c86850662dd404575</title>
+<title>1a14f627515040179cffb1a7eb7a8ed3&#45;&gt;de16c08d02e6425a92fb2f8bbb64ad33</title>
 <path fill="none" stroke="#7b8894" d="M411.25,-736C411.25,-736 454.9,-736 454.9,-736"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="454.9,-739.5 464.9,-736 454.9,-732.5 454.9,-739.5"/>
 </g>
-<!-- 797cacd2520a4e95af8c7b54dfc9db1c -->
+<!-- 17e83fa5842b47a08bf9e3094b35f2f3 -->
 <g id="node6" class="node">
-<title>797cacd2520a4e95af8c7b54dfc9db1c</title>
+<title>17e83fa5842b47a08bf9e3094b35f2f3</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/waf.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="620" y="-786.5"/>
 <text text-anchor="middle" x="670.5" y="-670.6" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Web Application</text>
 <text text-anchor="middle" x="670.5" y="-656.6" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Firewall</text>
 </g>
-<!-- e04a68305b1d423c86850662dd404575&#45;&gt;797cacd2520a4e95af8c7b54dfc9db1c -->
+<!-- de16c08d02e6425a92fb2f8bbb64ad33&#45;&gt;17e83fa5842b47a08bf9e3094b35f2f3 -->
 <g id="edge4" class="edge">
-<title>e04a68305b1d423c86850662dd404575&#45;&gt;797cacd2520a4e95af8c7b54dfc9db1c</title>
+<title>de16c08d02e6425a92fb2f8bbb64ad33&#45;&gt;17e83fa5842b47a08bf9e3094b35f2f3</title>
 <path fill="none" stroke="#7b8894" d="M566.25,-736C566.25,-736 609.9,-736 609.9,-736"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="609.9,-739.5 619.9,-736 609.9,-732.5 609.9,-739.5"/>
 </g>
-<!-- 25b0246886594b469756bff772d6d859 -->
+<!-- 24a1d67975584d6daaccb037af2e25c1 -->
 <g id="node7" class="node">
-<title>25b0246886594b469756bff772d6d859</title>
+<title>24a1d67975584d6daaccb037af2e25c1</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/shield.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="775" y="-786.5"/>
 <text text-anchor="middle" x="825.5" y="-671.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">DDoS Protection</text>
 </g>
-<!-- 797cacd2520a4e95af8c7b54dfc9db1c&#45;&gt;25b0246886594b469756bff772d6d859 -->
+<!-- 17e83fa5842b47a08bf9e3094b35f2f3&#45;&gt;24a1d67975584d6daaccb037af2e25c1 -->
 <g id="edge5" class="edge">
-<title>797cacd2520a4e95af8c7b54dfc9db1c&#45;&gt;25b0246886594b469756bff772d6d859</title>
+<title>17e83fa5842b47a08bf9e3094b35f2f3&#45;&gt;24a1d67975584d6daaccb037af2e25c1</title>
 <path fill="none" stroke="#7b8894" d="M721.25,-736C721.25,-736 764.9,-736 764.9,-736"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="764.9,-739.5 774.9,-736 764.9,-732.5 764.9,-739.5"/>
 </g>
-<!-- 548aedf85ebc4066b543796c03438a53 -->
+<!-- 19efaa7ec04044e39491e70526328b08 -->
 <g id="node8" class="node">
-<title>548aedf85ebc4066b543796c03438a53</title>
+<title>19efaa7ec04044e39491e70526328b08</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/firewall-manager.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="930" y="-786.5"/>
 <text text-anchor="middle" x="980.5" y="-671.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Network Firewall</text>
 </g>
-<!-- 25b0246886594b469756bff772d6d859&#45;&gt;548aedf85ebc4066b543796c03438a53 -->
+<!-- 24a1d67975584d6daaccb037af2e25c1&#45;&gt;19efaa7ec04044e39491e70526328b08 -->
 <g id="edge6" class="edge">
-<title>25b0246886594b469756bff772d6d859&#45;&gt;548aedf85ebc4066b543796c03438a53</title>
+<title>24a1d67975584d6daaccb037af2e25c1&#45;&gt;19efaa7ec04044e39491e70526328b08</title>
 <path fill="none" stroke="#7b8894" d="M876.25,-736C876.25,-736 919.9,-736 919.9,-736"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="919.9,-739.5 929.9,-736 919.9,-732.5 919.9,-739.5"/>
 </g>
-<!-- 548aedf85ebc4066b543796c03438a53&#45;&gt;8e1a1b8f9ae54e24b6eb3e1d42586a64 -->
+<!-- 19efaa7ec04044e39491e70526328b08&#45;&gt;77ce8380a1974993ae86cdfdefaae8b6 -->
 <g id="edge7" class="edge">
-<title>548aedf85ebc4066b543796c03438a53&#45;&gt;8e1a1b8f9ae54e24b6eb3e1d42586a64</title>
+<title>19efaa7ec04044e39491e70526328b08&#45;&gt;77ce8380a1974993ae86cdfdefaae8b6</title>
 <path fill="none" stroke="#7b8894" d="M1031.25,-736C1031.25,-736 1074.9,-736 1074.9,-736"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1074.9,-739.5 1084.9,-736 1074.9,-732.5 1074.9,-739.5"/>
 </g>
-<!-- c5649c036ac04b2d8aed9402cee467c1 -->
+<!-- 1abe6997940c465b980cb49c6f7348d5 -->
 <g id="node11" class="node">
-<title>c5649c036ac04b2d8aed9402cee467c1</title>
+<title>1abe6997940c465b980cb49c6f7348d5</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/macie.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1240" y="-523.5"/>
 <text text-anchor="middle" x="1290.5" y="-408.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Data Discovery</text>
 </g>
-<!-- 08c74d42aba7402ab395d95b52ec642f -->
+<!-- b07058b016684d57b38654b182caa972 -->
 <g id="node13" class="node">
-<title>08c74d42aba7402ab395d95b52ec642f</title>
+<title>b07058b016684d57b38654b182caa972</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/security-hub.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1395" y="-340.5"/>
 <text text-anchor="middle" x="1445.5" y="-225.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Security Hub</text>
 </g>
-<!-- c5649c036ac04b2d8aed9402cee467c1&#45;&gt;08c74d42aba7402ab395d95b52ec642f -->
+<!-- 1abe6997940c465b980cb49c6f7348d5&#45;&gt;b07058b016684d57b38654b182caa972 -->
 <g id="edge12" class="edge">
-<title>c5649c036ac04b2d8aed9402cee467c1&#45;&gt;08c74d42aba7402ab395d95b52ec642f</title>
+<title>1abe6997940c465b980cb49c6f7348d5&#45;&gt;b07058b016684d57b38654b182caa972</title>
 <path fill="none" stroke="#7b8894" d="M1341.42,-473C1386.77,-473 1446,-473 1446,-473 1446,-473 1446,-368.66 1446,-368.66"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1449.5,-368.66 1446,-358.66 1442.5,-368.66 1449.5,-368.66"/>
 </g>
-<!-- 36abb15941db4bdc8b03f253f2f19919 -->
+<!-- 142feaaf1afc467e9a5d0027e1df0c50 -->
 <g id="node12" class="node">
-<title>36abb15941db4bdc8b03f253f2f19919</title>
+<title>142feaaf1afc467e9a5d0027e1df0c50</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/security/guardduty.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1240" y="-340.5"/>
 <text text-anchor="middle" x="1290.5" y="-225.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Threat Detection</text>
 </g>
-<!-- 36abb15941db4bdc8b03f253f2f19919&#45;&gt;08c74d42aba7402ab395d95b52ec642f -->
+<!-- 142feaaf1afc467e9a5d0027e1df0c50&#45;&gt;b07058b016684d57b38654b182caa972 -->
 <g id="edge10" class="edge">
-<title>36abb15941db4bdc8b03f253f2f19919&#45;&gt;08c74d42aba7402ab395d95b52ec642f</title>
+<title>142feaaf1afc467e9a5d0027e1df0c50&#45;&gt;b07058b016684d57b38654b182caa972</title>
 <path fill="none" stroke="#7b8894" d="M1341.25,-290C1341.25,-290 1384.9,-290 1384.9,-290"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1384.9,-293.5 1394.9,-290 1384.9,-286.5 1384.9,-293.5"/>
 </g>
-<!-- 916ea616450a40cca4e34fcd0b3a15ff -->
+<!-- 0744cf8b15c749f28029ae6ac8c64a51 -->
 <g id="node14" class="node">
-<title>916ea616450a40cca4e34fcd0b3a15ff</title>
+<title>0744cf8b15c749f28029ae6ac8c64a51</title>
 <image xlink:href="/usr/local/lib/python3.12/site-packages/resources/aws/management/cloudtrail.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1240" y="-160.5"/>
 <text text-anchor="middle" x="1290.5" y="-45.1" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Audit Logs</text>
 </g>
-<!-- 916ea616450a40cca4e34fcd0b3a15ff&#45;&gt;08c74d42aba7402ab395d95b52ec642f -->
+<!-- 0744cf8b15c749f28029ae6ac8c64a51&#45;&gt;b07058b016684d57b38654b182caa972 -->
 <g id="edge11" class="edge">
-<title>916ea616450a40cca4e34fcd0b3a15ff&#45;&gt;08c74d42aba7402ab395d95b52ec642f</title>
+<title>0744cf8b15c749f28029ae6ac8c64a51&#45;&gt;b07058b016684d57b38654b182caa972</title>
 <path fill="none" stroke="#7b8894" d="M1341.42,-110C1386.77,-110 1446,-110 1446,-110 1446,-110 1446,-211.44 1446,-211.44"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1442.5,-211.44 1446,-221.44 1449.5,-211.44 1442.5,-211.44"/>
 </g>

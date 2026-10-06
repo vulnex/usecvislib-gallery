@@ -33,14 +33,14 @@
 <!-- cdn -->
 <g id="node1" class="node">
 <title>cdn</title>
-<image xlink:href="/tmp/tmpk3_anc6j.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="576.5" y="-861"/>
+<image xlink:href="/tmp/tmpri1yk0x9.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="576.5" y="-861"/>
 <text text-anchor="start" x="573" y="-813" font-family="Courier New" font-size="10.00" fill="#ffffff">&lt;&lt;CDN&gt;&gt;</text>
 <text text-anchor="start" x="564" y="-802" font-family="Courier New" font-size="10.00" fill="#ffffff">CloudFront</text>
 </g>
 <!-- lb -->
 <g id="node2" class="node">
 <title>lb</title>
-<image xlink:href="/tmp/tmpc8fkkzmi.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="584" y="-704.5"/>
+<image xlink:href="/tmp/tmphgs7kmd5.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="584" y="-704.5"/>
 <text text-anchor="start" x="592.5" y="-656.5" font-family="Courier New" font-size="10.00" fill="#ffffff">ALB</text>
 </g>
 <!-- cdn&#45;&gt;lb -->
@@ -53,7 +53,7 @@
 <!-- web1 -->
 <g id="node3" class="node">
 <title>web1</title>
-<image xlink:href="/tmp/tmpnrub680g.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="268.5" y="-556.5"/>
+<image xlink:href="/tmp/tmpkh1_aypn.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="268.5" y="-556.5"/>
 <text text-anchor="start" x="256" y="-508.5" font-family="Courier New" font-size="10.00" fill="#ffffff">&lt;&lt;device&gt;&gt;</text>
 <text text-anchor="start" x="250" y="-497.5" font-family="Courier New" font-size="10.00" fill="#ffffff">Web Server 1</text>
 <text text-anchor="start" x="259" y="-486.5" font-family="Courier New" font-size="10.00" fill="#ffffff">10.0.1.10</text>
@@ -68,7 +68,7 @@
 <!-- web2 -->
 <g id="node6" class="node">
 <title>web2</title>
-<image xlink:href="/tmp/tmpyxmoz3ud.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="789.5" y="-556.5"/>
+<image xlink:href="/tmp/tmpw4p5g_7z.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="789.5" y="-556.5"/>
 <text text-anchor="start" x="777" y="-508.5" font-family="Courier New" font-size="10.00" fill="#ffffff">&lt;&lt;device&gt;&gt;</text>
 <text text-anchor="start" x="771" y="-497.5" font-family="Courier New" font-size="10.00" fill="#ffffff">Web Server 2</text>
 <text text-anchor="start" x="780" y="-486.5" font-family="Courier New" font-size="10.00" fill="#ffffff">10.0.1.11</text>
@@ -83,14 +83,14 @@
 <!-- docker_web1 -->
 <g id="node4" class="node">
 <title>docker_web1</title>
-<image xlink:href="/tmp/tmpr9weq_k0.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="81.5" y="-551.5"/>
+<image xlink:href="/tmp/tmpg9xog4kq.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="81.5" y="-551.5"/>
 <text text-anchor="start" x="27" y="-503.5" font-family="Courier New" font-size="10.00" fill="#ffffff">&lt;&lt;executionEnvironment&gt;&gt;</text>
 <text text-anchor="start" x="81" y="-492.5" font-family="Courier New" font-size="10.00" fill="#ffffff">Docker</text>
 </g>
 <!-- app_container1 -->
 <g id="node5" class="node">
 <title>app_container1</title>
-<image xlink:href="/tmp/tmpojbng698.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="262.5" y="-399"/>
+<image xlink:href="/tmp/tmpf4dln4ab.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="262.5" y="-399"/>
 <text text-anchor="start" x="241" y="-351" font-family="Courier New" font-size="10.00" fill="#ffffff">&lt;&lt;container&gt;&gt;</text>
 <text text-anchor="start" x="250" y="-340" font-family="Courier New" font-size="10.00" fill="#ffffff">app:latest</text>
 </g>
@@ -103,7 +103,7 @@
 <!-- db_primary -->
 <g id="node9" class="node">
 <title>db_primary</title>
-<image xlink:href="/tmp/tmp0umsk7ma.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="332.5" y="-240"/>
+<image xlink:href="/tmp/tmp4tfw3_x4.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="332.5" y="-240"/>
 <text text-anchor="start" x="296" y="-192" font-family="Courier New" font-size="10.00" fill="#ffffff">PostgreSQL Primary</text>
 <text text-anchor="start" x="335" y="-181" font-family="Courier New" font-size="10.00" fill="#ffffff">:5432</text>
 </g>
@@ -117,7 +117,7 @@
 <!-- cache -->
 <g id="node11" class="node">
 <title>cache</title>
-<image xlink:href="/tmp/tmpid0svwb8.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="504.5" y="-240"/>
+<image xlink:href="/tmp/tmpd9jloe23.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="504.5" y="-240"/>
 <text text-anchor="start" x="483" y="-192" font-family="Courier New" font-size="10.00" fill="#ffffff">Redis Cluster</text>
 <text text-anchor="start" x="507" y="-181" font-family="Courier New" font-size="10.00" fill="#ffffff">:6379</text>
 </g>
@@ -131,14 +131,14 @@
 <!-- docker_web2 -->
 <g id="node7" class="node">
 <title>docker_web2</title>
-<image xlink:href="/tmp/tmp8n4xrvy4.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="602.5" y="-551.5"/>
+<image xlink:href="/tmp/tmpguk4ovza.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="602.5" y="-551.5"/>
 <text text-anchor="start" x="548" y="-503.5" font-family="Courier New" font-size="10.00" fill="#ffffff">&lt;&lt;executionEnvironment&gt;&gt;</text>
 <text text-anchor="start" x="602" y="-492.5" font-family="Courier New" font-size="10.00" fill="#ffffff">Docker</text>
 </g>
 <!-- app_container2 -->
 <g id="node8" class="node">
 <title>app_container2</title>
-<image xlink:href="/tmp/tmpmbx0uvbz.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="575.5" y="-399"/>
+<image xlink:href="/tmp/tmpw8butu3v.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="575.5" y="-399"/>
 <text text-anchor="start" x="554" y="-351" font-family="Courier New" font-size="10.00" fill="#ffffff">&lt;&lt;container&gt;&gt;</text>
 <text text-anchor="start" x="563" y="-340" font-family="Courier New" font-size="10.00" fill="#ffffff">app:latest</text>
 </g>
@@ -165,7 +165,7 @@
 <!-- db_replica -->
 <g id="node10" class="node">
 <title>db_replica</title>
-<image xlink:href="/tmp/tmp_hm3jbfr.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="332.5" y="-84"/>
+<image xlink:href="/tmp/tmp1hgyx6e_.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="332.5" y="-84"/>
 <text text-anchor="start" x="296" y="-36" font-family="Courier New" font-size="10.00" fill="#ffffff">PostgreSQL Replica</text>
 <text text-anchor="start" x="335" y="-25" font-family="Courier New" font-size="10.00" fill="#ffffff">:5432</text>
 </g>
