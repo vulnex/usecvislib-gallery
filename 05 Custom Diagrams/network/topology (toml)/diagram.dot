@@ -15,7 +15,8 @@ digraph Network_Topology {
 		rankdir=LR,
 		ranksep=1.2,
 		sep="+12",
-		splines=curved
+		splines=curved,
+		start=1
 	];
 	node [color="#444444",
 		fillcolor="#444444",

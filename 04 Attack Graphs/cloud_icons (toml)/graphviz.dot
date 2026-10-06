@@ -29,7 +29,7 @@ digraph "Cloud Infrastructure Attack Graph with Icons" {
 		fontsize=11,
 		height=0.88889,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpyhzn0ucg.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpzfze2y5p.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>WAF/CDN</TD></TR>
 </TABLE>>,
 		pos="250.09,216.46",
@@ -62,7 +62,7 @@ digraph "Cloud Infrastructure Attack Graph with Icons" {
 		fontsize=11,
 		height=0.88889,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmprq7b3exq.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpa1vdjqo7.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Load Balancer</TD></TR>
 </TABLE>>,
 		pos="555.17,341.46",
@@ -111,7 +111,7 @@ digraph "Cloud Infrastructure Attack Graph with Icons" {
 		fontsize=11,
 		height=0.88889,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmptniel8wi.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp0jcxvdjq.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Web Server</TD></TR>
 </TABLE>>,
 		pos="830.24,341.46",
@@ -130,7 +130,7 @@ digraph "Cloud Infrastructure Attack Graph with Icons" {
 		fontsize=11,
 		height=0.88889,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpzrs0tcy_.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpt1e6l44m.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Application Server</TD></TR>
 </TABLE>>,
 		pos="1101.3,445.46",
@@ -179,7 +179,7 @@ digraph "Cloud Infrastructure Attack Graph with Icons" {
 		fontsize=11,
 		height=0.88889,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpwmb_gwc1.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpwzt1r88l.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>RDS Database</TD></TR>
 </TABLE>>,
 		pos="1392.3,597.46",
@@ -198,7 +198,7 @@ digraph "Cloud Infrastructure Attack Graph with Icons" {
 		fontsize=11,
 		height=0.88889,
 		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
-<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmplb3pwhrp.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpgtztm_wk.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
 <TR><TD>Secrets Manager</TD></TR>
 </TABLE>>,
 		pos="1392.3,497.46",

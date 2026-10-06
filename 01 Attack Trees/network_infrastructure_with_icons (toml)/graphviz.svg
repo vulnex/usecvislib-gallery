@@ -12,13 +12,13 @@
 <!-- Compromise_Infrastructure -->
 <g id="node1" class="node">
 <title>Compromise_Infrastructure</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/6355c0c1a8c9_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="779" y="-383.5"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACj0lEQVRoge2YO2gUQRjHf3dBhWBeKMQHWFioaGEjiFioYCEKghYS4qOwCMEjgogSLEURsREJYmcRe9HOxgcoqGArXirFQlAUNYrn47IWMwubzezjm5nb3cD94Q/L3M73/b67vZn9BrrqqpJaCdwBfmhPAytKJRKoB3gOBDG/0J9VXuMshA99qkSuXBoCPpFcwBfU41VZTZEMH/pmaXQZ2gL8JbuANrCtJMZUPSIbPvQzoFYOplkj5IcPPVoKqUG9wFvkBXwA+ovHXahLyOFDXymBd57WA7+wL+A3sKFw6ojuGaCkflA4tda+FKg2MIl6xgeAC3os6f4DBbOzFHiTAmTarG6l3D8DLOs4dUTnUmAC4KBhzqGMOZMdp9YaBr5mwJjW+KMZc2aBtVKYuhgfrqGe6zStyTkW1XLgqhRGWsAO4FiO+1bnHItrFNglAZIUUAeuk+8dxraAms7RkcZnjPxr+2PD/CeC+eO+4YeAjwKApiHGjGD+Zzw3PjcEycMVJa5ZYYwpX/CbgT/C5AHQF4nRbzH/H7DVRwEPLZIHzH9J22QZ4ymOjc8Ry8QBsDsSZ49DnBFb+F7gnUPi6H5x3CHOe9QmJ9ZFh6QB6iBrFWr9f+kY67IUfh3w0zGpT4sbn7sVgI77fl74vRWATfL+LPglwGsPiVpAA7UX9Olrl945dBPVTCXqrKdvqmGI3fAU+3wS/DDwzVMSU79gsxub/J2E3uK2pwQBMGiIP+Ax/nQ8+HZgzmOCCUMBEx7jzwE7w8B13DeauFvAadQvMaivW55zvEI3Pic9By7SYzXU+c5GFqeaNdSJmc3pRBXUrqNavcWqZg/qkOpw2SSWOhNenEBt02X/KfO6qZm76spV/wGLklJWr5DedwAAAABJRU5ErkJggg==" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="779" y="-383.5"/>
 <text text-anchor="start" x="699" y="-332.3" font-family="Times,serif" font-size="14.00">Compromise Infrastructure</text>
 </g>
 <!-- Attack_Web_Tier -->
 <g id="node2" class="node">
 <title>Attack_Web_Tier</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/e0ce33b525bf_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="459.5" y="-229.5"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFWElEQVRogdWa+29VRRDHP73UVgoofYAFKtZEo0IRUawmGqmPaBTxQU2ICsYf1bSSJhqJoil/gQYfECMxRhHQ8CeYAEGx0IJGiVBfSNRgYluwtwJKe/1hzvbMnp7dc+7LtN/kJHN3Zmdn9uzuzM65FZQGTcBdQCuwGGgGGoCZAX8YGAB+Bo4CB4HPgN9LNH5BmAO8APQBuQKfXqALqP8/DW8C3gbOFmF49PkbeAtYUE7Dq4FXgZEEY0aBD4Edqm0n8BEwltB3BNgIVJXa+CXANzED/hD5PYDsBYBu1d4dtN0LDCboyAFfA4tKZfwaJs76IeBuYLdqGwKWqn5xDgAsA84o3qfAPch+0GNkgfZije/Cfu1Z4DkgAzyi2seAByJ9XQ4ArIroXRXo7AjG0Muxoxjj9YwcA64NeJVAv+K9E9Pf5wDAu4p/PNAJcF0wlh67M1/j12DP0F5gtuI/pXiDQG0BDtRj74e1ilcL7Md+E6mX0/XYa34fUBOROaL4rzj0JDkAcqoZmb4Ib0bEiWHk7XhRDXyrOn2HPfMAtyh+lvjZT+tALfZkLY/hH1f8I0SO2EykwwYkFQAJLquB0xGZJxS9Czl9CsUQ8In6/WQMf3VgC8ANwIsuZZcHgqWKruV6ssD8OAe2TALj0j5vRo2fQ2lzm3I/I0AdhHvgaeDigD4IVDieHcrpTo9cBbBJyW5KkF2vZLd75HoDmRpgnXbgcaVgC27cqOgej1y+OKToZR65rYoeP0yaCF/NWWCWo3M1cCGQuwBMTzCqW+ntTpCdiQSrHPAv7mz0UuBcIDcGzMsQZo8gQWvY0flKYFpAn0ScLRWywK8BXQlc4ZA7gwQ3kCXVlgFuVgJ7PYMsVPSJ/G1MxC+OsaLYp+jWDGHgAol0LjQquhx3Wa3zMo+ctrElgywNg+89HesUPZCHYWmhdfruyNrG5kokBhisxb222xS9FHgpwaDbInSSfIui72diAmmg2+dWILs/mhNNFYxOVcPHUYksmRnB7824l9CtwIqA7gH2JOi+nXAZfU54/LnQhqTqBLpdgXI68HxAZwF+Igw4V3sGWK/kNicYA/kFMpC6kJH33YOvUXL9Gewz/SpPR533l6OSpnX67hh6kk9kkFqlgS8POaXo2Hy8SMxzjBWFzseOZpDs02AFbuhI2ZzertTQOk965O5QdA9IPdJUIM4Blzg6ViOJVg45el3ntEE36fdADWEy9w9wkUNuNnCeMJlrzAC/EYbnatzli/NIGRAkbrQ45ArBEsJY1I9MVBweI8xUDwKnTKftSuhZz0CHFd2ap5E+aF2+fEzbpm2mgalxoTfPeDnHvIE/gfc9nk82vEfMUbuA5Nr/ZHiy2EeuhY1KcAT7rmDwhpLZ5p6k1KfQB0ru9Rh+C/by3uDRRRXyccEIH2Ni6bAVezaKKS3WRYy7KcKvx66C9+E+YsexGLtGv58w2TM4rPgvF+HAa0qmN8KbBXyh+H8heVAqtBMGFuOEnul1ijeAfVtL60ADdnld11zrgAOKNwo8lNZ4g06lwCwn892qErtqvDWmf5ID2yK6TcWjBXvZjOGPTV50YL+JESQXn4bMiB7kwTwceBR7clYGOruw98Qo8Eyhxhu0Y++JHLIH7kM+0Jm209jZrMuB5ch6NrydyB34q8gYw8DDxRpvsChmgBzwY+T3YOCYy4GViKM+Hea0Md/jSoYq5HNSUrAbAz5GPn6Ytl3ITCd96M4ip1riUVkM5iNXylJG7SwSIJ0RthyoQzb0lyTPrOtNHUAOClcwTERFwebbaATuJPy7zUJgLqFhQ8AfyE3L/N1mD/6rYyr8B0B6/ciIUcLeAAAAAElFTkSuQmCC" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="459.5" y="-229.5"/>
 <text text-anchor="start" x="420" y="-178.3" font-family="Times,serif" font-size="14.00">Attack Web Tier</text>
 </g>
 <!-- Compromise_Infrastructure&#45;&gt;Attack_Web_Tier -->
@@ -31,7 +31,7 @@
 <!-- Attack_Database_Tier -->
 <g id="node3" class="node">
 <title>Attack_Database_Tier</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/7592cc1443cb_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="778.5" y="-229.5"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACd0lEQVRoge3ayWoUYRTF8V+CTRKHuFFJFJREQReCOKz0ARzWgiIo6As4oCtFEN2IiDPiGwjBEX0AFXETHGIEheAErszCGEOcIC6qQspK9VRVnc6i/lCr/up856u+fc/tpikoyERLxvvbsAkbsBarsBSL0YlSuO4PRjCMLxjCIJ6jH78z+qiLThzAQ4xhIuM1hgfYH2o3jGW4jB85mC53jeKS4F2siVpKqBVHcApzE14fwjO8xFt8xld8w69wTRsWCkprBdZgHTYLyi7OGE7iguBgqenAfdOf1AAOoyeLeEiP4AENJOxzB+1phVtwOyb4Aluz+a3INryK7dmXVmxPTOgs5mT3WJUSzsf23pVG6GlE4Epe7urgemT/x2kEfkYEluTnq2a6IvuPlVvUWkGgLW9HdRLtkEndryrRGryWh6M6uRHzUDfxlnbO1GjQSEqm+n+uB5gQtLjtudhMZgdel9m7bipF/iCOojezZVbiGN5U2TORSqNE9KZDOIP5CeveC1ruAN7ho2Dq/G6qe8wTDGqTo8RqwSixRXKaj+KEYC6qxWvZA0RP342LobFGDXMjgvrvKuMh0wEmWYB9uCd4UnlMoHex1/R3OLcSKreuhPXYKPhC04vlWBQetCNcNx4aHcYnfBB8jvoF89XfDB4qHqCZSdwtxxIqgqwOiiCbpAgyRZAVQVZ1XRFkFSiCrAiyFBRBFqUIshRXEWTxm6utm9VBNm72BFnZ30Yr8SQi0Owge5RGYLf/a7CZQbYzrVhfTKgZQXYzi2A7bpneOWYqyPpU+Zm/lk92Cw7itJkNsuO4KmUGJNGMIGsIMxlkVcn6X4lGB1lV/gFM0V2R2oX7gwAAAABJRU5ErkJggg==" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="778.5" y="-229.5"/>
 <text text-anchor="start" x="721" y="-178.3" font-family="Times,serif" font-size="14.00">Attack Database Tier</text>
 </g>
 <!-- Compromise_Infrastructure&#45;&gt;Attack_Database_Tier -->
@@ -44,7 +44,7 @@
 <!-- Attack_Internal_Network -->
 <g id="node4" class="node">
 <title>Attack_Internal_Network</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/908a036e3fe0_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1154" y="-229.5"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB3klEQVRoge3Zz2pTQRTH8U/SgjGl2hdol+LTuHal++LfWl24qkjJQlzoS7j2KaSIglaXkepDxKjUuJjeZm5CkxtvkrmB+4WB4UyY+Z0zZ+YMN9TU1NRUhcvYx0f8xqBi7Rc+YA+tUfE7+FoBkUXbMbbjyK+S+NiJFiFtMuNP7GJzdIsqwCbuoG+o9wEh5zPDbip1M3DXUO97wuHIDFWM/Chb8hmTy6uYl4JzLwral0lO80UOZDvTK2hfJueamxN+9EoQ+7qgPRnxGbiSWEsR4jPQawo1IONWEkmzcTvqH8MjQ4/6wjV1dfm6prKFe/J14D6hmn2RP8yr0D7jUubdtrAdqUUVbZ9Eb6GMFh4K1a3/nxMvsvVxJKTNeeQXyUG0+MGiFplUB1aC2oHU1A6kpnYgNSvvwLzZQAffjVfSExyinUrcNDaEZ8i0J8GRijrRUfxd8zyRxon8MBS4h7VobE3++9O3eS3awHXcOOuXoRPNsY7TkfF1/Dnr/8XTkusN8LYhRG7sbV2Si4IxmPM6J80FTLpMBg1cw03lb4YnZkuhsh/GenhTco4c8d2/b/wQP47Gu/NceF4cKn6NPkukcSJtoUhNE/9O+E+ikrSFItU1LrwrRL6y4mtqampm5x+HQZpL/mU4FgAAAABJRU5ErkJggg==" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1154" y="-229.5"/>
 <text text-anchor="start" x="1085" y="-178.3" font-family="Times,serif" font-size="14.00">Attack Internal Network</text>
 </g>
 <!-- Compromise_Infrastructure&#45;&gt;Attack_Internal_Network -->
@@ -57,7 +57,7 @@
 <!-- SQL_Injection -->
 <g id="node5" class="node">
 <title>SQL_Injection</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/7696403be548_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="66" y="-76"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACAUlEQVRoge2ZvUoDURCFvwRs8wLaKlZi4wuItdqotdjpA1iptajgX7SKlbFXEOx8AOMriGKvYKFGwVjsxkyWlezcO3dXIQcCl8zOmTOb2cu5G+ijj3+HUeAReABGCtbihD2gFX9WC9bihDs6DUwWrEWNcTrin4EBX8KyL4ESM2J9CXzmXN8bt3R+gbmCtagxCHwRiW8CFQvSPEdoFijF62vgxYI0zwbk/J/nWLcLZaAKfADbirwK0di0iMZoKBHfiTmrBLypZaBG5yF8U+TOi7xGSrwp4jUCNJEU3wIOFfl1kbeeEq8muE2bKAHHiQInigIDwJPIHQtQ41dYEE+J3PvAtYIQ7ov83Zxqmt4NrXnzrp1G4PpQuZq3EnCEQxOW4gE2BM+pMlfdhLV48DdvmZtI2+d9xQ9hY94yaVvqdYEDlgXflSdXWhOL7QDxF9aYFuuLAPxdmq1HqJd50yCzNsu9f0Fw3LiodtVk1cSZyF/TqvbVkod5C63BiyCreQtR24RIY96sapoSur55+xNnAh/zFkR8G1mPlOsiXlfwJ/1OLufi15RrGiI+r+AOfqhvo0x059+BzUTMx7xtxZwH5P++9gcr2Jm3zLDs9k+8eXOFpXkrBFbmTQ2rEZLjE8L7B4WFeSsUvubNCxYjNCHW/273gejP6nsiEzdcrJQ++lDjGy7XLFpnFZyjAAAAAElFTkSuQmCC" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="66" y="-76"/>
 <text text-anchor="start" x="35.5" y="-24.8" font-family="Times,serif" font-size="14.00">SQL Injection</text>
 <text text-anchor="start" x="10" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 9.8 &#45; Critical)</text>
 </g>
@@ -71,7 +71,7 @@
 <!-- XSS_Attack -->
 <g id="node6" class="node">
 <title>XSS_Attack</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/706d1d6dcfac_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="295" y="-76"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACg0lEQVRoge3aOWgUURjA8Z8HgoiieHUhsdZGbTwKBQUbEawCCgmoTTAoEg+0iRaCVUBFsFAUOxGtBAWPaKEYIU2ihRJMIRqwETyCRtTizepkzB6ZnexEmD8su++Y73v/nZn3dt8u1ZmLLvTjO37V+XiD5hryZkITXmQw6Fwk5k7R4Bsm0RVLNooOzM8gbrcGSfTHEnVkGLdbg87Et1iSLN75Et0yvJxmVmibE3v9KU3wSdCMR1gx2QMrCTSaJjw0SYnpJEAKiTwEvlZpb8J9GdzY8ZssSzZq0DoxVQJwVwMkplJgIe7IQGJGhSTxgVfqVw/rsB5Ly7QfjZ6H0TJRh7wFqlF1DNNtGp00hUDeFAJ5UwjkTSGQN4VA3hQCeVMI5E0hkDf/vUBB3iS/KJd2AW5jMNG2FavxHg+wq0rsMZzDoajci2dl+rZjOV7jJpZgT9R2FSNVcv2htBfTNkHb+aitT227a58xL1Z+XiZnC35EfW5FdStjx62pNODZNWn9y1uciZX3CO9an7A5S/hBMM5aYQ/oSaL+IGalHEdqgWEci5W3CwKPE/XzEscdMF5ggXD5pKaR0+gIdgq7zyX2ChI1X+NJyp2BduF0x9mQNknEWZzGfhwRLptO4V65jONpgpYT2BQ9suSaMCPtwylsEzZtz+Nj2qDlBK7gaaKuFZvTJhJ+qr2IE8Is14qfwlS7I23QcgK9wvwbZ5X6BOACDuMkFgvrzat6Ajb6s9A7XBcGDz31Bkw7jdZDD3ZjQFjRq9GGLYm6GxgiH4F+LPL3ny/V6JygblAZgdLqOjDBQffwRViFk1zCMmEhizMWizkaq0/OOs+ifi+j8gfjV/okQ6UXvwG6senrcL4J3gAAAABJRU5ErkJggg==" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="295" y="-76"/>
 <text text-anchor="start" x="273.5" y="-24.8" font-family="Times,serif" font-size="14.00">XSS Attack</text>
 <text text-anchor="start" x="236" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 6.1 &#45; Medium)</text>
 </g>
@@ -85,7 +85,7 @@
 <!-- Session_Hijacking -->
 <g id="node7" class="node">
 <title>Session_Hijacking</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/84d07a6f60a0_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="515" y="-76"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACDklEQVRoge3Xz04UQRDH8Y//gong0av82ZsnSAzqzcdQAoZn8KAJPoMhEh7BREP0JMYYRd9BwSvoZT0YzSo3WDzMKN2zs8DsrrMe+pvUpaYr9avp6q4ZEolEIpFIJBLdaGAJG/iKg9yauW8Jk0NTdwQNPMO+Q9HdbB9r/qNCFrHreOFF28XCEPRGLIlFtfECtzCOM7mNYw7r+Zow5n7Nmv+yWBDyAVdPEDeLzULs/D/S2JWGuG1e40KF+FG8CeJ/ynapNp4HyT/mgqoyqnMnBmk7mClL3HB427RlLdErszrPxCDtW1kRD4IF632I/8ND7NVZxEbw8HbgP49VtHJbwcgACuyFaZnw0iLCCXs5CFrVWf2jevSW0rWIcNqeDQJaOgv4Xp/eUopFbJ8+YvHBABPP4As+i/u3qr+UpsOKxgP/is4dWO5RfHHrp5W3RFX/DLwNnHNB4hFZz/+Qtc6y6oe4mDRM3o8/OsTh98/LigLLWFZ+jfYruus1OikeZNf6EH9d+SAbeNsUWQsWbWGsB/Fj+FQiflvnAd0ZgD9iEr+CpBsVi7iI90F8SzxTamFB/Oa2ZC1xHDfEb74tnui1ck9cRBuvZMVN4VxuU7gj++xuF9bfrV11gXlxO53UWuJreKhM4KmT/dTv4bEh9DycOub5hOx/+Cau4FLub8p+fN7hieyWSCQSiUQikUjUzG8Rb2v7y/RUVgAAAABJRU5ErkJggg==" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="515" y="-76"/>
 <text text-anchor="start" x="469.5" y="-24.8" font-family="Times,serif" font-size="14.00">Session Hijacking</text>
 <text text-anchor="start" x="468" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 7.5 &#45; High)</text>
 </g>
@@ -99,7 +99,7 @@
 <!-- Credential_Theft -->
 <g id="node8" class="node">
 <title>Credential_Theft</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/1617e830e915_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="723" y="-76"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACZklEQVRoge3YPWsVQRTG8V+imEQMWKXTSsSElNZiEFTUUgstBUGCCmIKv4KlSkAEwShai5/BF0SJRWKnpDCFImJekGiixmJzyWS5L7s7m7tR7h8O3MvMnH3OzpmZM0uHDh06/E904yQeYwa/sLL2+xFOoKsydS0YxmustrBXGKpIY0OOYFFr8TVbxEglSuswLJ/4mi1gsAK9G+iWLW0a2UsVr4lTdUTlteMxArpjBuNc5Hg4W4KPwsyIn4H3MQJi828F2yN9LKOn6ODYFKqc2ABmS9DwMWZwbAAvIsfDsxJ8FOaE+EV8rO2qA7oktU1R8c9tgeJuSFIW5BU/jwMV6K3LiHxBzONwFUKbMSipbbKkzZZ582m6JLXNBD5IDqllyWl7X7JgK8/5Dh1KZgBncANPMY1P+GF94S7jM6ZwMDW+D2OYtL5mJnENvZslehcuSnaU37Jvn1dSfvbiXZP+09hTpvAduI6vOUTX7F7KV18L8TWbUtJMDEveSJGSYRb9KX9jQfsSRtf69OOSjSl4NVb8UcW+PNTsQh2fk0H7aJ32y0H7mxjxhyRvqKj4L+qnwM+gT3p2YHfQvlRU/IBk9ygqfhV3GvgO+zQiS5+mPIwUv4rTVQWwX74tspHt28wAml0pz7doz0p45+3FuKT0DmkUfMgCbsvxBeNtE8dZ7U/K53gJPm9lDSDch2NsW+CzyM0tbd9Ckc1q8+/YmTXaJoTPKLybNPLZLMeflPSwyujHXcmUxUx5SBkpucFnu693bU2hf4JOADlJH2BFmAv/tDuAByX4mCjBR2F6JCfpnGIH2E2pUuIvOVH2QxZqUdAAAAAASUVORK5CYII=" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="723" y="-76"/>
 <text text-anchor="start" x="682" y="-24.8" font-family="Times,serif" font-size="14.00">Credential Theft</text>
 <text text-anchor="start" x="676" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 8.1 &#45; High)</text>
 </g>
@@ -113,7 +113,7 @@
 <!-- Privilege_Escalation -->
 <g id="node9" class="node">
 <title>Privilege_Escalation</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/4b3b224fdf52_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="938.5" y="-76"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACuklEQVRogc2ayWsUQRSHv3FJXFCDigtGUfDgNmogRAne1IvgVUVvAQWZnERFAnr3YhDU/0CE4H4O6lHFnBQdEEQwCDmo4xICSWbGQ1VLW3RX91RVV9cP3qG7pt/7ft3V2+up4EYVYAdwEOgHqsB2YL0cnwI+Am+BCeAl8MFRbWNtA84CYwjAdocxJbc9B2z1AdwFHAFGgboBcFbUgRvAYWCxK+gVwEngHtAoADotGrLmCcnQsQ4Aj4EZj9BpMSNZBvLCnwbmAwBXYw44lQW/CZgOADYt/gAb48ALFANngGVZLkvUcsQM+SfVwB5/LMaqxhdUA1s8gpiqN76gGtjgEcRU/zGqBtZ4BDHV6viCasDopuFZK+MLFWWwlbAuNM0Te9RQj0Do8KAwqgZaFokvIB74hlPytICa/M0lizpN3eBvzO+SXbE8Q7JQNNaU6yIttajzXWfgi0XimpIrMqHCgzhKpnU+6wxMWCROAh1KWRc/Op3GK52BJxaJ00y4hG8DD3QGRi2T60y4gG8D1+NJ1avQe527QFTXDQ4Q/hTq0xnoxvw10sdJPA0s0hkAeGGY/HwKaJKxmmGN8Sx4gBHD5D5uZFfyGKgaJr+ImILDJE+RJmLPdwOXDWvsymMAimlc2ca7JFD1Mhrpbl6nHtURUy+iD1P2Xo9iFqWdkkdjAYBHYTQj+gMAbyPeI/abGAB4GoCBR6bwIBpdZfZJ54CdNgYAbpdo4KYtPEAP8LUE+ElglQsDAMc9w7eAY67gI93xaOCWa3iAJcAbD/CvZa1CtJliz4dJxEeWQtUH/CwA/gewr2j4SIewa4Kp8QsY9AUfaRDRJbOF/4b4wl+KdiM6Zabwn3Bwp7XVOuA5ncOPA2tL4E3UQuAa4rk9C3wWuCq3CU570Xc1nqF8ZQxVR4GHiMttA7iP+BOHc/0FuB/8wlyuW5UAAAAASUVORK5CYII=" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="938.5" y="-76"/>
 <text text-anchor="start" x="885" y="-24.8" font-family="Times,serif" font-size="14.00">Privilege Escalation</text>
 <text text-anchor="start" x="891.5" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 8.8 &#45; High)</text>
 </g>
@@ -127,7 +127,7 @@
 <!-- Lateral_Movement -->
 <g id="node10" class="node">
 <title>Lateral_Movement</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/2568d3820bce_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1154" y="-76"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACAklEQVRoge2avU7DMBSFPxAsjMwgsUAzobaCR2BgQYiJB2ErQ98GFlQxMfQdWsRWMTRtV1o2FpDKEJuYNH920saueqRIcXJz77mNf45zC8tDE5gAY3HuFOrABzAXxydwXikjDUTJO5VEEnknksgib3USTWBKSHIKdJR2J+a+NQPbY5FcA2gr19riWtSuVjT4dlEHwA2wL85nwAXQj7Hri3sz0d4HrosGLyOBJ2AE+AQEeym2PWEj7TtFg+8UdQAMgCMN+56mfSrKeAOVYpNA1dgkUDXWOgEPaGG+Wv4o59+GPow5qNrGNwxeE88OgWNDHxMMtFNUmA0Ng5eBEZoCME5VVqkatfjYug3MxSvO6Gx1HDORmMQWwSvpEkpigEfgNafzOfBMIOp04AFXgkMe1IFbpS2lO2Oyt4FZh8lALyOuX9ZCNl/RMwtI6kIvwFtOH1/AA/CuGfuEoEvs5bQ/BS6V9l8XAntnIAnjmciGJLR4Ob2QJT3kL49fJqQWKqSHTLWQRzBVjjBXtFILGfWEGnBHMFuY4J7w12sZ+sjkkPZZZYD+6prke9fQRyaHtd6ROYFNAlVjk0DVKCMBD71yqlp+tabAcQAcEsjytCSkdJf21hQ41KpLl6CcFEWD//uOGSUUOMqC00U+CafLrBJOF7olnP6rgYSt21MtNAnLqUsbsL9keQzbmiVdvAAAAABJRU5ErkJggg==" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1154" y="-76"/>
 <text text-anchor="start" x="1106" y="-24.8" font-family="Times,serif" font-size="14.00">Lateral Movement</text>
 <text text-anchor="start" x="1107" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 7.2 &#45; High)</text>
 </g>
@@ -141,7 +141,7 @@
 <!-- Pass&#45;the&#45;Hash -->
 <g id="node11" class="node">
 <title>Pass&#45;the&#45;Hash</title>
-<image xlink:href="/tmp/usecvislib_icon_cache/b8766bb5b25e_48.png" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1363" y="-76"/>
+<image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACaUlEQVRoge2Yz0sVURTHP5ppCuVGwoXoLsKg0kyFDGwjtGohbUIwaNHG2tnCTbUJ8n9w7z6EwCAI2phmmxYSkguxaFO8hz8y9LW485jzhrnjnXvvDC7uBx6cYb7n3XPenDnn3geBQCAQcOBMQd/bBTwBOoFvGbpuYAboADYLisWKt0ANOAYGM3QfIt0R0F9CXEa0AHuowGrAhEbXDvwTutulRGfAAHFQNeCiRndLaI6ACzaLNds4ncCQsLeAXwa6DaBis1jRCXzyoMukiARuCrvwBHxzDjgkru1xje48qu7rupEygjNhFLMX847QHaI6khUtto7Roo9Rw6jOFWHvAXMa3+vC3gWei+sqsAD8dIjNiJc0tkufnzemQbi8xG0Ovidx1lToUkKvI//e6LoVuCfuL5Le29uAaXG9hCq3Or+BeYe4rBkmLoF9VEImOuNfOw2fc0D2/y+o7pKG7P/rqP2QNT4TuCHsrMEkdauuixb1BEpLwBcdNG6NL2t0yUl9as4AY8RB/UH/ZOWkruLhROirhOSLuYY6iaUhy+czarvhRJOFz33gEY2/3iXiefAdfW1fi7QAP4Cv4t4GMItqrYVSpbgtxFTeYGxKaMfCx5TtvA42JdQDTKI6CqiO8zCy91GbvDSuAg8iuwK8StxfAd5bxOPMLHEJfMzQvRC6ZV+L++hCcoBlDSZTXS58J2B6Bj41E7iLxi6im8B9CV1fKdEZcJc4qAr6JzopdLr/iaxwLaFkXesmsGmZ5cY1geQWwlWXG9cEeoW9kqGTNZ+lK52nwAHwjniwpfEM+Is6/+qOmoFAIBAI5OY/SCu15y5C49sAAAAASUVORK5CYII=" width="36px" height="36px" preserveAspectRatio="xMinYMin meet" x="1363" y="-76"/>
 <text text-anchor="start" x="1330" y="-24.8" font-family="Times,serif" font-size="14.00">Pass&#45;the&#45;Hash</text>
 <text text-anchor="start" x="1316" y="-9.8" font-family="Times,serif" font-size="14.00">(CVSS: 8.1 &#45; High)</text>
 </g>
