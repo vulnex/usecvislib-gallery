@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1760pt" height="1134pt" viewBox="0.00 0.00 1760.00 1134.46" data-usv-shine="1">
+<defs><filter id="usv-shine-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.8" flood-color="#0f172a" flood-opacity="0.35" /></filter></defs><style type="text/css">
+[data-usv-shine] text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+[data-usv-shine] .node polygon, [data-usv-shine] .node ellipse { stroke-linejoin: round; }
+[data-usv-shine] .node:hover polygon, [data-usv-shine] .node:hover ellipse, [data-usv-shine] .node:hover path { stroke-width: 2; }
+</style><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1130.46)">
+<title>Corporate Network Attack Scenario</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-1130.46 1756,-1130.46 1756,4 -4,4" />
+<text text-anchor="middle" x="876" y="-1111.26" font-family="Arial" font-size="14.00">Corporate Network Attack Scenario</text>
+
+<g id="attacker" class="node">
+<title>attacker</title>
+<polygon fill="#4a90d9" stroke="black" points="131.81,-304.46 31.81,-304.46 27.81,-300.46 27.81,-268.46 127.81,-268.46 131.81,-272.46 131.81,-304.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="127.81,-300.46 27.81,-300.46 " />
+<polyline fill="none" stroke="black" points="127.81,-300.46 127.81,-268.46 " />
+<polyline fill="none" stroke="black" points="127.81,-300.46 131.81,-304.46 " />
+<text text-anchor="middle" x="79.81" y="-283.66" font-family="Arial" font-size="11.00" fill="white" textLength="92.00" lengthAdjust="spacingAndGlyphs">External Attacker</text>
+</g>
+
+<g id="webserver" class="node">
+<title>webserver</title>
+<polygon fill="#4a90d9" stroke="black" points="340.81,-545.46 264.81,-545.46 260.81,-541.46 260.81,-509.46 336.81,-509.46 340.81,-513.46 340.81,-545.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="336.81,-541.46 260.81,-541.46 " />
+<polyline fill="none" stroke="black" points="336.81,-541.46 336.81,-509.46 " />
+<polyline fill="none" stroke="black" points="336.81,-541.46 340.81,-545.46 " />
+<text text-anchor="middle" x="300.81" y="-524.66" font-family="Arial" font-size="11.00" fill="white" textLength="68.00" lengthAdjust="spacingAndGlyphs">Web Server</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>attacker-&gt;webserver</title>
+<path fill="none" stroke="#3498db" stroke-width="1.5" stroke-dasharray="5,2" d="M63,-304.57C63,-360.62 63,-527.46 63,-527.46 63,-527.46 250.74,-527.46 250.74,-527.46" />
+<polygon fill="#3498db" stroke="#3498db" stroke-width="1.5" points="250.74,-530.96 260.74,-527.46 250.74,-523.96 250.74,-530.96" />
+<text text-anchor="middle" x="31.5" y="-502.68" font-family="Arial" font-size="9.00">Internet Access</text>
+</g>
+
+<g id="mailserver" class="node">
+<title>mailserver</title>
+<polygon fill="#4a90d9" stroke="black" points="339.31,-380.46 266.31,-380.46 262.31,-376.46 262.31,-344.46 335.31,-344.46 339.31,-348.46 339.31,-380.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="335.31,-376.46 262.31,-376.46 " />
+<polyline fill="none" stroke="black" points="335.31,-376.46 335.31,-344.46 " />
+<polyline fill="none" stroke="black" points="335.31,-376.46 339.31,-380.46 " />
+<text text-anchor="middle" x="300.81" y="-359.66" font-family="Arial" font-size="11.00" fill="white" textLength="65.00" lengthAdjust="spacingAndGlyphs">Mail Server</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>attacker-&gt;mailserver</title>
+<path fill="none" stroke="#3498db" stroke-width="1.5" stroke-dasharray="5,2" d="M98,-304.47C98,-326.94 98,-362.46 98,-362.46 98,-362.46 252.19,-362.46 252.19,-362.46" />
+<polygon fill="#3498db" stroke="#3498db" stroke-width="1.5" points="252.19,-365.96 262.19,-362.46 252.19,-358.96 252.19,-365.96" />
+<text text-anchor="middle" x="114.6" y="-355.26" font-family="Arial" font-size="9.00">Internet Access</text>
+</g>
+
+<g id="node27" class="node">
+<title>exploit_web_rce</title>
+<polygon fill="#9b59b6" stroke="black" points="404.95,-286.46 352.88,-304.46 248.75,-304.46 196.68,-286.46 248.75,-268.46 352.88,-268.46 404.95,-286.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="300.81" y="-282.76" font-family="Times,serif" font-size="14.00" fill="white">Exploit Web RCE</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>attacker-&gt;exploit_web_rce</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M131.91,-286.46C131.91,-286.46 186.5,-286.46 186.5,-286.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="186.5,-289.96 196.5,-286.46 186.5,-282.96 186.5,-289.96" />
+</g>
+
+<g id="node28" class="node">
+<title>exploit_sqli</title>
+<polygon fill="#9b59b6" stroke="black" points="380.92,-207.46 340.87,-225.46 260.76,-225.46 220.71,-207.46 260.76,-189.46 340.87,-189.46 380.92,-207.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="300.81" y="-203.76" font-family="Times,serif" font-size="14.00" fill="white">Exploit SQLi</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>attacker-&gt;exploit_sqli</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M98,-268.13C98,-244.8 98,-207.46 98,-207.46 98,-207.46 210.66,-207.46 210.66,-207.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="210.66,-210.96 220.66,-207.46 210.66,-203.96 210.66,-210.96" />
+</g>
+
+<g id="node30" class="node">
+<title>exploit_phishing</title>
+<polygon fill="#9b59b6" stroke="black" points="397.44,-77.46 349.13,-95.46 252.5,-95.46 204.19,-77.46 252.5,-59.46 349.13,-59.46 397.44,-77.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="300.81" y="-73.76" font-family="Times,serif" font-size="14.00" fill="white">Phishing Attack</text>
+</g>
+
+<g id="edge13" class="edge">
+<title>attacker-&gt;exploit_phishing</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M63,-268.27C63,-217.43 63,-77.46 63,-77.46 63,-77.46 194.09,-77.46 194.09,-77.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="194.09,-80.96 204.09,-77.46 194.09,-73.96 194.09,-80.96" />
+</g>
+
+<g id="firewall" class="node">
+<title>firewall</title>
+<polygon fill="#4a90d9" stroke="black" points="134.81,-905.46 28.81,-905.46 24.81,-901.46 24.81,-869.46 130.81,-869.46 134.81,-873.46 134.81,-905.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="130.81,-901.46 24.81,-901.46 " />
+<polyline fill="none" stroke="black" points="130.81,-901.46 130.81,-869.46 " />
+<polyline fill="none" stroke="black" points="130.81,-901.46 134.81,-905.46 " />
+<text text-anchor="middle" x="79.81" y="-884.66" font-family="Arial" font-size="11.00" fill="white" textLength="98.00" lengthAdjust="spacingAndGlyphs">Perimeter Firewall</text>
+</g>
+
+<g id="dbserver" class="node">
+<title>dbserver</title>
+<polygon fill="#4a90d9" stroke="black" points="635.81,-923.46 535.81,-923.46 531.81,-919.46 531.81,-887.46 631.81,-887.46 635.81,-891.46 635.81,-923.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="631.81,-919.46 531.81,-919.46 " />
+<polyline fill="none" stroke="black" points="631.81,-919.46 631.81,-887.46 " />
+<polyline fill="none" stroke="black" points="631.81,-919.46 635.81,-923.46 " />
+<text text-anchor="middle" x="583.81" y="-902.66" font-family="Arial" font-size="11.00" fill="white" textLength="92.00" lengthAdjust="spacingAndGlyphs">Database Server</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>webserver-&gt;dbserver</title>
+<path fill="none" stroke="#3498db" stroke-width="1.5" stroke-dasharray="5,2" d="M341.02,-533.46C378.61,-533.46 429,-533.46 429,-533.46 429,-533.46 429,-896.46 429,-896.46 429,-896.46 521.4,-896.46 521.4,-896.46" />
+<polygon fill="#3498db" stroke="#3498db" stroke-width="1.5" points="521.4,-899.96 531.4,-896.46 521.4,-892.96 521.4,-899.96" />
+<text text-anchor="middle" x="450" y="-709.97" font-family="Arial" font-size="9.00">App to DB</text>
+</g>
+
+<g id="vuln_rce_web" class="node">
+<title>vuln_rce_web</title>
+<polygon fill="#8b0000" stroke="black" points="583.81,-671.46 472.81,-635.46 583.81,-599.46 694.81,-635.46 583.81,-671.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-638.46" font-family="Arial" font-size="10.00" fill="#ffffff">Web App RCE</text>
+<text text-anchor="middle" x="583.81" y="-627.46" font-family="Arial" font-size="10.00" fill="#ffffff">(CVSS: 9.8 - Critical)*</text>
+</g>
+
+<g id="edge23" class="edge">
+<title>webserver-&gt;vuln_rce_web</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M301,-545.78C301,-576.59 301,-635.46 301,-635.46 301,-635.46 462.44,-635.46 462.44,-635.46" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="462.44,-638.96 472.44,-635.46 462.44,-631.96 462.44,-638.96" />
+</g>
+
+<g id="vuln_sqli" class="node">
+<title>vuln_sqli</title>
+<polygon fill="#8b0000" stroke="black" points="583.81,-563.46 472.81,-527.46 583.81,-491.46 694.81,-527.46 583.81,-563.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-530.46" font-family="Arial" font-size="10.00" fill="#ffffff">SQL Injection</text>
+<text text-anchor="middle" x="583.81" y="-519.46" font-family="Arial" font-size="10.00" fill="#ffffff">(CVSS: 9.1 - Critical)*</text>
+</g>
+
+<g id="edge24" class="edge">
+<title>webserver-&gt;vuln_sqli</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M341.06,-521.46C341.06,-521.46 481.14,-521.46 481.14,-521.46" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="481.14,-524.96 491.14,-521.46 481.14,-517.96 481.14,-524.96" />
+</g>
+
+<g id="svc_http" class="node">
+<title>svc_http</title>
+<polygon fill="#27ae60" stroke="black" points="622.31,-455.46 545.31,-455.46 545.31,-451.46 541.31,-451.46 541.31,-447.46 545.31,-447.46 545.31,-427.46 541.31,-427.46 541.31,-423.46 545.31,-423.46 545.31,-419.46 622.31,-419.46 622.31,-455.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="545.31,-451.46 549.31,-451.46 549.31,-447.46 545.31,-447.46 " />
+<polyline fill="none" stroke="black" points="545.31,-427.46 549.31,-427.46 549.31,-423.46 545.31,-423.46 " />
+<text text-anchor="middle" x="583.81" y="-440.46" font-family="Arial" font-size="10.00" fill="white">HTTP/HTTPS</text>
+<text text-anchor="middle" x="583.81" y="-429.46" font-family="Arial" font-size="10.00" fill="white">:443</text>
+</g>
+
+<g id="edge29" class="edge">
+<title>webserver-&gt;svc_http</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M301,-509.24C301,-482.94 301,-437.46 301,-437.46 301,-437.46 535.08,-437.46 535.08,-437.46" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="535.08,-440.96 545.08,-437.46 535.08,-433.96 535.08,-440.96" />
+</g>
+
+<g id="svc_smtp" class="node">
+<title>svc_smtp</title>
+<polygon fill="#27ae60" stroke="black" points="610.81,-383.46 556.81,-383.46 556.81,-379.46 552.81,-379.46 552.81,-375.46 556.81,-375.46 556.81,-355.46 552.81,-355.46 552.81,-351.46 556.81,-351.46 556.81,-347.46 610.81,-347.46 610.81,-383.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="556.81,-379.46 560.81,-379.46 560.81,-375.46 556.81,-375.46 " />
+<polyline fill="none" stroke="black" points="556.81,-355.46 560.81,-355.46 560.81,-351.46 556.81,-351.46 " />
+<text text-anchor="middle" x="583.81" y="-368.46" font-family="Arial" font-size="10.00" fill="white">SMTP</text>
+<text text-anchor="middle" x="583.81" y="-357.46" font-family="Arial" font-size="10.00" fill="white">:25</text>
+</g>
+
+<g id="edge30" class="edge">
+<title>mailserver-&gt;svc_smtp</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M339.57,-363.96C339.57,-363.96 546.55,-363.96 546.55,-363.96" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="546.55,-367.46 556.55,-363.96 546.55,-360.46 546.55,-367.46" />
+</g>
+
+<g id="workstation1" class="node">
+<title>workstation1</title>
+<polygon fill="#4a90d9" stroke="black" points="132.81,-833.46 30.81,-833.46 26.81,-829.46 26.81,-797.46 128.81,-797.46 132.81,-801.46 132.81,-833.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="128.81,-829.46 26.81,-829.46 " />
+<polyline fill="none" stroke="black" points="128.81,-829.46 128.81,-797.46 " />
+<polyline fill="none" stroke="black" points="128.81,-829.46 132.81,-833.46 " />
+<text text-anchor="middle" x="79.81" y="-812.66" font-family="Arial" font-size="11.00" fill="white" textLength="94.00" lengthAdjust="spacingAndGlyphs">User Workstation</text>
+</g>
+
+<g id="adserver" class="node">
+<title>adserver</title>
+<polygon fill="#4a90d9" stroke="black" points="349.81,-959.46 255.81,-959.46 251.81,-955.46 251.81,-923.46 345.81,-923.46 349.81,-927.46 349.81,-959.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="345.81,-955.46 251.81,-955.46 " />
+<polyline fill="none" stroke="black" points="345.81,-955.46 345.81,-923.46 " />
+<polyline fill="none" stroke="black" points="345.81,-955.46 349.81,-959.46 " />
+<text text-anchor="middle" x="300.81" y="-938.66" font-family="Arial" font-size="11.00" fill="white" textLength="86.00" lengthAdjust="spacingAndGlyphs">Active Directory</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>workstation1-&gt;adserver</title>
+<path fill="none" stroke="#3498db" stroke-width="1.5" stroke-dasharray="5,2" d="M133.28,-824.46C185.76,-824.46 258,-824.46 258,-824.46 258,-824.46 258,-913.43 258,-913.43" />
+<polygon fill="#3498db" stroke="#3498db" stroke-width="1.5" points="254.5,-913.43 258,-923.43 261.5,-913.43 254.5,-913.43" />
+<text text-anchor="middle" x="205.63" y="-827.26" font-family="Arial" font-size="9.00">Domain Member</text>
+</g>
+
+<g id="fileserver" class="node">
+<title>fileserver</title>
+<polygon fill="#4a90d9" stroke="black" points="338.31,-833.46 267.31,-833.46 263.31,-829.46 263.31,-797.46 334.31,-797.46 338.31,-801.46 338.31,-833.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="334.31,-829.46 263.31,-829.46 " />
+<polyline fill="none" stroke="black" points="334.31,-829.46 334.31,-797.46 " />
+<polyline fill="none" stroke="black" points="334.31,-829.46 338.31,-833.46 " />
+<text text-anchor="middle" x="300.81" y="-812.66" font-family="Arial" font-size="11.00" fill="white">File Server</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>workstation1-&gt;fileserver</title>
+<path fill="none" stroke="#3498db" stroke-width="1.5" stroke-dasharray="5,2" d="M133.03,-815.46C133.03,-815.46 253.28,-815.46 253.28,-815.46" />
+<polygon fill="#3498db" stroke="#3498db" stroke-width="1.5" points="253.28,-818.96 263.28,-815.46 253.28,-811.96 253.28,-818.96" />
+<text text-anchor="middle" x="169.65" y="-808.26" font-family="Arial" font-size="9.00">File Access</text>
+</g>
+
+<g id="vuln_phishing" class="node">
+<title>vuln_phishing</title>
+<polygon fill="#e74c3c" stroke="black" points="300.81,-761.46 192.81,-725.46 300.81,-689.46 408.81,-725.46 300.81,-761.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="300.81" y="-728.46" font-family="Arial" font-size="10.00" fill="#ffffff">Phishing Vulnerability</text>
+<text text-anchor="middle" x="300.81" y="-717.46" font-family="Arial" font-size="10.00" fill="#ffffff">(CVSS: 7.5 - High)</text>
+</g>
+
+<g id="edge25" class="edge">
+<title>workstation1-&gt;vuln_phishing</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M133.13,-806.46C173.84,-806.46 223,-806.46 223,-806.46 223,-806.46 223,-745.71 223,-745.71" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="226.5,-745.71 223,-735.71 219.5,-745.71 226.5,-745.71" />
+</g>
+
+<g id="vuln_db_misconfig" class="node">
+<title>vuln_db_misconfig</title>
+<polygon fill="#e74c3c" stroke="black" points="909.66,-986.46 806.66,-950.46 909.66,-914.46 1012.66,-950.46 909.66,-986.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="909.66" y="-953.46" font-family="Arial" font-size="10.00" fill="#ffffff">DB Misconfiguration</text>
+<text text-anchor="middle" x="909.66" y="-942.46" font-family="Arial" font-size="10.00" fill="#ffffff">(CVSS: 7.2 - High)</text>
+</g>
+
+<g id="edge28" class="edge">
+<title>dbserver-&gt;vuln_db_misconfig</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M636.17,-918.96C636.17,-918.96 886.51,-918.96 886.51,-918.96" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="886.51,-922.46 896.51,-918.96 886.51,-915.46 886.51,-922.46" />
+</g>
+
+<g id="svc_mssql" class="node">
+<title>svc_mssql</title>
+<polygon fill="#27ae60" stroke="black" points="936.66,-878.46 882.66,-878.46 882.66,-874.46 878.66,-874.46 878.66,-870.46 882.66,-870.46 882.66,-850.46 878.66,-850.46 878.66,-846.46 882.66,-846.46 882.66,-842.46 936.66,-842.46 936.66,-878.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="882.66,-874.46 886.66,-874.46 886.66,-870.46 882.66,-870.46 " />
+<polyline fill="none" stroke="black" points="882.66,-850.46 886.66,-850.46 886.66,-846.46 882.66,-846.46 " />
+<text text-anchor="middle" x="909.66" y="-863.46" font-family="Arial" font-size="10.00" fill="white">MSSQL</text>
+<text text-anchor="middle" x="909.66" y="-852.46" font-family="Arial" font-size="10.00" fill="white">:1433</text>
+</g>
+
+<g id="edge33" class="edge">
+<title>dbserver-&gt;svc_mssql</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M635.86,-900.96C727.95,-900.96 910,-900.96 910,-900.96 910,-900.96 910,-888.81 910,-888.81" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="913.5,-888.81 910,-878.81 906.5,-888.81 913.5,-888.81" />
+</g>
+
+<g id="edge6" class="edge">
+<title>adserver-&gt;dbserver</title>
+<path fill="none" stroke="#3498db" stroke-width="1.5" stroke-dasharray="5,2" d="M345,-923.3C345,-918.41 345,-914.46 345,-914.46 345,-914.46 521.7,-914.46 521.7,-914.46" />
+<polygon fill="#3498db" stroke="#3498db" stroke-width="1.5" points="521.7,-917.96 531.7,-914.46 521.7,-910.96 521.7,-917.96" />
+<text text-anchor="middle" x="401.43" y="-907.26" font-family="Arial" font-size="9.00">Domain Trust</text>
+</g>
+
+<g id="vuln_zerologon" class="node">
+<title>vuln_zerologon</title>
+<polygon fill="#8b0000" stroke="black" points="583.81,-1103.46 466.81,-1067.46 583.81,-1031.46 700.81,-1067.46 583.81,-1103.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-1070.46" font-family="Arial" font-size="10.00" fill="#ffffff">Zerologon</text>
+<text text-anchor="middle" x="583.81" y="-1059.46" font-family="Arial" font-size="10.00" fill="#ffffff">(CVSS: 10.0 - Critical)*</text>
+</g>
+
+<g id="edge27" class="edge">
+<title>adserver-&gt;vuln_zerologon</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M350.02,-947.46C409.86,-947.46 503,-947.46 503,-947.46 503,-947.46 503,-1045.95 503,-1045.95" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="499.5,-1045.95 503,-1055.95 506.5,-1045.95 499.5,-1045.95" />
+</g>
+
+<g id="svc_ldap" class="node">
+<title>svc_ldap</title>
+<polygon fill="#27ae60" stroke="black" points="610.81,-995.46 556.81,-995.46 556.81,-991.46 552.81,-991.46 552.81,-987.46 556.81,-987.46 556.81,-967.46 552.81,-967.46 552.81,-963.46 556.81,-963.46 556.81,-959.46 610.81,-959.46 610.81,-995.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="556.81,-991.46 560.81,-991.46 560.81,-987.46 556.81,-987.46 " />
+<polyline fill="none" stroke="black" points="556.81,-967.46 560.81,-967.46 560.81,-963.46 556.81,-963.46 " />
+<text text-anchor="middle" x="583.81" y="-980.46" font-family="Arial" font-size="10.00" fill="white">LDAP</text>
+<text text-anchor="middle" x="583.81" y="-969.46" font-family="Arial" font-size="10.00" fill="white">:389</text>
+</g>
+
+<g id="edge32" class="edge">
+<title>adserver-&gt;svc_ldap</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M349.82,-935.46C430.87,-935.46 584,-935.46 584,-935.46 584,-935.46 584,-949.4 584,-949.4" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="580.5,-949.4 584,-959.4 587.5,-949.4 580.5,-949.4" />
+</g>
+
+<g id="vuln_eternalblue" class="node">
+<title>vuln_eternalblue</title>
+<polygon fill="#8b0000" stroke="black" points="583.81,-851.46 472.81,-815.46 583.81,-779.46 694.81,-815.46 583.81,-851.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-818.46" font-family="Arial" font-size="10.00" fill="#ffffff">SMB Vulnerability</text>
+<text text-anchor="middle" x="583.81" y="-807.46" font-family="Arial" font-size="10.00" fill="#ffffff">(CVSS: 9.0 - Critical)*</text>
+</g>
+
+<g id="edge26" class="edge">
+<title>fileserver-&gt;vuln_eternalblue</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M338.39,-821.46C338.39,-821.46 481.18,-821.46 481.18,-821.46" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="481.18,-824.96 491.18,-821.46 481.18,-817.96 481.18,-824.96" />
+</g>
+
+<g id="svc_smb" class="node">
+<title>svc_smb</title>
+<polygon fill="#27ae60" stroke="black" points="610.81,-743.46 556.81,-743.46 556.81,-739.46 552.81,-739.46 552.81,-735.46 556.81,-735.46 556.81,-715.46 552.81,-715.46 552.81,-711.46 556.81,-711.46 556.81,-707.46 610.81,-707.46 610.81,-743.46" filter="url(#usv-shine-shadow)" />
+<polyline fill="none" stroke="black" points="556.81,-739.46 560.81,-739.46 560.81,-735.46 556.81,-735.46 " />
+<polyline fill="none" stroke="black" points="556.81,-715.46 560.81,-715.46 560.81,-711.46 556.81,-711.46 " />
+<text text-anchor="middle" x="583.81" y="-728.46" font-family="Arial" font-size="10.00" fill="white">SMB</text>
+<text text-anchor="middle" x="583.81" y="-717.46" font-family="Arial" font-size="10.00" fill="white">:445</text>
+</g>
+
+<g id="edge31" class="edge">
+<title>fileserver-&gt;svc_smb</title>
+<path fill="none" stroke="#95a5a6" stroke-dasharray="1,5" d="M338.34,-809.46C381.94,-809.46 448,-809.46 448,-809.46 448,-809.46 448,-725.46 448,-725.46 448,-725.46 546.66,-725.46 546.66,-725.46" />
+<polygon fill="#95a5a6" stroke="#95a5a6" points="546.66,-728.96 556.66,-725.46 546.66,-721.96 546.66,-728.96" />
+</g>
+
+<g id="priv_web_shell" class="node">
+<title>priv_web_shell</title>
+<ellipse fill="#f39c12" stroke="black" cx="583.81" cy="-286.46" rx="66.44" ry="25.41" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-289.46" font-family="Arial" font-size="10.00" fill="#1f2937">Web Shell Access</text>
+<text text-anchor="middle" x="583.81" y="-278.46" font-family="Arial" font-size="10.00" fill="#1f2937">[user]</text>
+</g>
+
+<g id="node29" class="node">
+<title>exploit_privesc_web</title>
+<polygon fill="#9b59b6" stroke="black" points="1060.36,-286.46 985.01,-304.46 834.31,-304.46 758.97,-286.46 834.31,-268.46 985.01,-268.46 1060.36,-286.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="909.66" y="-282.76" font-family="Times,serif" font-size="14.00" fill="white">Local Privilege Escalation</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>priv_web_shell-&gt;exploit_privesc_web</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M650.54,-286.46C650.54,-286.46 748.96,-286.46 748.96,-286.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="748.96,-289.96 758.96,-286.46 748.96,-282.96 748.96,-289.96" />
+</g>
+
+<g id="priv_web_root" class="node">
+<title>priv_web_root</title>
+<ellipse fill="#f39c12" stroke="black" cx="1182.15" cy="-286.46" rx="63.78" ry="25.41" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1182.15" y="-289.46" font-family="Arial" font-size="10.00" fill="#1f2937">Web Server Root</text>
+<text text-anchor="middle" x="1182.15" y="-278.46" font-family="Arial" font-size="10.00" fill="#1f2937">[root]</text>
+</g>
+
+<g id="priv_user_access" class="node">
+<title>priv_user_access</title>
+<ellipse fill="#f39c12" stroke="black" cx="583.81" cy="-25.46" rx="89.19" ry="25.41" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-28.46" font-family="Arial" font-size="10.00" fill="#1f2937">User Workstation Access</text>
+<text text-anchor="middle" x="583.81" y="-17.46" font-family="Arial" font-size="10.00" fill="#1f2937">[user]</text>
+</g>
+
+<g id="node32" class="node">
+<title>exploit_zerologon</title>
+<polygon fill="#9b59b6" stroke="black" points="1017.8,-25.46 963.73,-43.46 855.59,-43.46 801.52,-25.46 855.59,-7.46 963.73,-7.46 1017.8,-25.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="909.66" y="-21.76" font-family="Times,serif" font-size="14.00" fill="white">Zerologon Exploit</text>
+</g>
+
+<g id="edge17" class="edge">
+<title>priv_user_access-&gt;exploit_zerologon</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M673.28,-25.46C673.28,-25.46 791.55,-25.46 791.55,-25.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="791.55,-28.96 801.55,-25.46 791.55,-21.96 791.55,-28.96" />
+</g>
+
+<g id="priv_domain_user" class="node">
+<title>priv_domain_user</title>
+<ellipse fill="#f39c12" stroke="black" cx="583.81" cy="-112.46" rx="50.82" ry="25.41" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-115.46" font-family="Arial" font-size="10.00" fill="#1f2937">Domain User</text>
+<text text-anchor="middle" x="583.81" y="-104.46" font-family="Arial" font-size="10.00" fill="#1f2937">[user]</text>
+</g>
+
+<g id="node31" class="node">
+<title>exploit_eternalblue</title>
+<polygon fill="#9b59b6" stroke="black" points="1028.32,-97.46 968.99,-115.46 850.33,-115.46 791.01,-97.46 850.33,-79.46 968.99,-79.46 1028.32,-97.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="909.66" y="-93.76" font-family="Times,serif" font-size="14.00" fill="white">EternalBlue Exploit</text>
+</g>
+
+<g id="edge15" class="edge">
+<title>priv_domain_user-&gt;exploit_eternalblue</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M629.81,-101.23C629.81,-101.23 793.42,-101.23 793.42,-101.23" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="793.42,-104.73 803.42,-101.23 793.42,-97.73 793.42,-104.73" />
+</g>
+
+<g id="node33" class="node">
+<title>exploit_db_misconfig</title>
+<polygon fill="#9b59b6" stroke="black" points="1571.05,-168.46 1504.21,-186.46 1370.54,-186.46 1303.7,-168.46 1370.54,-150.46 1504.21,-150.46 1571.05,-168.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1437.38" y="-164.76" font-family="Times,serif" font-size="14.00" fill="white">Database Compromise</text>
+</g>
+
+<g id="edge19" class="edge">
+<title>priv_domain_user-&gt;exploit_db_misconfig</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M625.79,-126.91C780.65,-126.91 1311,-126.91 1311,-126.91 1311,-126.91 1311,-156.22 1311,-156.22" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="1307.5,-156.22 1311,-166.22 1314.5,-156.22 1307.5,-156.22" />
+</g>
+
+<g id="priv_domain_admin" class="node">
+<title>priv_domain_admin</title>
+<ellipse fill="#f39c12" stroke="black" cx="1182.15" cy="-90.46" rx="55.31" ry="25.41" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1182.15" y="-93.46" font-family="Arial" font-size="10.00" fill="#1f2937">Domain Admin</text>
+<text text-anchor="middle" x="1182.15" y="-82.46" font-family="Arial" font-size="10.00" fill="#1f2937">[admin]</text>
+</g>
+
+<g id="node34" class="node">
+<title>exploit_lateral_ad</title>
+<polygon fill="#9b59b6" stroke="black" points="1556.53,-94.46 1496.95,-112.46 1377.8,-112.46 1318.22,-94.46 1377.8,-76.46 1496.95,-76.46 1556.53,-94.46" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1437.38" y="-90.76" font-family="Times,serif" font-size="14.00" fill="white">AD Credential Theft</text>
+</g>
+
+<g id="edge21" class="edge">
+<title>priv_domain_admin-&gt;exploit_lateral_ad</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M1236.9,-94.46C1236.9,-94.46 1308.2,-94.46 1308.2,-94.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="1308.2,-97.96 1318.2,-94.46 1308.2,-90.96 1308.2,-97.96" />
+</g>
+
+<g id="priv_db_access" class="node">
+<title>priv_db_access</title>
+<ellipse fill="#f39c12" stroke="black" cx="583.81" cy="-199.46" rx="65.11" ry="25.41" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="583.81" y="-202.46" font-family="Arial" font-size="10.00" fill="#1f2937">Database Access</text>
+<text text-anchor="middle" x="583.81" y="-191.46" font-family="Arial" font-size="10.00" fill="#1f2937">[user]</text>
+</g>
+
+<g id="priv_db_admin" class="node">
+<title>priv_db_admin</title>
+<ellipse fill="#f39c12" stroke="black" cx="1690.48" cy="-130.46" rx="61.54" ry="25.41" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1690.48" y="-133.46" font-family="Arial" font-size="10.00" fill="#1f2937">Database Admin</text>
+<text text-anchor="middle" x="1690.48" y="-122.46" font-family="Arial" font-size="10.00" fill="#1f2937">[admin]</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>exploit_web_rce-&gt;priv_web_shell</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M404.99,-286.46C404.99,-286.46 507.21,-286.46 507.21,-286.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="507.21,-289.96 517.21,-286.46 507.21,-282.96 507.21,-289.96" />
+</g>
+
+<g id="edge10" class="edge">
+<title>exploit_sqli-&gt;priv_db_access</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M380.4,-207.18C380.4,-207.18 511.4,-207.18 511.4,-207.18" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="511.4,-210.68 521.4,-207.18 511.4,-203.68 511.4,-210.68" />
+</g>
+
+<g id="edge12" class="edge">
+<title>exploit_privesc_web-&gt;priv_web_root</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M1060.65,-286.46C1060.65,-286.46 1108.29,-286.46 1108.29,-286.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="1108.29,-289.96 1118.29,-286.46 1108.29,-282.96 1108.29,-289.96" />
+</g>
+
+<g id="edge14" class="edge">
+<title>exploit_phishing-&gt;priv_user_access</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M383.49,-72.23C440.85,-72.23 507,-72.23 507,-72.23 507,-72.23 507,-48.48 507,-48.48" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="510.5,-48.48 507,-38.48 503.5,-48.48 510.5,-48.48" />
+</g>
+
+<g id="edge16" class="edge">
+<title>exploit_eternalblue-&gt;priv_domain_admin</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M1028.39,-97.46C1028.39,-97.46 1118.98,-97.46 1118.98,-97.46" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="1118.98,-100.96 1128.98,-97.46 1118.98,-93.96 1118.98,-100.96" />
+</g>
+
+<g id="edge18" class="edge">
+<title>exploit_zerologon-&gt;priv_domain_admin</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M1018.08,-25.46C1094.4,-25.46 1183,-25.46 1183,-25.46 1183,-25.46 1183,-54.77 1183,-54.77" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="1179.5,-54.77 1183,-64.77 1186.5,-54.77 1179.5,-54.77" />
+</g>
+
+<g id="edge20" class="edge">
+<title>exploit_db_misconfig-&gt;priv_db_admin</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M1564,-166.55C1564,-160.83 1564,-144.18 1564,-144.18 1564,-144.18 1628.67,-144.18 1628.67,-144.18" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="1628.67,-147.68 1638.67,-144.18 1628.67,-140.68 1628.67,-147.68" />
+</g>
+
+<g id="edge22" class="edge">
+<title>exploit_lateral_ad-&gt;priv_db_admin</title>
+<path fill="none" stroke="#e74c3c" stroke-width="2" d="M1509.57,-108.73C1509.57,-108.73 1648.12,-108.73 1648.12,-108.73" />
+<polygon fill="#e74c3c" stroke="#e74c3c" stroke-width="2" points="1648.12,-112.23 1658.12,-108.73 1648.12,-105.23 1648.12,-112.23" />
+</g>
+</g>
+</svg>

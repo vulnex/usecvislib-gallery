@@ -1,0 +1,177 @@
+digraph "Web Application with Icons" {
+	graph [bb="0,0,1143,207",
+		bgcolor=white,
+		fontname=Arial,
+		rankdir=LR
+	];
+	node [label="\N"];
+	waf	[fontcolor=black,
+		fontname=Arial,
+		height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp8e3zagsl.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>WAF / CDN</TD></TR>
+</TABLE>>,
+		pos="254.5,103.5",
+		shape=none,
+		width=1.2639];
+	loadbalancer	[description="Application Load Balancer",
+		fillcolor="#3498db",
+		fontcolor=white,
+		fontname=Arial,
+		height=0.5,
+		isHardened=True,
+		isServer=True,
+		label="Load Balancer",
+		pos="450,103.5",
+		shape=rectangle,
+		style=filled,
+		width=1.4444];
+	waf -> loadbalancer	[color="#34495e",
+		fontname=Arial,
+		fontsize=10,
+		isEncrypted=True,
+		label="Filtered Traffic",
+		lp="349,109",
+		pos="e,397.88,103.5 300.38,103.5 326.33,103.5 359.35,103.5 387.68,103.5",
+		protocol=HTTPS,
+		style=solid];
+	webserver	[fontcolor=black,
+		fontname=Arial,
+		height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp_18wn870.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Web Server</TD></TR>
+</TABLE>>,
+		pos="649,103.5",
+		shape=none,
+		width=1.2778];
+	loadbalancer -> webserver	[color="#34495e",
+		fontname=Arial,
+		fontsize=10,
+		label="Load Balanced",
+		lp="552.5,109",
+		pos="e,602.72,103.5 502.25,103.5 529.96,103.5 564.23,103.5 592.57,103.5",
+		protocol=HTTP,
+		style=solid];
+	appserver	[fontcolor=black,
+		fontname=Arial,
+		height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpbtvckerw.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Application Server</TD></TR>
+</TABLE>>,
+		pos="839,103.5",
+		shape=none,
+		width=1.8056];
+	webserver -> appserver	[authenticatesSource=True,
+		color="#34495e",
+		fontname=Arial,
+		fontsize=10,
+		isEncrypted=True,
+		label="API Calls",
+		lp="734.5,109",
+		pos="e,773.78,103.5 695.03,103.5 715.56,103.5 740.42,103.5 763.62,103.5",
+		protocol=gRPC,
+		style=solid];
+	database	[fontcolor=black,
+		fontname=Arial,
+		height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpqa8uqxlg.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Database</TD></TR>
+</TABLE>>,
+		pos="1081,173.5",
+		shape=none,
+		width=1.0833];
+	appserver -> database	[color="#34495e",
+		data=CONFIDENTIAL,
+		fontname=Arial,
+		fontsize=10,
+		isEncrypted=True,
+		label="SQL Queries",
+		lp="961.5,154",
+		pos="e,1041.7,162.32 904,122.17 944.11,133.87 994.98,148.7 1031.7,159.41",
+		protocol=PostgreSQL,
+		style=solid];
+	cache	[description="Redis cache",
+		fillcolor="#2ecc71",
+		fontcolor=white,
+		fontname=Arial,
+		height=0.5,
+		isEncrypted=True,
+		isSQL=False,
+		label="Cache Layer",
+		pos="1081,103.5",
+		shape=cylinder,
+		style=filled,
+		width=1.2917];
+	appserver -> cache	[color="#34495e",
+		fontname=Arial,
+		fontsize=10,
+		isEncrypted=True,
+		label="Cache Operations",
+		lp="961.5,109",
+		pos="e,1034.4,103.5 904,103.5 941.41,103.5 988.18,103.5 1024.1,103.5",
+		protocol=Redis,
+		style=solid];
+	secrets	[fontcolor=black,
+		fontname=Arial,
+		height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpqa955eym.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Secrets Manager</TD></TR>
+</TABLE>>,
+		pos="1081,33.5",
+		shape=none,
+		width=1.7222];
+	appserver -> secrets	[authenticatesSource=True,
+		color="#34495e",
+		fontname=Arial,
+		fontsize=10,
+		isCredentials=True,
+		isEncrypted=True,
+		label="Fetch Secrets",
+		lp="961.5,85",
+		pos="e,1018.7,51.39 904,84.833 936.35,75.397 975.71,63.918 1009,54.21",
+		protocol=HTTPS,
+		style=solid];
+	user	[fontcolor=black,
+		fontname=Arial,
+		height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/bc25fc32296f_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>End User</TD></TR>
+</TABLE>>,
+		pos="47,146.5",
+		shape=none,
+		width=1.0694];
+	user -> waf	[color="#34495e",
+		fontname=Arial,
+		fontsize=10,
+		isEncrypted=True,
+		label="HTTPS Requests",
+		lp="151.5,138",
+		pos="e,208.89,112.83 85.692,138.61 117.47,131.96 163.34,122.37 199.1,114.88",
+		protocol=HTTPS,
+		style=solid];
+	attacker	[fontcolor=black,
+		fontname=Arial,
+		height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/79567a754ed0_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Threat Actor</TD></TR>
+</TABLE>>,
+		pos="47,61.5",
+		shape=none,
+		width=1.3056];
+	attacker -> waf	[color="#34495e",
+		fontname=Arial,
+		fontsize=10,
+		isEncrypted=True,
+		label="Attack Traffic",
+		lp="151.5,96",
+		pos="e,208.95,94.394 94.118,70.926 125.22,77.282 166.39,85.696 199.09,92.38",
+		protocol=HTTPS,
+		style=solid];
+}

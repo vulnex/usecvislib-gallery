@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1315pt" height="614pt" viewBox="0.00 0.00 1315.00 614.00" data-usv-shine="1">
+<defs><filter id="usv-shine-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.8" flood-color="#0f172a" flood-opacity="0.35" /></filter></defs><style type="text/css">
+[data-usv-shine] text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+[data-usv-shine] .node polygon, [data-usv-shine] .node ellipse { stroke-linejoin: round; }
+[data-usv-shine] .node:hover polygon, [data-usv-shine] .node:hover ellipse, [data-usv-shine] .node:hover path { stroke-width: 2; }
+</style><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 610)">
+<title>E-Commerce Platform</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-610 1311,-610 1311,4 -4,4" />
+<g id="clust1" class="cluster">
+<title>cluster_internet</title>
+<polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="0,-143 0,-272 134,-272 134,-143 0,-143" />
+<text text-anchor="middle" x="67" y="-256.8" font-family="Arial" font-size="14.00">Internet (Untrusted)</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_external_services</title>
+<polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="1135,-415 1135,-598 1299,-598 1299,-415 1135,-415" />
+<text text-anchor="middle" x="1217" y="-582.8" font-family="Arial" font-size="14.00">External Services</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_dmz</title>
+<polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="253,-143 253,-272 565,-272 565,-143 253,-143" />
+<text text-anchor="middle" x="409" y="-256.8" font-family="Arial" font-size="14.00">DMZ / Edge</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_application_tier</title>
+<polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="660,-116 660,-407 1042,-407 1042,-116 660,-116" />
+<text text-anchor="middle" x="851" y="-391.8" font-family="Arial" font-size="14.00">Application Services</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_data_tier</title>
+<polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="1146.5,-8 1146.5,-407 1288.5,-407 1288.5,-8 1146.5,-8" />
+<text text-anchor="middle" x="1217.5" y="-391.8" font-family="Arial" font-size="14.00">Data Tier (PCI Zone)</text>
+</g>
+
+<g id="node1" class="node">
+<title>customer</title>
+<polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="105,-241 29,-241 29,-205 105,-205 105,-241" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="67" y="-219.3" font-family="Arial" font-size="14.00" fill="white" textLength="64.00" lengthAdjust="spacingAndGlyphs">Customer</text>
+</g>
+
+<g id="node6" class="node">
+<title>web_frontend</title>
+<polygon fill="#3498db" stroke="black" points="363,-241 261,-241 261,-205 363,-205 363,-241" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="312" y="-219.3" font-family="Arial" font-size="14.00" fill="white" textLength="90.00" lengthAdjust="spacingAndGlyphs">Web Frontend</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>customer-&gt;web_frontend</title>
+<path fill="none" stroke="#34495e" d="M105.17,-223C143.86,-223 205.06,-223 250.68,-223" />
+<polygon fill="#34495e" stroke="#34495e" points="250.75,-226.5 260.75,-223 250.75,-219.5 250.75,-226.5" />
+<text text-anchor="middle" x="193.5" y="-226" font-family="Arial" font-size="10.00">HTTPS Browse/Shop</text>
+</g>
+
+<g id="node2" class="node">
+<title>admin_user</title>
+<polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="111,-187 23,-187 23,-151 111,-151 111,-187" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="67" y="-165.3" font-family="Arial" font-size="14.00" fill="white" textLength="76.00" lengthAdjust="spacingAndGlyphs">Admin User</text>
+</g>
+
+<g id="node8" class="node">
+<title>admin_panel</title>
+<polygon fill="#3498db" stroke="black" points="359,-187 265,-187 265,-151 359,-151 359,-187" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="312" y="-165.3" font-family="Arial" font-size="14.00" fill="white" textLength="82.00" lengthAdjust="spacingAndGlyphs">Admin Panel</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>admin_user-&gt;admin_panel</title>
+<path fill="none" stroke="#34495e" d="M111.16,-169C151.19,-169 210.99,-169 254.74,-169" />
+<polygon fill="#34495e" stroke="#34495e" points="254.93,-172.5 264.93,-169 254.93,-165.5 254.93,-172.5" />
+<text text-anchor="middle" x="193.5" y="-172" font-family="Arial" font-size="10.00">HTTPS Admin Access</text>
+</g>
+
+<g id="node3" class="node">
+<title>payment_gateway</title>
+<polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1281,-459 1153,-459 1153,-423 1281,-423 1281,-459" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1217" y="-437.3" font-family="Arial" font-size="14.00" fill="white" textLength="116.00" lengthAdjust="spacingAndGlyphs">Payment Gateway</text>
+</g>
+
+<g id="node4" class="node">
+<title>shipping_api</title>
+<polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1291,-513 1143,-513 1143,-477 1291,-477 1291,-513" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1217" y="-491.3" font-family="Arial" font-size="14.00" fill="white" textLength="136.00" lengthAdjust="spacingAndGlyphs">Shipping Provider API</text>
+</g>
+
+<g id="node5" class="node">
+<title>email_service</title>
+<polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1267,-567 1167,-567 1167,-531 1267,-531 1267,-567" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="1217" y="-545.3" font-family="Arial" font-size="14.00" fill="white" textLength="88.00" lengthAdjust="spacingAndGlyphs">Email Service</text>
+</g>
+
+<g id="node7" class="node">
+<title>api_gateway</title>
+<polygon fill="#3498db" stroke="black" points="557,-241 461,-241 461,-205 557,-205 557,-241" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="509" y="-219.3" font-family="Arial" font-size="14.00" fill="white" textLength="84.00" lengthAdjust="spacingAndGlyphs">API Gateway</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>web_frontend-&gt;api_gateway</title>
+<path fill="none" stroke="#34495e" d="M363.22,-223C389.93,-223 422.9,-223 450.62,-223" />
+<polygon fill="#34495e" stroke="#34495e" points="450.97,-226.5 460.97,-223 450.97,-219.5 450.97,-226.5" />
+<text text-anchor="middle" x="412" y="-226" font-family="Arial" font-size="10.00">API Requests</text>
+</g>
+
+<g id="node9" class="node">
+<title>auth_service</title>
+<polygon fill="#3498db" stroke="black" points="780.5,-214 687.5,-214 687.5,-178 780.5,-178 780.5,-214" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="734" y="-192.3" font-family="Arial" font-size="14.00" fill="white" textLength="81.00" lengthAdjust="spacingAndGlyphs">Auth Service</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>api_gateway-&gt;auth_service</title>
+<path fill="none" stroke="#34495e" d="M557.16,-214.64C563.16,-213.69 569.22,-212.78 575,-212 608.88,-207.42 647,-203.53 677.31,-200.73" />
+<polygon fill="#34495e" stroke="#34495e" points="677.63,-204.21 687.27,-199.82 677,-197.24 677.63,-204.21" />
+<text text-anchor="middle" x="612.5" y="-215" font-family="Arial" font-size="10.00">Auth Validation</text>
+</g>
+
+<g id="node10" class="node">
+<title>product_service</title>
+<polygon fill="#3498db" stroke="black" points="790,-268 678,-268 678,-232 790,-232 790,-268" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="734" y="-246.3" font-family="Arial" font-size="14.00" fill="white" textLength="100.00" lengthAdjust="spacingAndGlyphs">Product Service</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>api_gateway-&gt;product_service</title>
+<path fill="none" stroke="#34495e" d="M557.02,-228.69C589.12,-232.58 632.08,-237.78 667.52,-242.07" />
+<polygon fill="#34495e" stroke="#34495e" points="667.43,-245.59 677.78,-243.31 668.27,-238.64 667.43,-245.59" />
+<text text-anchor="middle" x="612.5" y="-242" font-family="Arial" font-size="10.00">Product Queries</text>
+</g>
+
+<g id="node11" class="node">
+<title>cart_service</title>
+<polygon fill="#3498db" stroke="black" points="779.5,-160 688.5,-160 688.5,-124 779.5,-124 779.5,-160" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="734" y="-138.3" font-family="Arial" font-size="14.00" fill="white" textLength="79.00" lengthAdjust="spacingAndGlyphs">Cart Service</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>api_gateway-&gt;cart_service</title>
+<path fill="none" stroke="#34495e" d="M540.43,-204.9C551.13,-199 563.38,-192.76 575,-188 608.52,-174.28 647.59,-162.86 678.49,-154.84" />
+<polygon fill="#34495e" stroke="#34495e" points="679.4,-158.22 688.22,-152.35 677.66,-151.44 679.4,-158.22" />
+<text text-anchor="middle" x="612.5" y="-191" font-family="Arial" font-size="10.00">Cart Operations</text>
+</g>
+
+<g id="node12" class="node">
+<title>order_service</title>
+<polygon fill="#3498db" stroke="black" points="784.5,-322 683.5,-322 683.5,-286 784.5,-286 784.5,-322" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="734" y="-300.3" font-family="Arial" font-size="14.00" fill="white" textLength="89.00" lengthAdjust="spacingAndGlyphs">Order Service</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>api_gateway-&gt;order_service</title>
+<path fill="none" stroke="#34495e" d="M545.71,-241.12C555.12,-245.59 565.35,-250.19 575,-254 606.98,-266.62 643.53,-278.35 673.42,-287.27" />
+<polygon fill="#34495e" stroke="#34495e" points="672.7,-290.71 683.28,-290.19 674.68,-284 672.7,-290.71" />
+<text text-anchor="middle" x="612.5" y="-282" font-family="Arial" font-size="10.00">Order Operations</text>
+</g>
+
+<g id="node15" class="node">
+<title>user_db</title>
+<path fill="#2ecc71" stroke="black" d="M1270.5,-210.73C1270.5,-212.53 1246.52,-214 1217,-214 1187.48,-214 1163.5,-212.53 1163.5,-210.73 1163.5,-210.73 1163.5,-181.27 1163.5,-181.27 1163.5,-179.47 1187.48,-178 1217,-178 1246.52,-178 1270.5,-179.47 1270.5,-181.27 1270.5,-181.27 1270.5,-210.73 1270.5,-210.73" filter="url(#usv-shine-shadow)" />
+<path fill="none" stroke="black" d="M1270.5,-210.73C1270.5,-208.92 1246.52,-207.45 1217,-207.45 1187.48,-207.45 1163.5,-208.92 1163.5,-210.73" />
+<text text-anchor="middle" x="1217" y="-192.3" font-family="Arial" font-size="14.00" fill="white">User Database</text>
+</g>
+
+<g id="edge12" class="edge">
+<title>auth_service-&gt;user_db</title>
+<path fill="none" stroke="#34495e" d="M780.68,-196C867.2,-196 1055.07,-196 1153.3,-196" />
+<polygon fill="#34495e" stroke="#34495e" points="1153.38,-199.5 1163.38,-196 1153.38,-192.5 1153.38,-199.5" />
+<text text-anchor="middle" x="974.5" y="-199" font-family="Arial" font-size="10.00">User Queries</text>
+</g>
+
+<g id="node18" class="node">
+<title>session_cache</title>
+<path fill="#2ecc71" stroke="black" d="M1270.5,-102.73C1270.5,-104.53 1246.52,-106 1217,-106 1187.48,-106 1163.5,-104.53 1163.5,-102.73 1163.5,-102.73 1163.5,-73.27 1163.5,-73.27 1163.5,-71.47 1187.48,-70 1217,-70 1246.52,-70 1270.5,-71.47 1270.5,-73.27 1270.5,-73.27 1270.5,-102.73 1270.5,-102.73" filter="url(#usv-shine-shadow)" />
+<path fill="none" stroke="black" d="M1270.5,-102.73C1270.5,-100.92 1246.52,-99.45 1217,-99.45 1187.48,-99.45 1163.5,-100.92 1163.5,-102.73" />
+<text text-anchor="middle" x="1217" y="-84.3" font-family="Arial" font-size="14.00" fill="white">Session Cache</text>
+</g>
+
+<g id="edge13" class="edge">
+<title>auth_service-&gt;session_cache</title>
+<path fill="none" stroke="#34495e" d="M780.62,-182.15C787.66,-178.64 794.43,-174.31 800,-169 813.53,-156.11 803.25,-142.47 818,-131 915.01,-55.57 1067.87,-63.82 1153.16,-76.15" />
+<polygon fill="#34495e" stroke="#34495e" points="1152.81,-79.63 1163.22,-77.66 1153.85,-72.71 1152.81,-79.63" />
+<text text-anchor="middle" x="974.5" y="-86" font-family="Arial" font-size="10.00">Session Storage</text>
+</g>
+
+<g id="node16" class="node">
+<title>product_db</title>
+<path fill="#2ecc71" stroke="black" d="M1279.5,-372.73C1279.5,-374.53 1251.49,-376 1217,-376 1182.51,-376 1154.5,-374.53 1154.5,-372.73 1154.5,-372.73 1154.5,-343.27 1154.5,-343.27 1154.5,-341.47 1182.51,-340 1217,-340 1251.49,-340 1279.5,-341.47 1279.5,-343.27 1279.5,-343.27 1279.5,-372.73 1279.5,-372.73" filter="url(#usv-shine-shadow)" />
+<path fill="none" stroke="black" d="M1279.5,-372.73C1279.5,-370.92 1251.49,-369.45 1217,-369.45 1182.51,-369.45 1154.5,-370.92 1154.5,-372.73" />
+<text text-anchor="middle" x="1217" y="-354.3" font-family="Arial" font-size="14.00" fill="white">Product Database</text>
+</g>
+
+<g id="edge14" class="edge">
+<title>product_service-&gt;product_db</title>
+<path fill="none" stroke="#34495e" d="M788.63,-268.09C792.75,-270.69 796.61,-273.65 800,-277 814.44,-291.28 801.77,-306.8 818,-319 912.76,-390.22 1058.16,-383.79 1144.5,-371.6" />
+<polygon fill="#34495e" stroke="#34495e" points="1145.09,-375.05 1154.47,-370.13 1144.07,-368.13 1145.09,-375.05" />
+<text text-anchor="middle" x="974.5" y="-382" font-family="Arial" font-size="10.00">Product Queries</text>
+</g>
+
+<g id="node20" class="node">
+<title>search_index</title>
+<path fill="#2ecc71" stroke="black" d="M1265,-48.73C1265,-50.53 1243.49,-52 1217,-52 1190.51,-52 1169,-50.53 1169,-48.73 1169,-48.73 1169,-19.27 1169,-19.27 1169,-17.47 1190.51,-16 1217,-16 1243.49,-16 1265,-17.47 1265,-19.27 1265,-19.27 1265,-48.73 1265,-48.73" filter="url(#usv-shine-shadow)" />
+<path fill="none" stroke="black" d="M1265,-48.73C1265,-46.92 1243.49,-45.45 1217,-45.45 1190.51,-45.45 1169,-46.92 1169,-48.73" />
+<text text-anchor="middle" x="1217" y="-30.3" font-family="Arial" font-size="14.00" fill="white">Search Index</text>
+</g>
+
+<g id="edge15" class="edge">
+<title>product_service-&gt;search_index</title>
+<path fill="none" stroke="#34495e" d="M788.14,-231.93C792.41,-229.32 796.44,-226.35 800,-223 813.31,-210.46 808.58,-201.67 818,-186 855.71,-123.3 850.86,-88.19 915,-53 991.1,-11.25 1094.85,-15.6 1158.54,-23.86" />
+<polygon fill="#34495e" stroke="#34495e" points="1158.41,-27.37 1168.79,-25.26 1159.36,-20.44 1158.41,-27.37" />
+<text text-anchor="middle" x="974.5" y="-56" font-family="Arial" font-size="10.00">Search Index</text>
+</g>
+
+<g id="node21" class="node">
+<title>file_storage</title>
+<path fill="#2ecc71" stroke="black" d="M1261.5,-264.73C1261.5,-266.53 1241.55,-268 1217,-268 1192.45,-268 1172.5,-266.53 1172.5,-264.73 1172.5,-264.73 1172.5,-235.27 1172.5,-235.27 1172.5,-233.47 1192.45,-232 1217,-232 1241.55,-232 1261.5,-233.47 1261.5,-235.27 1261.5,-235.27 1261.5,-264.73 1261.5,-264.73" filter="url(#usv-shine-shadow)" />
+<path fill="none" stroke="black" d="M1261.5,-264.73C1261.5,-262.92 1241.55,-261.45 1217,-261.45 1192.45,-261.45 1172.5,-262.92 1172.5,-264.73" />
+<text text-anchor="middle" x="1217" y="-246.3" font-family="Arial" font-size="14.00" fill="white">File Storage</text>
+</g>
+
+<g id="edge16" class="edge">
+<title>product_service-&gt;file_storage</title>
+<path fill="none" stroke="#34495e" d="M790.18,-250C883.2,-250 1070.08,-250 1162.18,-250" />
+<polygon fill="#34495e" stroke="#34495e" points="1162.4,-253.5 1172.4,-250 1162.4,-246.5 1162.4,-253.5" />
+<text text-anchor="middle" x="974.5" y="-253" font-family="Arial" font-size="10.00">Image Storage</text>
+</g>
+
+<g id="edge10" class="edge">
+<title>order_service-&gt;shipping_api</title>
+<path fill="none" stroke="#34495e" d="M784.6,-321.68C790,-324.45 795.25,-327.55 800,-331 809.95,-338.22 808.11,-344.7 818,-352 913.64,-422.52 1047.42,-461.03 1132.9,-479.82" />
+<polygon fill="#34495e" stroke="#34495e" points="1132.3,-483.27 1142.82,-481.96 1133.78,-476.43 1132.3,-483.27" />
+<text text-anchor="middle" x="974.5" y="-458" font-family="Arial" font-size="10.00">Shipping Rates</text>
+</g>
+
+<g id="node13" class="node">
+<title>payment_service</title>
+<polygon fill="#3498db" stroke="black" points="1034,-322 915,-322 915,-286 1034,-286 1034,-322" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="974.5" y="-300.3" font-family="Arial" font-size="14.00" fill="white" textLength="107.00" lengthAdjust="spacingAndGlyphs">Payment Service</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>order_service-&gt;payment_service</title>
+<path fill="none" stroke="#34495e" d="M784.71,-304C819.42,-304 866.22,-304 904.54,-304" />
+<polygon fill="#34495e" stroke="#34495e" points="904.59,-307.5 914.59,-304 904.59,-300.5 904.59,-307.5" />
+<text text-anchor="middle" x="857.5" y="-307" font-family="Arial" font-size="10.00">Payment Request</text>
+</g>
+
+<g id="node17" class="node">
+<title>order_db</title>
+<path fill="#2ecc71" stroke="black" d="M1273.5,-156.73C1273.5,-158.53 1248.18,-160 1217,-160 1185.82,-160 1160.5,-158.53 1160.5,-156.73 1160.5,-156.73 1160.5,-127.27 1160.5,-127.27 1160.5,-125.47 1185.82,-124 1217,-124 1248.18,-124 1273.5,-125.47 1273.5,-127.27 1273.5,-127.27 1273.5,-156.73 1273.5,-156.73" filter="url(#usv-shine-shadow)" />
+<path fill="none" stroke="black" d="M1273.5,-156.73C1273.5,-154.92 1248.18,-153.45 1217,-153.45 1185.82,-153.45 1160.5,-154.92 1160.5,-156.73" />
+<text text-anchor="middle" x="1217" y="-138.3" font-family="Arial" font-size="14.00" fill="white">Order Database</text>
+</g>
+
+<g id="edge17" class="edge">
+<title>order_service-&gt;order_db</title>
+<path fill="none" stroke="#34495e" d="M783.03,-286C788.88,-283.24 794.67,-280.23 800,-277 856.95,-242.5 854,-207.67 915,-181 990.92,-147.8 1087.14,-140.67 1150.07,-140.11" />
+<polygon fill="#34495e" stroke="#34495e" points="1150.28,-143.61 1160.27,-140.08 1150.25,-136.61 1150.28,-143.61" />
+<text text-anchor="middle" x="974.5" y="-184" font-family="Arial" font-size="10.00">Order Queries</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>payment_service-&gt;payment_gateway</title>
+<path fill="none" stroke="#34495e" d="M1012.74,-322.14C1022.46,-327.26 1032.78,-333.07 1042,-339 1085.96,-367.28 1089.3,-385.63 1135,-411 1140.04,-413.8 1145.39,-416.43 1150.85,-418.89" />
+<polygon fill="#34495e" stroke="#34495e" points="1149.53,-422.13 1160.1,-422.85 1152.28,-415.69 1149.53,-422.13" />
+<text text-anchor="middle" x="1088.5" y="-408" font-family="Arial" font-size="10.00">Card Processing</text>
+</g>
+
+<g id="node19" class="node">
+<title>payment_vault</title>
+<path fill="#2ecc71" stroke="black" d="M1269,-318.73C1269,-320.53 1245.69,-322 1217,-322 1188.31,-322 1165,-320.53 1165,-318.73 1165,-318.73 1165,-289.27 1165,-289.27 1165,-287.47 1188.31,-286 1217,-286 1245.69,-286 1269,-287.47 1269,-289.27 1269,-289.27 1269,-318.73 1269,-318.73" filter="url(#usv-shine-shadow)" />
+<path fill="none" stroke="black" d="M1269,-318.73C1269,-316.92 1245.69,-315.45 1217,-315.45 1188.31,-315.45 1165,-316.92 1165,-318.73" />
+<text text-anchor="middle" x="1217" y="-300.3" font-family="Arial" font-size="14.00" fill="white">Payment Vault</text>
+</g>
+
+<g id="edge18" class="edge">
+<title>payment_service-&gt;payment_vault</title>
+<path fill="none" stroke="#34495e" d="M1034.39,-302.31C1040.34,-302.18 1046.29,-302.07 1052,-302 1084.44,-301.58 1092.56,-301.64 1125,-302 1134.62,-302.11 1144.8,-302.27 1154.75,-302.47" />
+<polygon fill="#34495e" stroke="#34495e" points="1154.92,-305.97 1164.99,-302.68 1155.06,-298.98 1154.92,-305.97" />
+<text text-anchor="middle" x="1088.5" y="-305" font-family="Arial" font-size="10.00">Token Storage</text>
+</g>
+
+<g id="node14" class="node">
+<title>notification_service</title>
+<polygon fill="#3498db" stroke="black" points="800,-376 668,-376 668,-340 800,-340 800,-376" filter="url(#usv-shine-shadow)" />
+<text text-anchor="middle" x="734" y="-354.3" font-family="Arial" font-size="14.00" fill="white" textLength="120.00" lengthAdjust="spacingAndGlyphs">Notification Service</text>
+</g>
+
+<g id="edge11" class="edge">
+<title>notification_service-&gt;email_service</title>
+<path fill="none" stroke="#34495e" d="M758.75,-376.05C792.02,-400.56 855.17,-444.23 915,-470 995.5,-504.66 1094.84,-527.12 1156.82,-538.92" />
+<polygon fill="#34495e" stroke="#34495e" points="1156.34,-542.39 1166.82,-540.79 1157.63,-535.51 1156.34,-542.39" />
+<text text-anchor="middle" x="974.5" y="-515" font-family="Arial" font-size="10.00">Send Email</text>
+</g>
+</g>
+</svg>

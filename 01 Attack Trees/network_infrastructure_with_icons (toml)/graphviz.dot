@@ -1,0 +1,147 @@
+digraph "Network Infrastructure Attack Tree" {
+	graph [bb="0,0,1456,390",
+		nodesep=0.8,
+		rankdir=TB,
+		ranksep=1.0,
+		splines=polyline
+	];
+	node [label="\N"];
+	Compromise_Infrastructure	[height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/6355c0c1a8c9_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Compromise Infrastructure</TD></TR>
+</TABLE>>,
+		pos="797,356.5",
+		shape=none,
+		width=3];
+	Attack_Web_Tier	[height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/e0ce33b525bf_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Attack Web Tier</TD></TR>
+</TABLE>>,
+		pos="477,202.5",
+		shape=none,
+		width=1.875];
+	Compromise_Infrastructure -> Attack_Web_Tier:icon:n	[color=black,
+		label=OR,
+		lp="630,279.5",
+		pos="e,478,230.5 714.02,322.98 634.27,291.73 521.07,247.38 487.64,234.28",
+		style=solid];
+	Attack_Database_Tier	[height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/7592cc1443cb_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Attack Database Tier</TD></TR>
+</TABLE>>,
+		pos="796,202.5",
+		shape=none,
+		width=2.375];
+	Compromise_Infrastructure -> Attack_Database_Tier:icon:n	[color=black,
+		label=OR,
+		lp="808,279.5",
+		pos="e,797,230.5 797,322.98 797,295.64 797,258.26 797,240.57",
+		style=solid];
+	Attack_Internal_Network	[height=0.93056,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/908a036e3fe0_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Attack Internal Network</TD></TR>
+</TABLE>>,
+		pos="1172,202.5",
+		shape=none,
+		width=2.6944];
+	Compromise_Infrastructure -> Attack_Internal_Network:icon:n	[color=black,
+		label=OR,
+		lp="1051,279.5",
+		pos="e,1172,230.5 894.55,322.98 989.82,291.23 1125.7,245.94 1162.5,233.67",
+		style=solid];
+	SQL_Injection	[height=1.1389,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/7696403be548_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>SQL Injection<BR/>(CVSS: 9.8 - Critical)</TD></TR>
+</TABLE>>,
+		pos="84,41",
+		shape=none,
+		width=2.3333];
+	Attack_Web_Tier -> SQL_Injection:icon:n	[color=black,
+		label=CRITICAL,
+		lp="292,125.5",
+		pos="e,84,77 409.44,180.1 311.34,149.02 136.48,93.625 93.66,80.06",
+		style=solid];
+	XSS_Attack	[height=1.1389,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/706d1d6dcfac_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>XSS Attack<BR/>(CVSS: 6.1 - Medium)</TD></TR>
+</TABLE>>,
+		pos="313,41",
+		shape=none,
+		width=2.4167];
+	Attack_Web_Tier -> XSS_Attack:icon:n	[color=black,
+		label=MEDIUM,
+		lp="420,125.5",
+		pos="e,313,77 433.91,168.79 395.19,139.39 341.4,98.561 321.15,83.185",
+		style=solid];
+	Session_Hijacking	[height=1.1389,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/84d07a6f60a0_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Session Hijacking<BR/>(CVSS: 7.5 - High)</TD></TR>
+</TABLE>>,
+		pos="533,41",
+		shape=none,
+		width=2.0833];
+	Attack_Web_Tier -> Session_Hijacking:icon:n	[color=black,
+		label=HIGH,
+		lp="534.5,125.5",
+		pos="e,533,77 491.71,168.79 504.16,141.12 521.16,103.33 528.88,86.155",
+		style=solid];
+	Credential_Theft	[height=1.1389,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/1617e830e915_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Credential Theft<BR/>(CVSS: 8.1 - High)</TD></TR>
+</TABLE>>,
+		pos="741,41",
+		shape=none,
+		width=2.0833];
+	Attack_Database_Tier -> Credential_Theft:icon:n	[color=black,
+		label=HIGH,
+		lp="786.5,125.5",
+		pos="e,741,77 781.55,168.79 769.33,141.12 752.63,103.33 745.04,86.155",
+		style=solid];
+	Privilege_Escalation	[height=1.1389,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/4b3b224fdf52_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Privilege Escalation<BR/>(CVSS: 8.8 - High)</TD></TR>
+</TABLE>>,
+		pos="956,41",
+		shape=none,
+		width=2.2639];
+	Attack_Database_Tier -> Privilege_Escalation:icon:n	[color=black,
+		label=HIGH,
+		lp="921.5,125.5",
+		pos="e,957,77 838.3,168.79 876.31,139.39 929.12,98.561 949,83.185",
+		style=solid];
+	Lateral_Movement	[height=1.1389,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/2568d3820bce_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Lateral Movement<BR/>(CVSS: 7.2 - High)</TD></TR>
+</TABLE>>,
+		pos="1172,41",
+		shape=none,
+		width=2.1111];
+	Attack_Internal_Network -> Lateral_Movement:icon:n	[color=black,
+		label=HIGH,
+		lp="1192.5,125.5",
+		pos="e,1172,77 1172,168.79 1172,141.7 1172,104.9 1172,87.255",
+		style=solid];
+	"Pass-the-Hash"	[height=1.1389,
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/usecvislib_icon_cache/b8766bb5b25e_48.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Pass-the-Hash<BR/>(CVSS: 8.1 - High)</TD></TR>
+</TABLE>>,
+		pos="1381,41",
+		shape=none,
+		width=2.0833];
+	Attack_Internal_Network -> "Pass-the-Hash":icon:n	[color=black,
+		label=HIGH,
+		lp="1327.5,125.5",
+		pos="e,1381,77 1226.6,168.95 1277,138.98 1347.4,97.01 1372.1,82.325",
+		style=solid];
+}

@@ -1,0 +1,224 @@
+digraph Infrastructure_Diagram {
+	graph [bb="0,0,774,827.38",
+		bgcolor="#1e3a5f",
+		fontcolor="#ffffff",
+		fontname="Courier New",
+		fontsize=14,
+		label="Infrastructure Diagram",
+		labelloc=t,
+		lheight=0.21,
+		lp="387,815.88",
+		lwidth=2.53,
+		nodesep=0.8,
+		rankdir=TB,
+		ranksep=1.0,
+		splines=polyline
+	];
+	node [color="#ffffff",
+		fillcolor="#0d2a4a",
+		fontcolor="#ffffff",
+		fontname="Courier New",
+		fontsize=10,
+		label="\N",
+		style=filled
+	];
+	edge [color="#4a90d9",
+		fontcolor="#90caf9",
+		fontname="Courier New",
+		fontsize=9,
+		penwidth=1.2,
+		style=dashed
+	];
+	subgraph cluster_aws {
+		graph [bb="8,8,766,796.38",
+			bgcolor="#2a4a6f",
+			color="#4a90d9",
+			fontcolor="#90caf9",
+			label="AWS Cloud",
+			lheight=0.21,
+			lp="387,784.88",
+			lwidth=1.04,
+			style=dashed
+		];
+		subgraph cluster_edge {
+			graph [bb="246,574.95,388,765.38",
+				bgcolor="#2a4a6f",
+				color="#4a90d9",
+				fontcolor="#90caf9",
+				label="Edge Services",
+				lheight=0.21,
+				lp="317,753.88",
+				lwidth=1.50,
+				style=dashed
+			];
+			route53	[height=0.5,
+				label="DNS\nexample.com",
+				pos="317,716.38",
+				shape=box,
+				width=1.1528];
+			cloudfront	[height=0.58926,
+				label="CDN\nDistribution",
+				pos="317,604.16",
+				shape=ellipse,
+				width=1.7481];
+			route53 -> cloudfront	[arrowhead=vee,
+				pos="e,317,625.64 317,698.16 317,681.53 317,655.98 317,635.87",
+				style=solid];
+		}
+		subgraph cluster_us_east {
+			graph [bb="130,16,758,537.95",
+				bgcolor="#2a4a6f",
+				color="#4a90d9",
+				fontcolor="#90caf9",
+				label="us-east-1 (N. Virginia)",
+				lheight=0.21,
+				lp="444,526.45",
+				lwidth=2.64,
+				style=dashed
+			];
+			subgraph cluster_storage {
+				graph [bb="138,397.74,288,479.16",
+					bgcolor="#2a4a6f",
+					color="#4a90d9",
+					fontcolor="#90caf9",
+					label=Storage,
+					lheight=0.21,
+					lp="213,467.66",
+					lwidth=0.81,
+					style=dashed
+				];
+				assets	[height=0.58926,
+					label="S3\nassets-bucket",
+					pos="213,426.95",
+					shape=ellipse,
+					width=1.866];
+			}
+			subgraph cluster_vpc {
+				graph [bb="296,24,750,506.95",
+					bgcolor="#2a4a6f",
+					color="#4a90d9",
+					fontcolor="#90caf9",
+					label="Production VPC 10.0.0.0/16",
+					lheight=0.21,
+					lp="523,495.45",
+					lwidth=2.99,
+					style=dashed
+				];
+				subgraph cluster_public {
+					graph [bb="317,400.95,540,475.95",
+						bgcolor="#2a4a6f",
+						color="#4a90d9",
+						fontcolor="#90caf9",
+						label="Public Subnet 10.0.1.0/24",
+						lheight=0.21,
+						lp="428.5,464.45",
+						lwidth=2.88,
+						style=dashed
+					];
+					alb	[height=0.5,
+						label="Application LB",
+						pos="422,426.95",
+						shape=trapezium,
+						width=2.3356];
+				}
+				subgraph cluster_app {
+					graph [bb="304,165.99,692,349.99",
+						bgcolor="#2a4a6f",
+						color="#4a90d9",
+						fontcolor="#90caf9",
+						label="Private Subnet 10.0.2.0/24 - Application Tier",
+						lheight=0.21,
+						lp="498,338.49",
+						lwidth=5.17,
+						style=dashed
+					];
+					web1	[height=0.5,
+						label="Web Server 1\nec2",
+						pos="368,300.99",
+						shape=note,
+						width=1.2361];
+					api_lambda	[height=0.5,
+						label="API Handler",
+						pos="368,191.99",
+						shape=hexagon,
+						width=1.5672];
+					web1 -> api_lambda	[arrowhead=vee,
+						pos="e,368,210.14 368,282.8 368,265.95 368,240.01 368,220.33",
+						style=solid];
+					web2	[height=0.5,
+						label="Web Server 2\nec2",
+						pos="515,300.99",
+						shape=note,
+						width=1.2361];
+					web2 -> api_lambda	[arrowhead=vee,
+						pos="e,391.56,210.14 491.38,282.8 466.52,264.7 427.25,236.11 399.7,216.07",
+						style=solid];
+				}
+				subgraph cluster_data {
+					graph [bb="308,32,646,119.99",
+						bgcolor="#2a4a6f",
+						color="#4a90d9",
+						fontcolor="#90caf9",
+						label="Database Subnet 10.0.3.0/24 - Data Tier",
+						lheight=0.21,
+						lp="477,108.49",
+						lwidth=4.47,
+						style=dashed
+					];
+					postgres	[height=0.57292,
+						label="Primary DB\nPostgreSQL 15",
+						pos="368,64.495",
+						shape=cylinder,
+						width=1.3194];
+					redis	[height=0.68041,
+						label="Session Cache\nRedis 7",
+						pos="556,64.495",
+						shape=hexagon,
+						width=2.1546];
+				}
+				alb -> web1	[arrowhead=vee,
+					pos="e,375.44,319.08 414.49,408.71 405.42,387.9 390.08,352.67 379.51,328.41",
+					style=solid];
+				alb -> web2	[arrowhead=vee,
+					pos="e,502.18,319.08 434.93,408.71 450.83,387.53 477.92,351.41 496.14,327.13",
+					style=solid];
+				web1 -> redis	[arrowhead=normal,
+					label="TCP/6379",
+					lp="503.5,191.99",
+					pos="e,539.22,89.032 384.39,282.64 409.09,256.48 453,209.99 453,209.99 453,209.99 502.92,139.96 533.25,97.404",
+					style=solid];
+				web2 -> redis	[arrowhead=normal,
+					label="TCP/6379",
+					lp="618.5,191.99",
+					pos="e,565.61,89.056 530.81,282.64 554.64,256.48 597,209.99 597,209.99 597,209.99 597,165.99 597,165.99 597,165.99 581.45,127.87 569.5,\
+98.581",
+					style=solid];
+				api_lambda -> postgres	[arrowhead=normal,
+					label="TCP/5432",
+					lp="389.5,132.99",
+					pos="e,368,85.367 368,173.8 368,153.69 368,120.02 368,95.551",
+					style=solid];
+			}
+		}
+		iam	[height=0.63781,
+			label="IAM\nRoles",
+			pos="52,426.95",
+			shape=octagon,
+			width=0.99923];
+		iam -> web1	[arrowhead=vee,
+			label="Instance Profile",
+			lp="329.5,362.99",
+			pos="e,350.94,319.05 82.534,413.99 102.16,406.3 124,397.74 124,397.74 124,397.74 320,349.99 320,349.99 320,349.99 331.76,338.23 343.64,\
+326.35"];
+		iam -> api_lambda	[arrowhead=vee,
+			label="Execution Role",
+			lp="258,300.99",
+			pos="e,340,210.13 73.404,407.84 118.88,369.38 221,282.99 221,282.99 221,282.99 287.83,242.07 331.37,215.42"];
+		cloudfront -> assets	[arrowhead=vee,
+			pos="e,224.95,448.08 305.07,583.06 286.7,552.12 251.41,492.67 230.26,457.03",
+			style=solid];
+		cloudfront -> alb	[arrowhead=vee,
+			pos="e,411.81,444.95 329.04,583.06 348.18,551.13 385.51,488.84 406.58,453.68",
+			style=solid];
+	}
+}

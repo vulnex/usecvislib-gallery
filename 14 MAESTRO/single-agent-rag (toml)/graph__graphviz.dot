@@ -1,0 +1,57 @@
+digraph "Single-Agent RAG Assistant" {
+	graph [bb="0,0,218,165",
+		bgcolor=white,
+		compound=true,
+		fontname=Arial,
+		fontsize=16,
+		label="Single-Agent RAG Assistant",
+		labelloc=t,
+		lheight=0.25,
+		lp="109,152",
+		lwidth=2.81,
+		nodesep=0.6,
+		pad=0.5,
+		rankdir=LR,
+		ranksep=0.8,
+		splines=polyline
+	];
+	node [label="\N"];
+	subgraph "cluster_graph_foundation-models" {
+		graph [bb="19.5,8,198.5,91",
+			color="#bdbdbd",
+			fillcolor="#e8f5e9",
+			fontcolor="#333333",
+			fontname="Arial Bold",
+			fontsize=14,
+			label="L1 — Foundation Models",
+			lheight=0.21,
+			lp="109,79.5",
+			lwidth=2.26,
+			penwidth=1,
+			style="filled,rounded"
+		];
+		graph_agent_support_agent	[color="#e53935",
+			fillcolor="#a5d6a7",
+			fontcolor="#1f2937",
+			fontname=Arial,
+			fontsize=11,
+			height=0.59722,
+			label=<<B>Support Agent</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#b71c1c'>C:9</FONT> <FONT COLOR='#b23c00'>H:11</FONT> <FONT COLOR='#7a5400'>M:12</FONT></FONT>>,
+			margin="0.2,0.1",
+			penwidth=2,
+			pos="109,38",
+			shape=box,
+			style="filled,rounded",
+			width=1.6806];
+	}
+	security_summary_graph	[fillcolor="#ffe0b2",
+		fontcolor="#bf360c",
+		fontname=Arial,
+		fontsize=10,
+		height=0.5,
+		label="Security & Compliance\n1 preventive | 0 detective",
+		pos="109,121",
+		shape=note,
+		style=filled,
+		width=1.75];
+}

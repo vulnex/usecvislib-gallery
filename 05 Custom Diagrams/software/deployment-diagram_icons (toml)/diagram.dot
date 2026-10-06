@@ -1,0 +1,232 @@
+digraph UML_Deployment_Diagram_with_Icons {
+	graph [bb="0,0,869,929",
+		bgcolor="#1e3a5f",
+		fontcolor="#ffffff",
+		fontname="Courier New",
+		fontsize=14,
+		label="UML Deployment Diagram with Icons",
+		labelloc=t,
+		lheight=0.21,
+		lp="434.5,917.5",
+		lwidth=3.79,
+		nodesep=0.8,
+		rankdir=TB,
+		ranksep=1.0,
+		splines=polyline
+	];
+	node [color="#ffffff",
+		fillcolor="#0d2a4a",
+		fontcolor="#ffffff",
+		fontname="Courier New",
+		fontsize=10,
+		label="\N",
+		style=filled
+	];
+	edge [color="#4a90d9",
+		fontcolor="#90caf9",
+		fontname="Courier New",
+		fontsize=9,
+		penwidth=1.2,
+		style=dashed
+	];
+	subgraph cluster_public_zone {
+		graph [bb="536,640,643,898",
+			bgcolor="#2a4a6f",
+			color="#4a90d9",
+			fontcolor="#90caf9",
+			label="Public Zone",
+			lheight=0.21,
+			lp="589.5,886.5",
+			lwidth=1.26,
+			style=dashed
+		];
+		cdn	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpx2wwlsh8.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>&lt;&lt;CDN&gt;&gt;<BR/>CloudFront</TD></TR>
+</TABLE>>,
+			pos="594,830",
+			shape=none,
+			style="",
+			width=1.125];
+		lb	[height=0.875,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmphrraxcdg.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>ALB</TD></TR>
+</TABLE>>,
+			pos="602,679.5",
+			shape=none,
+			style="",
+			width=0.77778];
+		cdn -> lb:icon	[arrowhead=normal,
+			label=HTTPS,
+			lp="612.5,752",
+			pos="e,602,705.5 596.34,792.95 598.05,766.46 600.26,732.3 601.35,715.6",
+			style=solid];
+	}
+	subgraph cluster_app_zone {
+		graph [bb="8,323,340,594",
+			bgcolor="#2a4a6f",
+			color="#4a90d9",
+			fontcolor="#90caf9",
+			label="Application Zone (AZ-1)",
+			lheight=0.21,
+			lp="174,582.5",
+			lwidth=2.64,
+			style=dashed
+		];
+		web1	[height=1.1806,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmprsni7ms6.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>&lt;&lt;device&gt;&gt;<BR/>Web Server 1<BR/>10.0.1.10</TD></TR>
+</TABLE>>,
+			pos="286,520.5",
+			shape=none,
+			style="",
+			width=1.2917];
+		docker_web1	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpi48y5w41.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>&lt;&lt;executionEnvironment&gt;&gt;<BR/>Docker</TD></TR>
+</TABLE>>,
+			pos="99,520.5",
+			shape=none,
+			style="",
+			width=2.2917];
+		app_container1	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp2yj7sbrp.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>&lt;&lt;container&gt;&gt;<BR/>app:latest</TD></TR>
+</TABLE>>,
+			pos="280,368",
+			shape=none,
+			style="",
+			width=1.375];
+		docker_web1 -> app_container1:icon	[arrowhead=vee,
+			pos="e,261,381 141.14,483.47 179.58,450.61 233.32,404.67 253.2,387.67"];
+	}
+	subgraph cluster_app_zone2 {
+		graph [bb="529,323,861,594",
+			bgcolor="#2a4a6f",
+			color="#4a90d9",
+			fontcolor="#90caf9",
+			label="Application Zone (AZ-2)",
+			lheight=0.21,
+			lp="695,582.5",
+			lwidth=2.64,
+			style=dashed
+		];
+		web2	[height=1.1806,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpby31cp27.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>&lt;&lt;device&gt;&gt;<BR/>Web Server 2<BR/>10.0.1.11</TD></TR>
+</TABLE>>,
+			pos="807,520.5",
+			shape=none,
+			style="",
+			width=1.2917];
+		docker_web2	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpnynwp_hj.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>&lt;&lt;executionEnvironment&gt;&gt;<BR/>Docker</TD></TR>
+</TABLE>>,
+			pos="620,520.5",
+			shape=none,
+			style="",
+			width=2.2917];
+		app_container2	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpqydn64sv.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>&lt;&lt;container&gt;&gt;<BR/>app:latest</TD></TR>
+</TABLE>>,
+			pos="593,368",
+			shape=none,
+			style="",
+			width=1.375];
+		docker_web2 -> app_container2:icon	[arrowhead=vee,
+			pos="e,594,400 612.13,483.32 606.6,457.9 599.59,425.71 596.13,409.81"];
+	}
+	subgraph cluster_data_zone {
+		graph [bb="277,8,580,277",
+			bgcolor="#2a4a6f",
+			color="#4a90d9",
+			fontcolor="#90caf9",
+			label="Data Zone",
+			lheight=0.21,
+			lp="428.5,265.5",
+			lwidth=1.04,
+			style=dashed
+		];
+		db_primary	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmprd61vf_y.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>PostgreSQL Primary<BR/>:5432</TD></TR>
+</TABLE>>,
+			pos="350,209",
+			shape=none,
+			style="",
+			width=1.7917];
+		db_replica	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmp56w6d5xj.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>PostgreSQL Replica<BR/>:5432</TD></TR>
+</TABLE>>,
+			pos="350,53",
+			shape=none,
+			style="",
+			width=1.7917];
+		db_primary -> db_replica:icon	[arrowhead=normal,
+			label=Replication,
+			lp="379,131",
+			pos="e,351,85 350.29,171.76 350.51,145.4 350.78,111.54 350.92,95",
+			style=solid];
+		cache	[height=1.0278,
+			label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD PORT="icon" FIXEDSIZE="TRUE" WIDTH="36" HEIGHT="36"><IMG SRC="/tmp/tmpta0azafa.png" SCALE="TRUE"/></TD></TR></TABLE></TD></TR>
+<TR><TD>Redis Cluster<BR/>:6379</TD></TR>
+</TABLE>>,
+			pos="522,209",
+			shape=none,
+			style="",
+			width=1.375];
+	}
+	lb -> web1:icon	[arrowhead=normal,
+		label=HTTP,
+		lp="419,607",
+		pos="e,306,538.5 574,668.64 510.69,646.35 362,594 362,594 362,594 328.5,560.8 313.32,545.76",
+		style=solid];
+	lb -> web2:icon	[arrowhead=normal,
+		label=HTTP,
+		lp="729,607",
+		pos="e,788,538.5 630.21,660.16 668.44,635.31 732,594 732,594 732,594 765.5,560.8 780.68,545.76",
+		style=solid];
+	app_container1 -> db_primary:icon	[arrowhead=normal,
+		label="TCP/5432",
+		lp="290.5,290",
+		pos="e,331,222 274.44,330.58 271.71,312.72 269,295 269,295 269,295 269,285 269,285 269,285 307.6,245.77 323.89,229.23",
+		style=solid];
+	app_container1 -> cache:icon	[arrowhead=normal,
+		label="TCP/6379",
+		lp="396.5,290",
+		pos="e,503,222 321.94,330.79 347.39,308.83 375,285 375,285 375,285 444,277 444,277 444,277 479.29,244.1 495.29,229.19",
+		style=solid];
+	app_container2 -> db_primary:icon	[arrowhead=normal,
+		label="TCP/5432",
+		lp="494.5,290",
+		pos="e,370,222 543.39,337.03 500.04,310.85 444,277 444,277 444,277 397.47,242.42 378.2,228.1",
+		style=solid];
+	app_container2 -> cache:icon	[arrowhead=normal,
+		label="TCP/6379",
+		lp="588.5,290",
+		pos="e,542,222 580.26,330.78 568.7,297.9 552.41,251.6 545.41,231.71",
+		style=solid];
+	app_artifact	[height=0.56944,
+		label="\<\<artifact\>\>\napp.jar\nv2.1.0",
+		pos="435,520.5",
+		shape=note,
+		width=1.2361];
+	app_artifact -> app_container1:icon	[arrowhead=empty,
+		pos="e,281,400 409.57,499.77 374.03,472.19 311.37,423.56 289.12,406.3"];
+	app_artifact -> app_container2:icon	[arrowhead=empty,
+		pos="e,574,381 454.62,499.95 486.05,468.63 546.25,408.65 566.87,388.11"];
+}
