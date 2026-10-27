@@ -8,19 +8,21 @@ Every template in [USecVisLib](https://github.com/vulnex/usecvislib), rendered w
 |---|--------|------------------|
 | 01 | Attack Trees | Graphviz and SVG engine renders, all `at_*` / `sv_*` presets |
 | 02 | Threat Modeling | DFDs with the usecvislib, pytm and SVG engines, all `tm_*` / `sv_*` presets |
-| 03 | Binary Visualization | Entropy, distribution, wind rose and heat map with default and custom configs, all `bv_*` presets |
-| 04 | Attack Graphs | Graphviz and SVG engine renders, all `ag_*` / `sv_*` presets |
+| 03 | Binary Visualization | Entropy, distribution, wind rose, heat map and byte-pair digraph with default and custom configs, all `bv_*` presets |
+| 04 | Attack Graphs | Graphviz and SVG engine renders (including a zone-grouped network), all `ag_*` / `sv_*` presets |
 | 05 | Custom Diagrams | Every template category, all `cd_*` presets |
 | 06 | Cloud Diagrams | AWS, Kubernetes and zero-trust templates, top-to-bottom and left-to-right |
 | 07 | Mermaid | Every Mermaid template in the default and dark themes |
-| 08 | Privilege Gradient | All templates, all `pg_*` presets |
+| 08 | Privilege Gradient | Graphviz and SVG engine renders (including grouped AD tiers), all `pg_*` / `sv_*` presets |
 | 09 | Component Diagram | Graphviz and SVG engine renders, all presets |
 | 10 | Dependency Graph | Graphviz and SVG engine renders, all presets |
-| 11 | Kill Chain | Graphviz and SVG engine renders, all `kc_*` / `sv_*` presets |
+| 11 | Kill Chain | Graphviz and SVG engine renders (including MITRE ATLAS), all `kc_*` / `sv_*` presets |
 | 12 | Incident Timeline | Swimlane, Gantt, vertical and compact views, Matplotlib and SVG engine |
 | 13 | Vulnerability Tree | Tree, vulnerable-only and critical-path views |
 | 14 | MAESTRO | Layered, graph and heat map views, all `ma_*` / `sv_*` presets |
 | 15 | Shine Pack | Graphviz SVG output post-processed with `--shine` |
+| 16 | Drift | What changed between two versions of an attack graph and a privilege gradient: added, removed and modified elements, new, fixed and changed inversions; both engines, changes-only and grouped views |
+| 17 | Trend Chart | Metrics over time as small multiples, all `tr_*` presets |
 
 Each folder has the PNG, SVG, PDF and (for Graphviz) DOT output, so you can compare engines and formats side by side.
 
