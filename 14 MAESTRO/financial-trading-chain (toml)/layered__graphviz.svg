@@ -141,9 +141,9 @@
 <!-- security_summary -->
 <g id="node6" class="node">
 <title>security_summary</title>
-<polygon fill="#ffe0b2" stroke="black" points="1233,-651.5 1113,-651.5 1113,-615.5 1239,-615.5 1239,-645.5 1233,-651.5"/>
-<polyline fill="none" stroke="black" points="1233,-651.5 1233,-645.5 "/>
-<polyline fill="none" stroke="black" points="1239,-645.5 1233,-645.5 "/>
+<polygon fill="#ffe0b2" stroke="#bf360c" points="1233,-651.5 1113,-651.5 1113,-615.5 1239,-615.5 1239,-645.5 1233,-651.5"/>
+<polyline fill="none" stroke="#bf360c" points="1233,-651.5 1233,-645.5 "/>
+<polyline fill="none" stroke="#bf360c" points="1239,-645.5 1233,-645.5 "/>
 <text text-anchor="middle" x="1176" y="-636.5" font-family="Arial" font-size="10.00" fill="#bf360c">Security &amp; Compliance</text>
 <text text-anchor="middle" x="1176" y="-625.5" font-family="Arial" font-size="10.00" fill="#bf360c">3 preventive | 0 detective</text>
 </g>
@@ -415,9 +415,9 @@
 <!-- cross_layer_legend -->
 <g id="node31" class="node">
 <title>cross_layer_legend</title>
-<polygon fill="#ffebee" stroke="black" points="1568.5,-802 1113.5,-802 1113.5,-724 1574.5,-724 1574.5,-796 1568.5,-802"/>
-<polyline fill="none" stroke="black" points="1568.5,-802 1568.5,-796 "/>
-<polyline fill="none" stroke="black" points="1574.5,-796 1568.5,-796 "/>
+<polygon fill="#ffebee" stroke="#b71c1c" points="1568.5,-802 1113.5,-802 1113.5,-724 1574.5,-724 1574.5,-796 1568.5,-802"/>
+<polyline fill="none" stroke="#b71c1c" points="1568.5,-802 1568.5,-796 "/>
+<polyline fill="none" stroke="#b71c1c" points="1574.5,-796 1568.5,-796 "/>
 <text text-anchor="start" x="1121.5" y="-790.8" font-family="Arial" font-size="9.00" fill="#b71c1c">Cross&#45;layer threats</text>
 <text text-anchor="start" x="1121.5" y="-780.8" font-family="Arial" font-size="9.00" fill="#b71c1c">CL&#45;vertical&#45;full — Adversarial input &#45;&gt; poisoned model &#45;&gt; data exfil &#45;&gt; infra pivot &#45;&gt; log cover &#45;&gt; impersonation</text>
 <text text-anchor="start" x="1121.5" y="-770.8" font-family="Arial" font-size="9.00" fill="#b71c1c">CL&#45;poison&#45;and&#45;pivot — Sleeper&#45;agent activation &#45;&gt; orchestration compromise</text>

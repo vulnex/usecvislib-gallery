@@ -68,13 +68,13 @@
 <text text-anchor="start" x="130.5" y="-150.3" font-family="Arial" font-size="9.00" fill="#7a5400">M:11</text>
 </g>
 <!-- graph_agent_execution_router&#45;&gt;graph_agent_trading_agent -->
-<g id="edge7" class="edge">
+<g id="edge5" class="edge">
 <title>graph_agent_execution_router&#45;&gt;graph_agent_trading_agent</title>
 <path fill="none" stroke="#0097a7" stroke-width="1.5" d="M196.33,-183.52C229.46,-192.99 261,-202 261,-202 261,-202 572.9,-206.56 725.65,-208.8"/>
 <polygon fill="#0097a7" stroke="#0097a7" stroke-width="1.5" points="735.93,-208.95 725.86,-213.3 730.92,-209.12 725.92,-209.05 725.93,-208.8 725.93,-208.55 730.93,-208.62 725.99,-204.3 735.93,-208.95 735.93,-208.95"/>
 </g>
 <!-- graph_agent_execution_router&#45;&gt;graph_agent_trading_agent -->
-<g id="edge8" class="edge">
+<g id="edge6" class="edge">
 <title>graph_agent_execution_router&#45;&gt;graph_agent_trading_agent</title>
 <path fill="none" stroke="#388e3c" stroke-width="1.5" d="M196.56,-165.79C353.24,-173.65 699,-191 699,-191 699,-191 710.41,-192.99 725.84,-195.68"/>
 <polygon fill="#388e3c" stroke="#388e3c" stroke-width="1.5" points="735.9,-197.43 725.28,-200.15 730.93,-196.82 726.01,-195.96 726.05,-195.72 726.09,-195.47 731.02,-196.33 726.82,-191.28 735.9,-197.43 735.9,-197.43"/>
@@ -88,32 +88,26 @@
 <text text-anchor="middle" x="480" y="-298.8" font-family="Arial" font-size="9.00" fill="#1976d2"> CL&#45;vertical&#45;full: Adversarial input &#45;&gt; poisoned model &#45;&gt; data exfil &#45;&gt; infra pivot &#45;&gt; log cover &#45;&gt; impersonation</text>
 </g>
 <!-- graph_agent_trading_agent&#45;&gt;graph_agent_execution_router -->
-<g id="edge5" class="edge">
+<g id="edge3" class="edge">
 <title>graph_agent_trading_agent&#45;&gt;graph_agent_execution_router</title>
 <path fill="none" stroke="#1976d2" stroke-width="1.5" d="M763.74,-188.37C741.83,-177.67 720,-167 720,-167 720,-167 699,-133 699,-133 699,-133 261,-133 261,-133 261,-133 235.75,-138.23 206.7,-144.25"/>
 <polygon fill="#1976d2" stroke="#1976d2" stroke-width="1.5" points="196.74,-146.31 205.62,-139.88 201.58,-145.05 206.48,-144.04 206.53,-144.28 206.58,-144.53 201.68,-145.54 207.44,-148.69 196.74,-146.31 196.74,-146.31"/>
 <text text-anchor="middle" x="480" y="-135.8" font-family="Arial" font-size="9.00" fill="#1976d2"> T&#45;CL&#45;005: Goal Misalignment Cascade</text>
 </g>
 <!-- graph_agent_trading_agent&#45;&gt;graph_agent_execution_router -->
-<g id="edge6" class="edge">
+<g id="edge4" class="edge">
 <title>graph_agent_trading_agent&#45;&gt;graph_agent_execution_router</title>
 <path fill="none" stroke="#0097a7" stroke-width="1.5" d="M763.74,-188.37C741.83,-177.67 720,-167 720,-167 720,-167 699,-113 699,-113 699,-113 261,-113 261,-113 261,-113 227.01,-124.9 192.53,-136.97"/>
 <polygon fill="#0097a7" stroke="#0097a7" stroke-width="1.5" points="182.81,-140.37 190.77,-132.81 187.45,-138.48 192.17,-136.83 192.25,-137.06 192.33,-137.3 187.62,-138.95 193.74,-141.31 182.81,-140.37 182.81,-140.37"/>
 <text text-anchor="middle" x="480" y="-115.8" font-family="Arial" font-size="9.00" fill="#0097a7"> T&#45;CL&#45;003: Cross&#45;Layer Privilege Escalation</text>
 </g>
 <!-- graph_agent_trading_agent&#45;&gt;graph_agent_trading_agent -->
-<g id="edge3" class="edge">
+<g id="edge7" class="edge">
 <title>graph_agent_trading_agent:w&#45;&gt;graph_agent_trading_agent:w</title>
-<path fill="none" stroke="#c2185b" stroke-width="1.5" stroke-dasharray="5,2" d="M736,-210C681.33,-220.75 572,-220.75 572,-210 572,-199.88 668.9,-199.29 725.86,-208.22"/>
-<polygon fill="#c2185b" stroke="#c2185b" stroke-width="1.5" points="736,-210 725.37,-212.7 731.03,-209.38 726.11,-208.52 726.15,-208.27 726.19,-208.03 731.12,-208.89 726.93,-203.84 736,-210 736,-210"/>
-<text text-anchor="middle" x="508.5" y="-207.8" font-family="Arial" font-size="9.00" fill="#c2185b"> CL&#45;poison&#45;and&#45;pivot (2 layers)</text>
-</g>
-<!-- graph_agent_trading_agent&#45;&gt;graph_agent_trading_agent -->
-<g id="edge4" class="edge">
-<title>graph_agent_trading_agent:w&#45;&gt;graph_agent_trading_agent:w</title>
-<path fill="none" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="5,2" d="M736,-210C626.67,-231.5 408,-231.5 408,-210 408,-189.13 614.04,-188.52 726.12,-208.17"/>
-<polygon fill="#f57c00" stroke="#f57c00" stroke-width="1.5" points="736,-210 725.35,-212.6 731.04,-209.33 726.12,-208.42 726.17,-208.18 726.21,-207.93 731.13,-208.84 726.99,-203.75 736,-210 736,-210"/>
-<text text-anchor="middle" x="349" y="-207.8" font-family="Arial" font-size="9.00" fill="#f57c00"> CL&#45;prompt&#45;to&#45;leak (2 layers)</text>
+<path fill="none" stroke="#e53935" stroke-width="1.5" stroke-dasharray="5,2" d="M736,-210C681.33,-231.5 572,-231.5 572,-210 572,-189.68 669.7,-188.56 726.57,-206.67"/>
+<polygon fill="#e53935" stroke="#e53935" stroke-width="1.5" points="736,-210 725.07,-210.91 731.2,-208.57 726.49,-206.9 726.57,-206.67 726.66,-206.43 731.37,-208.1 728.07,-202.42 736,-210 736,-210"/>
+<text text-anchor="start" x="447" y="-212.8" font-family="Arial" font-size="9.00" fill="#c2185b">CL&#45;poison&#45;and&#45;pivot (2 layers)</text>
+<text text-anchor="start" x="447" y="-202.8" font-family="Arial" font-size="9.00" fill="#f57c00">CL&#45;prompt&#45;to&#45;leak (2 layers)</text>
 </g>
 <!-- graph_agent_risk_oversight -->
 <g id="node4" class="node">
@@ -142,9 +136,9 @@
 <!-- security_summary_graph -->
 <g id="node6" class="node">
 <title>security_summary_graph</title>
-<polygon fill="#ffe0b2" stroke="black" points="177,-417 57,-417 57,-381 183,-381 183,-411 177,-417"/>
-<polyline fill="none" stroke="black" points="177,-417 177,-411 "/>
-<polyline fill="none" stroke="black" points="183,-411 177,-411 "/>
+<polygon fill="#ffe0b2" stroke="#bf360c" points="177,-417 57,-417 57,-381 183,-381 183,-411 177,-417"/>
+<polyline fill="none" stroke="#bf360c" points="177,-417 177,-411 "/>
+<polyline fill="none" stroke="#bf360c" points="183,-411 177,-411 "/>
 <text text-anchor="middle" x="120" y="-402" font-family="Arial" font-size="10.00" fill="#bf360c">Security &amp; Compliance</text>
 <text text-anchor="middle" x="120" y="-391" font-family="Arial" font-size="10.00" fill="#bf360c">3 preventive | 0 detective</text>
 </g>

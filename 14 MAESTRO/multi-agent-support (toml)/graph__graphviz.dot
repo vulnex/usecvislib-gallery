@@ -147,7 +147,8 @@ digraph "Multi-Agent Customer Support" {
 		lp="336,249",
 		penwidth=1.5,
 		pos="e,148.71,259.48 548.4,274.4 516.25,260.11 480,244 480,244 480,244 192,244 192,244 192,244 176.84,249.42 158.13,256.11"];
-	security_summary_graph	[fillcolor="#ffe0b2",
+	security_summary_graph	[color="#bf360c",
+		fillcolor="#ffe0b2",
 		fontcolor="#bf360c",
 		fontname=Arial,
 		fontsize=10,

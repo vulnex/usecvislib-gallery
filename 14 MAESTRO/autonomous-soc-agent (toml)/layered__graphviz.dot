@@ -72,7 +72,8 @@ digraph "Autonomous SOC Triage Agent" {
 			penwidth=1,
 			style="filled,rounded"
 		];
-		security_summary	[fillcolor="#ffe0b2",
+		security_summary	[color="#bf360c",
+			fillcolor="#ffe0b2",
 			fontcolor="#bf360c",
 			fontname=Arial,
 			fontsize=10,
@@ -326,7 +327,8 @@ digraph "Autonomous SOC Triage Agent" {
 403,689 403,689 403,689 396.27,691.02 386.39,693.98",
 		style=dashed,
 		tooltip="CL-goal-drift: Adversarial feedback drifts objective toward false-negative bias"];
-	cross_layer_legend	[fillcolor="#ffebee",
+	cross_layer_legend	[color="#b71c1c",
+		fillcolor="#ffebee",
 		fontcolor="#b71c1c",
 		fontname=Arial,
 		fontsize=9,

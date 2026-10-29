@@ -64,7 +64,8 @@ digraph "Single-Agent RAG Assistant" {
 			penwidth=1,
 			style="filled,rounded"
 		];
-		security_summary	[fillcolor="#ffe0b2",
+		security_summary	[color="#bf360c",
+			fillcolor="#ffe0b2",
 			fontcolor="#bf360c",
 			fontname=Arial,
 			fontsize=10,

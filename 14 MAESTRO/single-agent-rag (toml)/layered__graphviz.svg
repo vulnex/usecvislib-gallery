@@ -57,9 +57,9 @@
 <!-- security_summary -->
 <g id="node2" class="node">
 <title>security_summary</title>
-<polygon fill="#ffe0b2" stroke="black" points="441,-471 321,-471 321,-435 447,-435 447,-465 441,-471"/>
-<polyline fill="none" stroke="black" points="441,-471 441,-465 "/>
-<polyline fill="none" stroke="black" points="447,-465 441,-465 "/>
+<polygon fill="#ffe0b2" stroke="#bf360c" points="441,-471 321,-471 321,-435 447,-435 447,-465 441,-471"/>
+<polyline fill="none" stroke="#bf360c" points="441,-471 441,-465 "/>
+<polyline fill="none" stroke="#bf360c" points="447,-465 441,-465 "/>
 <text text-anchor="middle" x="384" y="-456" font-family="Arial" font-size="10.00" fill="#bf360c">Security &amp; Compliance</text>
 <text text-anchor="middle" x="384" y="-445" font-family="Arial" font-size="10.00" fill="#bf360c">1 preventive | 0 detective</text>
 </g>

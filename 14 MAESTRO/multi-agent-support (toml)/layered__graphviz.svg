@@ -122,9 +122,9 @@
 <!-- security_summary -->
 <g id="node6" class="node">
 <title>security_summary</title>
-<polygon fill="#ffe0b2" stroke="black" points="590,-569.5 470,-569.5 470,-533.5 596,-533.5 596,-563.5 590,-569.5"/>
-<polyline fill="none" stroke="black" points="590,-569.5 590,-563.5 "/>
-<polyline fill="none" stroke="black" points="596,-563.5 590,-563.5 "/>
+<polygon fill="#ffe0b2" stroke="#bf360c" points="590,-569.5 470,-569.5 470,-533.5 596,-533.5 596,-563.5 590,-569.5"/>
+<polyline fill="none" stroke="#bf360c" points="590,-569.5 590,-563.5 "/>
+<polyline fill="none" stroke="#bf360c" points="596,-563.5 590,-563.5 "/>
 <text text-anchor="middle" x="533" y="-554.5" font-family="Arial" font-size="10.00" fill="#bf360c">Security &amp; Compliance</text>
 <text text-anchor="middle" x="533" y="-543.5" font-family="Arial" font-size="10.00" fill="#bf360c">1 preventive | 0 detective</text>
 </g>
@@ -285,9 +285,9 @@
 <!-- cross_layer_legend -->
 <g id="node27" class="node">
 <title>cross_layer_legend</title>
-<polygon fill="#ffebee" stroke="black" points="1818.5,-696.5 1513.5,-696.5 1513.5,-638.5 1824.5,-638.5 1824.5,-690.5 1818.5,-696.5"/>
-<polyline fill="none" stroke="black" points="1818.5,-696.5 1818.5,-690.5 "/>
-<polyline fill="none" stroke="black" points="1824.5,-690.5 1818.5,-690.5 "/>
+<polygon fill="#ffebee" stroke="#b71c1c" points="1818.5,-696.5 1513.5,-696.5 1513.5,-638.5 1824.5,-638.5 1824.5,-690.5 1818.5,-696.5"/>
+<polyline fill="none" stroke="#b71c1c" points="1818.5,-696.5 1818.5,-690.5 "/>
+<polyline fill="none" stroke="#b71c1c" points="1824.5,-690.5 1818.5,-690.5 "/>
 <text text-anchor="start" x="1521.5" y="-685.3" font-family="Arial" font-size="9.00" fill="#b71c1c">Cross&#45;layer threats</text>
 <text text-anchor="start" x="1521.5" y="-675.3" font-family="Arial" font-size="9.00" fill="#b71c1c">CL&#45;route&#45;pivot — Router prompt injection escalates to billing tool misuse</text>
 <text text-anchor="start" x="1521.5" y="-665.3" font-family="Arial" font-size="9.00" fill="#b71c1c">T&#45;CL&#45;005 — Goal Misalignment Cascade</text>

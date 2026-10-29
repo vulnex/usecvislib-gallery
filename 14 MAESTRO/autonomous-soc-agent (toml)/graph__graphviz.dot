@@ -91,7 +91,8 @@ digraph "Autonomous SOC Triage Agent" {
 		lp="600.5,43",
 		penwidth=1.5,
 		pos="e,822.7,38 405.13,38 509.28,38 701.42,38 812.54,38"];
-	security_summary_graph	[fillcolor="#ffe0b2",
+	security_summary_graph	[color="#bf360c",
+		fillcolor="#ffe0b2",
 		fontcolor="#bf360c",
 		fontname=Arial,
 		fontsize=10,

@@ -159,9 +159,9 @@
 <!-- security_summary -->
 <g id="node6" class="node">
 <title>security_summary</title>
-<polygon fill="#ffe0b2" stroke="black" points="674,-612 554,-612 554,-576 680,-576 680,-606 674,-612"/>
-<polyline fill="none" stroke="black" points="674,-612 674,-606 "/>
-<polyline fill="none" stroke="black" points="680,-606 674,-606 "/>
+<polygon fill="#ffe0b2" stroke="#bf360c" points="674,-612 554,-612 554,-576 680,-576 680,-606 674,-612"/>
+<polyline fill="none" stroke="#bf360c" points="674,-612 674,-606 "/>
+<polyline fill="none" stroke="#bf360c" points="680,-606 674,-606 "/>
 <text text-anchor="middle" x="617" y="-597" font-family="Arial" font-size="10.00" fill="#bf360c">Security &amp; Compliance</text>
 <text text-anchor="middle" x="617" y="-586" font-family="Arial" font-size="10.00" fill="#bf360c">0 preventive | 0 detective</text>
 </g>
@@ -295,9 +295,9 @@
 <!-- cross_layer_legend -->
 <g id="node26" class="node">
 <title>cross_layer_legend</title>
-<polygon fill="#ffebee" stroke="black" points="2153,-739 1779,-739 1779,-681 2159,-681 2159,-733 2153,-739"/>
-<polyline fill="none" stroke="black" points="2153,-739 2153,-733 "/>
-<polyline fill="none" stroke="black" points="2159,-733 2153,-733 "/>
+<polygon fill="#ffebee" stroke="#b71c1c" points="2153,-739 1779,-739 1779,-681 2159,-681 2159,-733 2153,-739"/>
+<polyline fill="none" stroke="#b71c1c" points="2153,-739 2153,-733 "/>
+<polyline fill="none" stroke="#b71c1c" points="2159,-733 2153,-733 "/>
 <text text-anchor="start" x="1787" y="-727.8" font-family="Arial" font-size="9.00" fill="#b71c1c">Cross&#45;layer threats</text>
 <text text-anchor="start" x="1787" y="-717.8" font-family="Arial" font-size="9.00" fill="#b71c1c">CL&#45;registry&#45;supply — Registry compromise &#45;&gt; malicious agent installed &#45;&gt; data exfiltration</text>
 <text text-anchor="start" x="1787" y="-707.8" font-family="Arial" font-size="9.00" fill="#b71c1c">CL&#45;sybil&#45;discovery — Sybil publishers gaming discovery rank then exfiltrating user data</text>

@@ -1,5 +1,5 @@
 digraph "Distributed Agent Marketplace" {
-	graph [bb="0,0,1139.5,337",
+	graph [bb="0,0,989.5,337",
 		bgcolor=white,
 		compound=true,
 		fontname=Arial,
@@ -7,7 +7,7 @@ digraph "Distributed Agent Marketplace" {
 		label="Distributed Agent Marketplace",
 		labelloc=t,
 		lheight=0.25,
-		lp="569.75,324",
+		lp="494.75,324",
 		lwidth=3.01,
 		nodesep=0.6,
 		pad=0.5,
@@ -17,7 +17,7 @@ digraph "Distributed Agent Marketplace" {
 	];
 	node [label="\N"];
 	subgraph "cluster_graph_data-operations" {
-		graph [bb="954.5,94,1131.5,263",
+		graph [bb="804.5,94,981.5,263",
 			color="#bdbdbd",
 			fillcolor="#fff3e0",
 			fontcolor="#333333",
@@ -25,7 +25,7 @@ digraph "Distributed Agent Marketplace" {
 			fontsize=14,
 			label="L2 — Data Operations",
 			lheight=0.21,
-			lp="1043,251.5",
+			lp="893,251.5",
 			lwidth=1.99,
 			penwidth=1,
 			style="filled,rounded"
@@ -39,7 +39,7 @@ digraph "Distributed Agent Marketplace" {
 			label=<<B>Agent Registry Service</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#b71c1c'>C:10</FONT> <FONT COLOR='#b23c00'>H:11</FONT> <FONT COLOR='#7a5400'>M:10</FONT></FONT>>,
 			margin="0.2,0.1",
 			penwidth=2,
-			pos="1043,210",
+			pos="893,210",
 			shape=box,
 			style="filled,rounded",
 			width=2.0694];
@@ -52,13 +52,13 @@ digraph "Distributed Agent Marketplace" {
 			label=<<B>Marketplace Billing Meter</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#b71c1c'>C:4</FONT> <FONT COLOR='#b23c00'>H:14</FONT> <FONT COLOR='#7a5400'>M:9</FONT></FONT>>,
 			margin="0.2,0.1",
 			penwidth=2,
-			pos="1043,124",
+			pos="893,124",
 			shape=box,
 			style="filled,rounded",
 			width=2.2361];
 	}
 	subgraph "cluster_graph_foundation-models" {
-		graph [bb="362.5,8,554.5,263",
+		graph [bb="212.5,8,404.5,263",
 			color="#bdbdbd",
 			fillcolor="#e8f5e9",
 			fontcolor="#333333",
@@ -66,7 +66,7 @@ digraph "Distributed Agent Marketplace" {
 			fontsize=14,
 			label="L1 — Foundation Models",
 			lheight=0.21,
-			lp="458.5,251.5",
+			lp="308.5,251.5",
 			lwidth=2.26,
 			penwidth=1,
 			style="filled,rounded"
@@ -80,29 +80,19 @@ digraph "Distributed Agent Marketplace" {
 			label=<<B>Marketplace Orchestrator</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#b71c1c'>C:9</FONT> <FONT COLOR='#b23c00'>H:14</FONT> <FONT COLOR='#7a5400'>M:11</FONT></FONT>>,
 			margin="0.2,0.1",
 			penwidth=2,
-			pos="458.5,210",
+			pos="308.5,210",
 			shape=box,
 			style="filled,rounded",
 			width=2.2361];
 		graph_agent_orchestrator:w -> graph_agent_orchestrator:w	[arrowhead=vee,
-			color="#388e3c",
-			fontcolor="#388e3c",
+			color="#e53935",
+			fontcolor="#e53935",
 			fontname=Arial,
 			fontsize=9,
-			label=" T-CL-006 (2 layers)",
-			lp="189,210",
+			label=<<FONT COLOR="#388e3c">T-CL-006 (2 layers)</FONT><BR ALIGN="LEFT"/><FONT COLOR="#1976d2">T-CL-005 (2 layers)</FONT><BR ALIGN="LEFT"/>>,
+			lp="40,210",
 			penwidth=1.5,
-			pos="e,377.5,210 377.5,210 328.67,220.75 230,220.75 230,210 230,199.94 316.36,199.29 367.48,208.06",
-			style=dashed];
-		graph_agent_orchestrator:w -> graph_agent_orchestrator:w	[arrowhead=vee,
-			color="#1976d2",
-			fontcolor="#1976d2",
-			fontname=Arial,
-			fontsize=9,
-			label=" T-CL-005 (2 layers)",
-			lp="41,210",
-			penwidth=1.5,
-			pos="e,377.5,210 377.5,210 279.33,231.5 82,231.5 82,210 82,189.21 266.45,188.52 367.4,207.93",
+			pos="e,227.5,210 227.5,210 178.67,231.5 80,231.5 80,210 80,189.8 167.08,188.58 218.11,206.33",
 			style=dashed];
 		graph_agent_publisher_agent_a	[color="#e53935",
 			fillcolor="#a5d6a7",
@@ -113,7 +103,7 @@ digraph "Distributed Agent Marketplace" {
 			label=<<B>3rd Party Publisher Agent A</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | deliberative</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#b71c1c'>C:9</FONT> <FONT COLOR='#b23c00'>H:8</FONT> <FONT COLOR='#7a5400'>M:11</FONT></FONT>>,
 			margin="0.2,0.1",
 			penwidth=2,
-			pos="458.5,124",
+			pos="308.5,124",
 			shape=box,
 			style="filled,rounded",
 			width=2.4444];
@@ -126,7 +116,7 @@ digraph "Distributed Agent Marketplace" {
 			label=<<B>3rd Party Publisher Agent B</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | deliberative</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#b71c1c'>C:8</FONT> <FONT COLOR='#b23c00'>H:9</FONT> <FONT COLOR='#7a5400'>M:11</FONT></FONT>>,
 			margin="0.2,0.1",
 			penwidth=2,
-			pos="458.5,38",
+			pos="308.5,38",
 			shape=box,
 			style="filled,rounded",
 			width=2.4444];
@@ -137,32 +127,33 @@ digraph "Distributed Agent Marketplace" {
 		fontname=Arial,
 		fontsize=9,
 		penwidth=1.5,
-		pos="e,539.12,217.55 968.43,217.46 949.08,219.42 933.5,221 933.5,221 933.5,221 575.5,221 575.5,221 575.5,221 564.43,219.95 549.13,218.5"];
+		pos="e,389.12,217.55 818.43,217.46 799.08,219.42 783.5,221 783.5,221 783.5,221 425.5,221 425.5,221 425.5,221 414.43,219.95 399.13,218.5"];
 	graph_agent_orchestrator -> graph_agent_registry	[arrowhead=vee,
 		color="#f57c00",
 		fontcolor="#f57c00",
 		fontname=Arial,
 		fontsize=9,
 		label=" CL-registry-supply: Registry compromise -> malicious agent installed -> data exfiltration",
-		lp="754.5,215",
+		lp="604.5,215",
 		penwidth=1.5,
-		pos="e,968.24,210 539.27,210 649.11,210 845.99,210 958.01,210"];
+		pos="e,818.24,210 389.27,210 499.11,210 695.99,210 808.01,210"];
 	graph_agent_orchestrator -> graph_agent_registry	[arrowhead=vee,
 		color="#7b1fa2",
 		fontcolor="#7b1fa2",
 		fontname=Arial,
 		fontsize=9,
 		label=" CL-sybil-discovery: Sybil publishers gaming discovery rank then exfiltrating user data",
-		lp="754.5,195",
+		lp="604.5,195",
 		penwidth=1.5,
-		pos="e,968.43,196.44 539.12,196.27 559.36,192.78 575.5,190 575.5,190 575.5,190 933.5,190 933.5,190 933.5,190 943.98,191.93 958.43,194.6"];
-	security_summary_graph	[fillcolor="#ffe0b2",
+		pos="e,818.43,196.44 389.12,196.27 409.36,192.78 425.5,190 425.5,190 425.5,190 783.5,190 783.5,190 783.5,190 793.98,191.93 808.43,194.6"];
+	security_summary_graph	[color="#bf360c",
+		fillcolor="#ffe0b2",
 		fontcolor="#bf360c",
 		fontname=Arial,
 		fontsize=10,
 		height=0.5,
 		label="Security & Compliance\n0 preventive | 0 detective",
-		pos="458.5,293",
+		pos="308.5,293",
 		shape=note,
 		style=filled,
 		width=1.75];

@@ -30,9 +30,9 @@
 <!-- security_summary_graph -->
 <g id="node2" class="node">
 <title>security_summary_graph</title>
-<polygon fill="#ffe0b2" stroke="black" points="166,-139 46,-139 46,-103 172,-103 172,-133 166,-139"/>
-<polyline fill="none" stroke="black" points="166,-139 166,-133 "/>
-<polyline fill="none" stroke="black" points="172,-133 166,-133 "/>
+<polygon fill="#ffe0b2" stroke="#bf360c" points="166,-139 46,-139 46,-103 172,-103 172,-133 166,-139"/>
+<polyline fill="none" stroke="#bf360c" points="166,-139 166,-133 "/>
+<polyline fill="none" stroke="#bf360c" points="172,-133 166,-133 "/>
 <text text-anchor="middle" x="109" y="-124" font-family="Arial" font-size="10.00" fill="#bf360c">Security &amp; Compliance</text>
 <text text-anchor="middle" x="109" y="-113" font-family="Arial" font-size="10.00" fill="#bf360c">1 preventive | 0 detective</text>
 </g>

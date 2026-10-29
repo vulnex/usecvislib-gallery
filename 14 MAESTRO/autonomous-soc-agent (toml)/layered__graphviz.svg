@@ -76,9 +76,9 @@
 <!-- security_summary -->
 <g id="node3" class="node">
 <title>security_summary</title>
-<polygon fill="#ffe0b2" stroke="black" points="544,-615.5 424,-615.5 424,-579.5 550,-579.5 550,-609.5 544,-615.5"/>
-<polyline fill="none" stroke="black" points="544,-615.5 544,-609.5 "/>
-<polyline fill="none" stroke="black" points="550,-609.5 544,-609.5 "/>
+<polygon fill="#ffe0b2" stroke="#bf360c" points="544,-615.5 424,-615.5 424,-579.5 550,-579.5 550,-609.5 544,-615.5"/>
+<polyline fill="none" stroke="#bf360c" points="544,-615.5 544,-609.5 "/>
+<polyline fill="none" stroke="#bf360c" points="550,-609.5 544,-609.5 "/>
 <text text-anchor="middle" x="487" y="-600.5" font-family="Arial" font-size="10.00" fill="#bf360c">Security &amp; Compliance</text>
 <text text-anchor="middle" x="487" y="-589.5" font-family="Arial" font-size="10.00" fill="#bf360c">1 preventive | 0 detective</text>
 </g>
@@ -188,9 +188,9 @@
 <!-- cross_layer_legend -->
 <g id="node14" class="node">
 <title>cross_layer_legend</title>
-<polygon fill="#ffebee" stroke="black" points="756,-737.5 424,-737.5 424,-699.5 762,-699.5 762,-731.5 756,-737.5"/>
-<polyline fill="none" stroke="black" points="756,-737.5 756,-731.5 "/>
-<polyline fill="none" stroke="black" points="762,-731.5 756,-731.5 "/>
+<polygon fill="#ffebee" stroke="#b71c1c" points="756,-737.5 424,-737.5 424,-699.5 762,-699.5 762,-731.5 756,-737.5"/>
+<polyline fill="none" stroke="#b71c1c" points="756,-737.5 756,-731.5 "/>
+<polyline fill="none" stroke="#b71c1c" points="762,-731.5 756,-731.5 "/>
 <text text-anchor="start" x="432" y="-726.3" font-family="Arial" font-size="9.00" fill="#b71c1c">Cross&#45;layer threats</text>
 <text text-anchor="start" x="432" y="-716.3" font-family="Arial" font-size="9.00" fill="#b71c1c">CL&#45;goal&#45;drift — Adversarial feedback drifts objective toward false&#45;negative bias</text>
 <text text-anchor="start" x="432" y="-706.3" font-family="Arial" font-size="9.00" fill="#b71c1c">CL&#45;evade&#45;and&#45;pivot — Evade detection then pivot via misused EDR API</text>

@@ -127,7 +127,8 @@ digraph "Multi-Agent Customer Support" {
 			penwidth=1,
 			style="filled,rounded"
 		];
-		security_summary	[fillcolor="#ffe0b2",
+		security_summary	[color="#bf360c",
+			fillcolor="#ffe0b2",
 			fontcolor="#bf360c",
 			fontname=Arial,
 			fontsize=10,
@@ -483,7 +484,8 @@ digraph "Multi-Agent Customer Support" {
 	"billing__data-operations" -> "billing__foundation-models"	[pos="e,973,59.097 973,127.81 973,111.29 973,87.904 973,69.204",
 		style=invis,
 		weight=10];
-	cross_layer_legend	[fillcolor="#ffebee",
+	cross_layer_legend	[color="#b71c1c",
+		fillcolor="#ffebee",
 		fontcolor="#b71c1c",
 		fontname=Arial,
 		fontsize=9,
