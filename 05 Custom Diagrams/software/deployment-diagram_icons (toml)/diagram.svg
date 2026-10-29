@@ -23,12 +23,12 @@
 <g id="clust3" class="cluster">
 <title>cluster_app_zone2</title>
 <polygon fill="#2a4a6f" stroke="#4a90d9" stroke-dasharray="5,2" points="529,-323 529,-594 861,-594 861,-323 529,-323"/>
-<text text-anchor="middle" x="695" y="-578.8" font-family="Courier New" font-size="14.00" fill="#90caf9">Application Zone (AZ&#45;2)</text>
+<text text-anchor="middle" x="632" y="-578.8" font-family="Courier New" font-size="14.00" fill="#90caf9">Application Zone (AZ&#45;2)</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_data_zone</title>
 <polygon fill="#2a4a6f" stroke="#4a90d9" stroke-dasharray="5,2" points="277,-8 277,-277 580,-277 580,-8 277,-8"/>
-<text text-anchor="middle" x="428.5" y="-261.8" font-family="Courier New" font-size="14.00" fill="#90caf9">Data Zone</text>
+<text text-anchor="middle" x="534.5" y="-261.8" font-family="Courier New" font-size="14.00" fill="#90caf9">Data Zone</text>
 </g>
 <!-- cdn -->
 <g id="node1" class="node">

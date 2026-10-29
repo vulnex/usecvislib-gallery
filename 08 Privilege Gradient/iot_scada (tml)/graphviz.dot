@@ -127,9 +127,10 @@ digraph "ICS/SCADA Industrial Control System" {
 			fontname="Arial Bold",
 			fontsize=13,
 			label="Supervisory (Purdue L2)\n(Trust Level 2)",
+			labeljust=r,
 			labelloc=t,
 			lheight=0.39,
-			lp="1348.8,200",
+			lp="1449,200",
 			lwidth=2.18,
 			penwidth=2,
 			style="filled,rounded"

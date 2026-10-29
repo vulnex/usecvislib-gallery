@@ -12,7 +12,7 @@
 <g id="clust1" class="cluster">
 <title>cluster_boundary_CICDZone_f2eb7a3ff7</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="1328,-525.57 1328,-1202.28 1508,-1202.28 1508,-525.57 1328,-525.57"/>
-<text text-anchor="start" x="1391" y="-1191.28" font-family="Arial" font-style="italic" font-size="10.00">CI/CD Zone</text>
+<text text-anchor="start" x="1336" y="-1191.28" font-family="Arial" font-style="italic" font-size="10.00">CI/CD Zone</text>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_boundary_DataZone_0291419f72</title>
@@ -22,7 +22,7 @@
 <g id="clust3" class="cluster">
 <title>cluster_boundary_DeploymentZone_f8af758679</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="985,-331.71 985,-475.62 1287,-475.62 1287,-331.71 985,-331.71"/>
-<text text-anchor="start" x="1097" y="-464.62" font-family="Arial" font-style="italic" font-size="10.00">Deployment Zone</text>
+<text text-anchor="start" x="993" y="-464.62" font-family="Arial" font-style="italic" font-size="10.00">Deployment Zone</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_boundary_DeveloperWorkstation_acf3059e70</title>
@@ -33,8 +33,8 @@
 <g id="clust5" class="cluster">
 <title>cluster_boundary_ExternalServicesUntrusted_88f2d9c06f</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="1574,-519.62 1574,-677.62 1865,-677.62 1865,-519.62 1574,-519.62"/>
-<text text-anchor="start" x="1680.5" y="-666.62" font-family="Arial" font-style="italic" font-size="10.00">External Services</text>
-<text text-anchor="start" x="1695" y="-656.62" font-family="Arial" font-style="italic" font-size="10.00">(Untrusted)</text>
+<text text-anchor="start" x="1582" y="-666.62" font-family="Arial" font-style="italic" font-size="10.00">External Services</text>
+<text text-anchor="start" x="1596.5" y="-656.62" font-family="Arial" font-style="italic" font-size="10.00">(Untrusted)</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_boundary_SecretsManagementZone_2c440ebe53</title>

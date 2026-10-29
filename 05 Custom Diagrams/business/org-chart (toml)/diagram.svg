@@ -28,7 +28,7 @@
 <g id="clust4" class="cluster">
 <title>cluster_business</title>
 <path fill="#f0f4f8" stroke="#1e3a5f" d="M1026,-332C1026,-332 1321,-332 1321,-332 1327,-332 1333,-338 1333,-344 1333,-344 1333,-395 1333,-395 1333,-401 1327,-407 1321,-407 1321,-407 1026,-407 1026,-407 1020,-407 1014,-401 1014,-395 1014,-395 1014,-344 1014,-344 1014,-338 1020,-332 1026,-332"/>
-<text text-anchor="middle" x="1173.5" y="-391.8" font-family="Calibri Bold" font-size="14.00" fill="#1e3a5f">Business Operations</text>
+<text text-anchor="middle" x="1267" y="-391.8" font-family="Calibri Bold" font-size="14.00" fill="#1e3a5f">Business Operations</text>
 </g>
 <!-- ceo -->
 <g id="node1" class="node">

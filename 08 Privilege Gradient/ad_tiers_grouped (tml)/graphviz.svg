@@ -29,8 +29,8 @@
 <g id="clust4" class="cluster">
 <title>cluster_tier1</title>
 <path fill="#e3f2fd" stroke="#1565c0" stroke-width="2" d="M778,-45.79C778,-45.79 1366,-45.79 1366,-45.79 1372,-45.79 1378,-51.79 1378,-57.79 1378,-57.79 1378,-331.79 1378,-331.79 1378,-337.79 1372,-343.79 1366,-343.79 1366,-343.79 778,-343.79 778,-343.79 772,-343.79 766,-337.79 766,-331.79 766,-331.79 766,-57.79 766,-57.79 766,-51.79 772,-45.79 778,-45.79"/>
-<text text-anchor="middle" x="1072" y="-329.39" font-family="Arial Bold" font-size="13.00" fill="#0d3c78">Tier 1 &#45; Servers</text>
-<text text-anchor="middle" x="1072" y="-315.39" font-family="Arial Bold" font-size="13.00" fill="#0d3c78">(Trust Level 1)</text>
+<text text-anchor="middle" x="822.5" y="-329.39" font-family="Arial Bold" font-size="13.00" fill="#0d3c78">Tier 1 &#45; Servers</text>
+<text text-anchor="middle" x="822.5" y="-315.39" font-family="Arial Bold" font-size="13.00" fill="#0d3c78">(Trust Level 1)</text>
 </g>
 <g id="clust5" class="cluster">
 <title>cluster_tier1_app_server</title>
@@ -40,12 +40,12 @@
 <g id="clust6" class="cluster">
 <title>cluster_tier1_database</title>
 <path fill="#e3f2fd" stroke="#1565c0" stroke-width="2" stroke-dasharray="5,2" d="M1069.5,-53.79C1069.5,-53.79 1358,-53.79 1358,-53.79 1364,-53.79 1370,-59.79 1370,-65.79 1370,-65.79 1370,-130.79 1370,-130.79 1370,-136.79 1364,-142.79 1358,-142.79 1358,-142.79 1069.5,-142.79 1069.5,-142.79 1063.5,-142.79 1057.5,-136.79 1057.5,-130.79 1057.5,-130.79 1057.5,-65.79 1057.5,-65.79 1057.5,-59.79 1063.5,-53.79 1069.5,-53.79"/>
-<text text-anchor="middle" x="1213.75" y="-129.99" font-family="Arial Bold" font-size="11.00" fill="#0d3c78">database</text>
+<text text-anchor="middle" x="1089.5" y="-129.99" font-family="Arial Bold" font-size="11.00" fill="#0d3c78">database</text>
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_tier1_backup</title>
 <path fill="#e3f2fd" stroke="#1565c0" stroke-width="2" stroke-dasharray="5,2" d="M793.5,-53.79C793.5,-53.79 872.5,-53.79 872.5,-53.79 878.5,-53.79 884.5,-59.79 884.5,-65.79 884.5,-65.79 884.5,-113.79 884.5,-113.79 884.5,-119.79 878.5,-125.79 872.5,-125.79 872.5,-125.79 793.5,-125.79 793.5,-125.79 787.5,-125.79 781.5,-119.79 781.5,-113.79 781.5,-113.79 781.5,-65.79 781.5,-65.79 781.5,-59.79 787.5,-53.79 793.5,-53.79"/>
-<text text-anchor="middle" x="833" y="-112.99" font-family="Arial Bold" font-size="11.00" fill="#0d3c78">backup</text>
+<text text-anchor="middle" x="809" y="-112.99" font-family="Arial Bold" font-size="11.00" fill="#0d3c78">backup</text>
 </g>
 <g id="clust8" class="cluster">
 <title>cluster_tier0</title>

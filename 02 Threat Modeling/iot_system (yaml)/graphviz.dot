@@ -17,7 +17,7 @@ digraph "IoT System" {
 			style=dashed
 		];
 		iot_device_1	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Smart Sensor",
@@ -26,7 +26,7 @@ digraph "IoT System" {
 			style="filled,dashed",
 			width=1.3889];
 		iot_device_2	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Smart Actuator",
@@ -146,7 +146,7 @@ digraph "IoT System" {
 			style=dashed
 		];
 		time_series_db	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Time Series DB",
@@ -155,7 +155,7 @@ digraph "IoT System" {
 			style=filled,
 			width=1.5556];
 		device_registry	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Device Registry",
@@ -164,7 +164,7 @@ digraph "IoT System" {
 			style=filled,
 			width=1.5417];
 		config_store	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Config Store",
@@ -173,7 +173,7 @@ digraph "IoT System" {
 			style=filled,
 			width=1.2778];
 		firmware_storage	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Firmware Storage",
@@ -182,7 +182,7 @@ digraph "IoT System" {
 			style=filled,
 			width=1.7361];
 		event_stream	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Event Stream (Kafka)",
@@ -203,7 +203,7 @@ digraph "IoT System" {
 			style=dashed
 		];
 		mobile_app	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Mobile App",
@@ -212,7 +212,7 @@ digraph "IoT System" {
 			style="filled,dashed",
 			width=1.1667];
 		admin_dashboard	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Admin Dashboard",
@@ -221,7 +221,7 @@ digraph "IoT System" {
 			style="filled,dashed",
 			width=1.7361];
 		third_party_integration	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Third-Party Integration",

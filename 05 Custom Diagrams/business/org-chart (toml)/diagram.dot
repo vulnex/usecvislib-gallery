@@ -223,8 +223,9 @@ digraph Organization_Chart {
 			color="#1e3a5f",
 			fontname="Calibri Bold",
 			label="Business Operations",
+			labeljust=r,
 			lheight=0.21,
-			lp="1173.5,395.5",
+			lp="1267,395.5",
 			lwidth=1.61,
 			style=rounded
 		];

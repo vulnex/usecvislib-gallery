@@ -96,7 +96,7 @@ digraph Swimlane_Diagram {
 			width=1.2222];
 		approve_quote	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="Approve?",
 			pos="1538.4,393",
@@ -250,7 +250,7 @@ digraph Swimlane_Diagram {
 			width=1.1111];
 		credit_ok	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="Credit OK?",
 			pos="980.47,155",

@@ -87,8 +87,9 @@ digraph Network_Topology {
 			color="#444444",
 			fontcolor="#ffffff",
 			label="Client VLAN (10)",
+			labeljust=l,
 			lheight=0.21,
-			lp="152.81,183.09",
+			lp="84.308,183.09",
 			lwidth=1.42,
 			style=rounded
 		];
@@ -180,7 +181,7 @@ digraph Network_Topology {
 		style=solid];
 	switch2 -> ap1	[arrowhead=none,
 		label="1Gbps",
-		lp="214.81,172.52",
+		lp="185.81,183.52",
 		pos="299.7,218.57 207.66,180.63 178.62,168.94 143.97,156.92",
 		style=solid];
 	switch3 -> srv2	[arrowhead=none,

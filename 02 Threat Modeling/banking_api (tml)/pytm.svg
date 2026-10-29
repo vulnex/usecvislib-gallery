@@ -22,7 +22,7 @@
 <g id="clust3" class="cluster">
 <title>cluster_boundary_DMZAPIZone_f2eb7a3ff7</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="1124,-362.01 1124,-687.02 1300,-687.02 1300,-362.01 1124,-362.01"/>
-<text text-anchor="start" x="1176" y="-676.02" font-family="Arial" font-style="italic" font-size="10.00">DMZ / API Zone</text>
+<text text-anchor="start" x="1132" y="-676.02" font-family="Arial" font-style="italic" font-size="10.00">DMZ / API Zone</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_boundary_DataZone_2c440ebe53</title>
@@ -32,8 +32,8 @@
 <g id="clust5" class="cluster">
 <title>cluster_boundary_HighSecurityZonePCI_f8af758679</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="1753,-202.16 1753,-327.84 2042,-327.84 2042,-202.16 1753,-202.16"/>
-<text text-anchor="start" x="1855" y="-316.84" font-family="Arial" font-style="italic" font-size="10.00">High Security Zone</text>
-<text text-anchor="start" x="1885.5" y="-306.84" font-family="Arial" font-style="italic" font-size="10.00">(PCI)</text>
+<text text-anchor="start" x="1761" y="-316.84" font-family="Arial" font-style="italic" font-size="10.00">High Security Zone</text>
+<text text-anchor="start" x="1791.5" y="-306.84" font-family="Arial" font-style="italic" font-size="10.00">(PCI)</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_boundary_InternetUntrusted_acf3059e70</title>
@@ -44,7 +44,7 @@
 <g id="clust7" class="cluster">
 <title>cluster_boundary_PartnerNetwork_88f2d9c06f</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="8,-8 8,-142 735,-142 735,-8 8,-8"/>
-<text text-anchor="start" x="335.5" y="-131" font-family="Arial" font-style="italic" font-size="10.00">Partner Network</text>
+<text text-anchor="start" x="655" y="-131" font-family="Arial" font-style="italic" font-size="10.00">Partner Network</text>
 </g>
 <!-- server_IdentityService_96ac87fabf -->
 <g id="node1" class="node">

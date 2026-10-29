@@ -127,9 +127,10 @@ digraph "Healthcare EHR System" {
 			fontname="Arial Bold",
 			fontsize=13,
 			label="Backend Services\n(Trust Level 2)",
+			labeljust=l,
 			labelloc=t,
 			lheight=0.39,
-			lp="1194,279",
+			lp="1071,279",
 			lwidth=1.61,
 			penwidth=2,
 			style="filled,rounded"

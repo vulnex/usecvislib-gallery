@@ -43,7 +43,7 @@
 <g id="node1" class="node">
 <title>iot_device_1</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="131.5,-267 31.5,-267 31.5,-231 131.5,-231 131.5,-267"/>
-<text text-anchor="middle" x="81.5" y="-245.3" font-family="Arial" font-size="14.00" fill="white">Smart Sensor</text>
+<text text-anchor="middle" x="81.5" y="-245.3" font-family="Arial" font-size="14.00" fill="#1f2937">Smart Sensor</text>
 </g>
 <!-- edge_gateway -->
 <g id="node3" class="node">
@@ -62,7 +62,7 @@
 <g id="node2" class="node">
 <title>iot_device_2</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="135,-213 28,-213 28,-177 135,-177 135,-213"/>
-<text text-anchor="middle" x="81.5" y="-191.3" font-family="Arial" font-size="14.00" fill="white">Smart Actuator</text>
+<text text-anchor="middle" x="81.5" y="-191.3" font-family="Arial" font-size="14.00" fill="#1f2937">Smart Actuator</text>
 </g>
 <!-- iot_device_2&#45;&gt;edge_gateway -->
 <g id="edge2" class="edge">
@@ -134,7 +134,7 @@
 <title>time_series_db</title>
 <path fill="#2ecc71" stroke="black" d="M1114,-261.73C1114,-263.53 1088.9,-265 1058,-265 1027.1,-265 1002,-263.53 1002,-261.73 1002,-261.73 1002,-232.27 1002,-232.27 1002,-230.47 1027.1,-229 1058,-229 1088.9,-229 1114,-230.47 1114,-232.27 1114,-232.27 1114,-261.73 1114,-261.73"/>
 <path fill="none" stroke="black" d="M1114,-261.73C1114,-259.92 1088.9,-258.45 1058,-258.45 1027.1,-258.45 1002,-259.92 1002,-261.73"/>
-<text text-anchor="middle" x="1058" y="-243.3" font-family="Arial" font-size="14.00" fill="white">Time Series DB</text>
+<text text-anchor="middle" x="1058" y="-243.3" font-family="Arial" font-size="14.00" fill="#1f2937">Time Series DB</text>
 </g>
 <!-- api_server&#45;&gt;time_series_db -->
 <g id="edge13" class="edge">
@@ -148,7 +148,7 @@
 <title>firmware_storage</title>
 <path fill="#2ecc71" stroke="black" d="M1120.5,-99.73C1120.5,-101.53 1092.49,-103 1058,-103 1023.51,-103 995.5,-101.53 995.5,-99.73 995.5,-99.73 995.5,-70.27 995.5,-70.27 995.5,-68.47 1023.51,-67 1058,-67 1092.49,-67 1120.5,-68.47 1120.5,-70.27 1120.5,-70.27 1120.5,-99.73 1120.5,-99.73"/>
 <path fill="none" stroke="black" d="M1120.5,-99.73C1120.5,-97.92 1092.49,-96.45 1058,-96.45 1023.51,-96.45 995.5,-97.92 995.5,-99.73"/>
-<text text-anchor="middle" x="1058" y="-81.3" font-family="Arial" font-size="14.00" fill="white">Firmware Storage</text>
+<text text-anchor="middle" x="1058" y="-81.3" font-family="Arial" font-size="14.00" fill="#1f2937">Firmware Storage</text>
 </g>
 <!-- ota_server&#45;&gt;firmware_storage -->
 <g id="edge14" class="edge">
@@ -162,7 +162,7 @@
 <title>device_registry</title>
 <path fill="#2ecc71" stroke="black" d="M1113.5,-315.73C1113.5,-317.53 1088.62,-319 1058,-319 1027.38,-319 1002.5,-317.53 1002.5,-315.73 1002.5,-315.73 1002.5,-286.27 1002.5,-286.27 1002.5,-284.47 1027.38,-283 1058,-283 1088.62,-283 1113.5,-284.47 1113.5,-286.27 1113.5,-286.27 1113.5,-315.73 1113.5,-315.73"/>
 <path fill="none" stroke="black" d="M1113.5,-315.73C1113.5,-313.92 1088.62,-312.45 1058,-312.45 1027.38,-312.45 1002.5,-313.92 1002.5,-315.73"/>
-<text text-anchor="middle" x="1058" y="-297.3" font-family="Arial" font-size="14.00" fill="white">Device Registry</text>
+<text text-anchor="middle" x="1058" y="-297.3" font-family="Arial" font-size="14.00" fill="#1f2937">Device Registry</text>
 </g>
 <!-- device_manager&#45;&gt;device_registry -->
 <g id="edge12" class="edge">
@@ -183,7 +183,7 @@
 <title>event_stream</title>
 <path fill="#2ecc71" stroke="black" d="M1131,-153.73C1131,-155.53 1098.28,-157 1058,-157 1017.72,-157 985,-155.53 985,-153.73 985,-153.73 985,-124.27 985,-124.27 985,-122.47 1017.72,-121 1058,-121 1098.28,-121 1131,-122.47 1131,-124.27 1131,-124.27 1131,-153.73 1131,-153.73"/>
 <path fill="none" stroke="black" d="M1131,-153.73C1131,-151.92 1098.28,-150.45 1058,-150.45 1017.72,-150.45 985,-151.92 985,-153.73"/>
-<text text-anchor="middle" x="1058" y="-135.3" font-family="Arial" font-size="14.00" fill="white">Event Stream (Kafka)</text>
+<text text-anchor="middle" x="1058" y="-135.3" font-family="Arial" font-size="14.00" fill="#1f2937">Event Stream (Kafka)</text>
 </g>
 <!-- data_processor&#45;&gt;event_stream -->
 <g id="edge6" class="edge">
@@ -210,7 +210,7 @@
 <title>config_store</title>
 <path fill="#2ecc71" stroke="black" d="M1104,-207.73C1104,-209.53 1083.38,-211 1058,-211 1032.62,-211 1012,-209.53 1012,-207.73 1012,-207.73 1012,-178.27 1012,-178.27 1012,-176.47 1032.62,-175 1058,-175 1083.38,-175 1104,-176.47 1104,-178.27 1104,-178.27 1104,-207.73 1104,-207.73"/>
 <path fill="none" stroke="black" d="M1104,-207.73C1104,-205.92 1083.38,-204.45 1058,-204.45 1032.62,-204.45 1012,-205.92 1012,-207.73"/>
-<text text-anchor="middle" x="1058" y="-189.3" font-family="Arial" font-size="14.00" fill="white">Config Store</text>
+<text text-anchor="middle" x="1058" y="-189.3" font-family="Arial" font-size="14.00" fill="#1f2937">Config Store</text>
 </g>
 <!-- event_stream&#45;&gt;rule_engine -->
 <g id="edge7" class="edge">
@@ -223,7 +223,7 @@
 <g id="node15" class="node">
 <title>mobile_app</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="367.5,-160 283.5,-160 283.5,-124 367.5,-124 367.5,-160"/>
-<text text-anchor="middle" x="325.5" y="-138.3" font-family="Arial" font-size="14.00" fill="white">Mobile App</text>
+<text text-anchor="middle" x="325.5" y="-138.3" font-family="Arial" font-size="14.00" fill="#1f2937">Mobile App</text>
 </g>
 <!-- mobile_app&#45;&gt;api_server -->
 <g id="edge9" class="edge">
@@ -236,7 +236,7 @@
 <g id="node16" class="node">
 <title>admin_dashboard</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="388,-106 263,-106 263,-70 388,-70 388,-106"/>
-<text text-anchor="middle" x="325.5" y="-84.3" font-family="Arial" font-size="14.00" fill="white">Admin Dashboard</text>
+<text text-anchor="middle" x="325.5" y="-84.3" font-family="Arial" font-size="14.00" fill="#1f2937">Admin Dashboard</text>
 </g>
 <!-- admin_dashboard&#45;&gt;api_server -->
 <g id="edge10" class="edge">
@@ -249,7 +249,7 @@
 <g id="node17" class="node">
 <title>third_party_integration</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="401,-52 250,-52 250,-16 401,-16 401,-52"/>
-<text text-anchor="middle" x="325.5" y="-30.3" font-family="Arial" font-size="14.00" fill="white">Third&#45;Party Integration</text>
+<text text-anchor="middle" x="325.5" y="-30.3" font-family="Arial" font-size="14.00" fill="#1f2937">Third&#45;Party Integration</text>
 </g>
 <!-- third_party_integration&#45;&gt;api_server -->
 <g id="edge16" class="edge">

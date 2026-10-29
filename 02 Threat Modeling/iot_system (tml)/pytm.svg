@@ -17,7 +17,7 @@
 <g id="clust2" class="cluster">
 <title>cluster_boundary_CloudInternal_f2eb7a3ff7</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="8,-126.25 8,-276.96 479,-276.96 479,-126.25 8,-126.25"/>
-<text text-anchor="start" x="213" y="-265.96" font-family="Arial" font-style="italic" font-size="10.00">Cloud Internal</text>
+<text text-anchor="start" x="16" y="-265.96" font-family="Arial" font-style="italic" font-size="10.00">Cloud Internal</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_boundary_DataLayer_d2006ce1bb</title>

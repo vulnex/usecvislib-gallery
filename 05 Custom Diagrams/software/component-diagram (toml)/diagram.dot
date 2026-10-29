@@ -136,7 +136,7 @@ digraph UML_Component_Diagram {
 		];
 		user_db	[color="#DAA520",
 			fillcolor="#1ABC9C",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="\<\<artifact\>\>\nusers.db",
 			pos="716,410",
@@ -144,7 +144,7 @@ digraph UML_Component_Diagram {
 			width=1.0556];
 		product_db	[color="#DAA520",
 			fillcolor="#1ABC9C",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="\<\<artifact\>\>\nproducts.db",
 			pos="716,316",
@@ -152,7 +152,7 @@ digraph UML_Component_Diagram {
 			width=1.0556];
 		order_db	[color="#DAA520",
 			fillcolor="#1ABC9C",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="\<\<artifact\>\>\norders.db",
 			pos="716,222",

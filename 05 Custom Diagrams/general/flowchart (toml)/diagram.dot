@@ -47,7 +47,7 @@ digraph Flowchart {
 		style=solid];
 	validate	[color="#333333",
 		fillcolor="#F39C12",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label="Valid?",
 		pos="152.82,300",

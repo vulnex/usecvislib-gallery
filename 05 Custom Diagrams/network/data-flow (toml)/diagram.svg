@@ -18,7 +18,7 @@
 <g id="clust2" class="cluster">
 <title>cluster_external</title>
 <polygon fill="white" stroke="#95a5a6" stroke-dasharray="5,2" points="8,-100 8,-269 329.5,-269 329.5,-100 8,-100"/>
-<text text-anchor="middle" x="168.75" y="-253.8" font-family="Arial" font-size="14.00" fill="#333333">External Entities</text>
+<text text-anchor="middle" x="65" y="-253.8" font-family="Arial" font-size="14.00" fill="#333333">External Entities</text>
 </g>
 <!-- auth -->
 <g id="node1" class="node">
@@ -77,7 +77,7 @@
 <g id="node10" class="node">
 <title>customer</title>
 <polygon fill="#95a5a6" stroke="#333333" points="321.5,-224 257.5,-224 257.5,-188 321.5,-188 321.5,-224"/>
-<text text-anchor="middle" x="289.5" y="-203.2" font-family="Arial" font-size="11.00" fill="white">Customer</text>
+<text text-anchor="middle" x="289.5" y="-203.2" font-family="Arial" font-size="11.00" fill="#1f2937">Customer</text>
 </g>
 <!-- catalog&#45;&gt;customer -->
 <g id="edge6" class="edge">
@@ -125,7 +125,7 @@
 <g id="node11" class="node">
 <title>payment_provider</title>
 <polygon fill="#95a5a6" stroke="#333333" points="121,-238 16,-238 16,-202 121,-202 121,-238"/>
-<text text-anchor="middle" x="68.5" y="-217.2" font-family="Arial" font-size="11.00" fill="white">Payment Gateway</text>
+<text text-anchor="middle" x="68.5" y="-217.2" font-family="Arial" font-size="11.00" fill="#1f2937">Payment Gateway</text>
 </g>
 <!-- checkout&#45;&gt;payment_provider -->
 <g id="edge10" class="edge">
@@ -151,7 +151,7 @@
 <g id="node12" class="node">
 <title>shipping</title>
 <polygon fill="#95a5a6" stroke="#333333" points="119.5,-144 17.5,-144 17.5,-108 119.5,-108 119.5,-144"/>
-<text text-anchor="middle" x="68.5" y="-123.2" font-family="Arial" font-size="11.00" fill="white">Shipping Provider</text>
+<text text-anchor="middle" x="68.5" y="-123.2" font-family="Arial" font-size="11.00" fill="#1f2937">Shipping Provider</text>
 </g>
 <!-- order_mgmt&#45;&gt;shipping -->
 <g id="edge14" class="edge">

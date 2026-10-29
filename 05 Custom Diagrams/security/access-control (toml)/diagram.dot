@@ -68,7 +68,7 @@ digraph Access_Control_Diagram {
 			width=0.75167];
 		svc_deploy	[color="#333333",
 			fillcolor="#95A5A6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="deploy-bot",
 			pos="517,790",
@@ -195,7 +195,7 @@ digraph Access_Control_Diagram {
 		];
 		perm_read	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=Read,
 			pos="302,142",
@@ -203,7 +203,7 @@ digraph Access_Control_Diagram {
 			width=0.75];
 		perm_write	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=Write,
 			pos="414,142",
@@ -211,7 +211,7 @@ digraph Access_Control_Diagram {
 			width=0.75];
 		perm_delete	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=Delete,
 			pos="526,142",
@@ -219,7 +219,7 @@ digraph Access_Control_Diagram {
 			width=0.75];
 		perm_deploy	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=Deploy,
 			pos="638,142",
@@ -227,7 +227,7 @@ digraph Access_Control_Diagram {
 			width=0.75];
 		perm_audit	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=Audit,
 			pos="190,142",
@@ -235,7 +235,7 @@ digraph Access_Control_Diagram {
 			width=0.75];
 		perm_manage	[color="#333333",
 			fillcolor="#F39C12",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=Manage,
 			pos="751,142",
@@ -396,7 +396,7 @@ digraph Access_Control_Diagram {
 		style=solid];
 	pol_mfa	[color="#DAA520",
 		fillcolor="#1ABC9C",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label="Require MFA",
 		pos="877,142",
@@ -412,7 +412,7 @@ digraph Access_Control_Diagram {
 		style=solid];
 	pol_time	[color="#DAA520",
 		fillcolor="#1ABC9C",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label="Business Hours Only",
 		pos="673,250",

@@ -84,8 +84,8 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=filled,
 		width=2.2361];
 	Attack_IAM -> Privilege_Escalation	[color=black,
-		label=CRITICAL,
-		lp="425,63.5",
+		label=HIGH,
+		lp="410.5,63.5",
 		pos="e,341.45,38.056 415.8,88.803 396.87,75.879 370.7,58.019 349.77,43.735",
 		style=solid];
 	Access_Key_Exposure	[fillcolor="#8b0000",
@@ -98,8 +98,8 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=filled,
 		width=2.3472];
 	Attack_IAM -> Access_Key_Exposure	[color=black,
-		label=HIGH,
-		lp="531.5,63.5",
+		label=CRITICAL,
+		lp="546,63.5",
 		pos="e,539.76,38.056 466,88.803 484.78,75.879 510.74,58.019 531.5,43.735",
 		style=solid];
 	VPC_Misconfiguration	[fillcolor="#e74c3c",
@@ -112,8 +112,8 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=filled,
 		width=2.4167];
 	Attack_Network_Layer -> VPC_Misconfiguration	[color=black,
-		label=MEDIUM,
-		lp="1015,63.5",
+		label=HIGH,
+		lp="1001.5,63.5",
 		pos="e,879.77,38.1 1036.3,88.906 994.14,75.215 934.74,55.939 889.49,41.254",
 		style=solid];
 	Security_Group_Bypass	[fillcolor="#f39c12",
@@ -182,8 +182,8 @@ digraph "AWS Cloud Security Attack Tree" {
 		style=filled,
 		width=2.0972];
 	Attack_Data_Storage -> DynamoDB_Access	[color=black,
-		label=MEDIUM,
-		lp="1940,63.5",
+		label=HIGH,
+		lp="1926.5,63.5",
 		pos="e,1988,38.025 1776.2,88.906 1834.2,74.963 1916.4,55.225 1977.9,40.445",
 		style=solid];
 }

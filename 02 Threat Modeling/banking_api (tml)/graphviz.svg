@@ -24,20 +24,20 @@
 <polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="8,-266 8,-395 170,-395 170,-266 8,-266"/>
 <text text-anchor="middle" x="89" y="-379.8" font-family="Arial" font-size="14.00">Corporate Network</text>
 </g>
-<g id="clust6" class="cluster">
-<title>cluster_secure_zone</title>
-<polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="771.5,-459 771.5,-588 938.5,-588 938.5,-459 771.5,-459"/>
-<text text-anchor="middle" x="855" y="-572.8" font-family="Arial" font-size="14.00">High Security Zone (PCI)</text>
-</g>
 <g id="clust4" class="cluster">
 <title>cluster_dmz</title>
 <polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="281,-459 281,-534 655,-534 655,-459 281,-459"/>
-<text text-anchor="middle" x="468" y="-518.8" font-family="Arial" font-size="14.00">DMZ / API Zone</text>
+<text text-anchor="middle" x="598.5" y="-518.8" font-family="Arial" font-size="14.00">DMZ / API Zone</text>
 </g>
 <g id="clust5" class="cluster">
 <title>cluster_application_zone</title>
 <polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="510,-160 510,-451 942,-451 942,-160 510,-160"/>
-<text text-anchor="middle" x="726" y="-435.8" font-family="Arial" font-size="14.00">Core Banking Zone</text>
+<text text-anchor="middle" x="576.5" y="-435.8" font-family="Arial" font-size="14.00">Core Banking Zone</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_secure_zone</title>
+<polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="771.5,-459 771.5,-588 938.5,-588 938.5,-459 771.5,-459"/>
+<text text-anchor="middle" x="855" y="-572.8" font-family="Arial" font-size="14.00">High Security Zone (PCI)</text>
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_data_zone</title>
@@ -48,7 +48,7 @@
 <g id="node1" class="node">
 <title>mobile_banking</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="157.5,-449 20.5,-449 20.5,-413 157.5,-413 157.5,-449"/>
-<text text-anchor="middle" x="89" y="-427.3" font-family="Arial" font-size="14.00" fill="white">Mobile Banking App</text>
+<text text-anchor="middle" x="89" y="-427.3" font-family="Arial" font-size="14.00" fill="#1f2937">Mobile Banking App</text>
 </g>
 <!-- api_gateway -->
 <g id="node11" class="node">
@@ -67,7 +67,7 @@
 <g id="node2" class="node">
 <title>web_banking</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="157,-503 21,-503 21,-467 157,-467 157,-503"/>
-<text text-anchor="middle" x="89" y="-481.3" font-family="Arial" font-size="14.00" fill="white">Web Banking Portal</text>
+<text text-anchor="middle" x="89" y="-481.3" font-family="Arial" font-size="14.00" fill="#1f2937">Web Banking Portal</text>
 </g>
 <!-- web_banking&#45;&gt;api_gateway -->
 <g id="edge2" class="edge">
@@ -80,7 +80,7 @@
 <g id="node3" class="node">
 <title>tpp_provider</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="157.5,-557 20.5,-557 20.5,-521 157.5,-521 157.5,-557"/>
-<text text-anchor="middle" x="89" y="-535.3" font-family="Arial" font-size="14.00" fill="white">Third&#45;Party Provider</text>
+<text text-anchor="middle" x="89" y="-535.3" font-family="Arial" font-size="14.00" fill="#1f2937">Third&#45;Party Provider</text>
 </g>
 <!-- oauth_server -->
 <g id="node12" class="node">
@@ -99,7 +99,7 @@
 <g id="node4" class="node">
 <title>atm_network</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1188,-675 1090,-675 1090,-639 1188,-639 1188,-675"/>
-<text text-anchor="middle" x="1139" y="-653.3" font-family="Arial" font-size="14.00" fill="white">ATM Network</text>
+<text text-anchor="middle" x="1139" y="-653.3" font-family="Arial" font-size="14.00" fill="#1f2937">ATM Network</text>
 </g>
 <!-- atm_network&#45;&gt;api_gateway -->
 <g id="edge3" class="edge">
@@ -112,31 +112,31 @@
 <g id="node5" class="node">
 <title>swift_network</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1195.5,-459 1082.5,-459 1082.5,-423 1195.5,-423 1195.5,-459"/>
-<text text-anchor="middle" x="1139" y="-437.3" font-family="Arial" font-size="14.00" fill="white">SWIFT Network</text>
+<text text-anchor="middle" x="1139" y="-437.3" font-family="Arial" font-size="14.00" fill="#1f2937">SWIFT Network</text>
 </g>
 <!-- card_network -->
 <g id="node6" class="node">
 <title>card_network</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1188.5,-513 1089.5,-513 1089.5,-477 1188.5,-477 1188.5,-513"/>
-<text text-anchor="middle" x="1139" y="-491.3" font-family="Arial" font-size="14.00" fill="white">Card Network</text>
+<text text-anchor="middle" x="1139" y="-491.3" font-family="Arial" font-size="14.00" fill="#1f2937">Card Network</text>
 </g>
 <!-- credit_bureau -->
 <g id="node7" class="node">
 <title>credit_bureau</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1189,-567 1089,-567 1089,-531 1189,-531 1189,-567"/>
-<text text-anchor="middle" x="1139" y="-545.3" font-family="Arial" font-size="14.00" fill="white">Credit Bureau</text>
+<text text-anchor="middle" x="1139" y="-545.3" font-family="Arial" font-size="14.00" fill="#1f2937">Credit Bureau</text>
 </g>
 <!-- regulator_api -->
 <g id="node8" class="node">
 <title>regulator_api</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1211,-621 1067,-621 1067,-585 1211,-585 1211,-621"/>
-<text text-anchor="middle" x="1139" y="-599.3" font-family="Arial" font-size="14.00" fill="white">Regulatory Reporting</text>
+<text text-anchor="middle" x="1139" y="-599.3" font-family="Arial" font-size="14.00" fill="#1f2937">Regulatory Reporting</text>
 </g>
 <!-- bank_employee -->
 <g id="node9" class="node">
 <title>bank_employee</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="145,-310 33,-310 33,-274 145,-274 145,-310"/>
-<text text-anchor="middle" x="89" y="-288.3" font-family="Arial" font-size="14.00" fill="white">Bank Employee</text>
+<text text-anchor="middle" x="89" y="-288.3" font-family="Arial" font-size="14.00" fill="#1f2937">Bank Employee</text>
 </g>
 <!-- bank_employee&#45;&gt;api_gateway -->
 <g id="edge4" class="edge">
@@ -149,7 +149,7 @@
 <g id="node10" class="node">
 <title>admin</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="162,-364 16,-364 16,-328 162,-328 162,-364"/>
-<text text-anchor="middle" x="89" y="-342.3" font-family="Arial" font-size="14.00" fill="white">System Administrator</text>
+<text text-anchor="middle" x="89" y="-342.3" font-family="Arial" font-size="14.00" fill="#1f2937">System Administrator</text>
 </g>
 <!-- admin&#45;&gt;api_gateway -->
 <g id="edge5" class="edge">
@@ -222,7 +222,7 @@
 <title>credentials_vault</title>
 <path fill="#2ecc71" stroke="black" d="M914.5,-553.73C914.5,-555.53 887.83,-557 855,-557 822.17,-557 795.5,-555.53 795.5,-553.73 795.5,-553.73 795.5,-524.27 795.5,-524.27 795.5,-522.47 822.17,-521 855,-521 887.83,-521 914.5,-522.47 914.5,-524.27 914.5,-524.27 914.5,-553.73 914.5,-553.73"/>
 <path fill="none" stroke="black" d="M914.5,-553.73C914.5,-551.92 887.83,-550.45 855,-550.45 822.17,-550.45 795.5,-551.92 795.5,-553.73"/>
-<text text-anchor="middle" x="855" y="-535.3" font-family="Arial" font-size="14.00" fill="white">Credentials Vault</text>
+<text text-anchor="middle" x="855" y="-535.3" font-family="Arial" font-size="14.00" fill="#1f2937">Credentials Vault</text>
 </g>
 <!-- oauth_server&#45;&gt;credentials_vault -->
 <g id="edge25" class="edge">
@@ -236,7 +236,7 @@
 <title>customer_db</title>
 <path fill="#2ecc71" stroke="black" d="M1207.5,-48.73C1207.5,-50.53 1176.8,-52 1139,-52 1101.2,-52 1070.5,-50.53 1070.5,-48.73 1070.5,-48.73 1070.5,-19.27 1070.5,-19.27 1070.5,-17.47 1101.2,-16 1139,-16 1176.8,-16 1207.5,-17.47 1207.5,-19.27 1207.5,-19.27 1207.5,-48.73 1207.5,-48.73"/>
 <path fill="none" stroke="black" d="M1207.5,-48.73C1207.5,-46.92 1176.8,-45.45 1139,-45.45 1101.2,-45.45 1070.5,-46.92 1070.5,-48.73"/>
-<text text-anchor="middle" x="1139" y="-30.3" font-family="Arial" font-size="14.00" fill="white">Customer Database</text>
+<text text-anchor="middle" x="1139" y="-30.3" font-family="Arial" font-size="14.00" fill="#1f2937">Customer Database</text>
 </g>
 <!-- identity_service&#45;&gt;customer_db -->
 <g id="edge18" class="edge">
@@ -250,7 +250,7 @@
 <title>session_store</title>
 <path fill="#2ecc71" stroke="black" d="M1189.5,-102.73C1189.5,-104.53 1166.87,-106 1139,-106 1111.13,-106 1088.5,-104.53 1088.5,-102.73 1088.5,-102.73 1088.5,-73.27 1088.5,-73.27 1088.5,-71.47 1111.13,-70 1139,-70 1166.87,-70 1189.5,-71.47 1189.5,-73.27 1189.5,-73.27 1189.5,-102.73 1189.5,-102.73"/>
 <path fill="none" stroke="black" d="M1189.5,-102.73C1189.5,-100.92 1166.87,-99.45 1139,-99.45 1111.13,-99.45 1088.5,-100.92 1088.5,-102.73"/>
-<text text-anchor="middle" x="1139" y="-84.3" font-family="Arial" font-size="14.00" fill="white">Session Store</text>
+<text text-anchor="middle" x="1139" y="-84.3" font-family="Arial" font-size="14.00" fill="#1f2937">Session Store</text>
 </g>
 <!-- identity_service&#45;&gt;session_store -->
 <g id="edge19" class="edge">
@@ -264,7 +264,7 @@
 <title>account_db</title>
 <path fill="#2ecc71" stroke="black" d="M1202.5,-156.73C1202.5,-158.53 1174.04,-160 1139,-160 1103.96,-160 1075.5,-158.53 1075.5,-156.73 1075.5,-156.73 1075.5,-127.27 1075.5,-127.27 1075.5,-125.47 1103.96,-124 1139,-124 1174.04,-124 1202.5,-125.47 1202.5,-127.27 1202.5,-127.27 1202.5,-156.73 1202.5,-156.73"/>
 <path fill="none" stroke="black" d="M1202.5,-156.73C1202.5,-154.92 1174.04,-153.45 1139,-153.45 1103.96,-153.45 1075.5,-154.92 1075.5,-156.73"/>
-<text text-anchor="middle" x="1139" y="-138.3" font-family="Arial" font-size="14.00" fill="white">Account Database</text>
+<text text-anchor="middle" x="1139" y="-138.3" font-family="Arial" font-size="14.00" fill="#1f2937">Account Database</text>
 </g>
 <!-- account_service&#45;&gt;account_db -->
 <g id="edge20" class="edge">
@@ -330,7 +330,7 @@
 <title>transaction_db</title>
 <path fill="#2ecc71" stroke="black" d="M1213.5,-210.73C1213.5,-212.53 1180.11,-214 1139,-214 1097.89,-214 1064.5,-212.53 1064.5,-210.73 1064.5,-210.73 1064.5,-181.27 1064.5,-181.27 1064.5,-179.47 1097.89,-178 1139,-178 1180.11,-178 1213.5,-179.47 1213.5,-181.27 1213.5,-181.27 1213.5,-210.73 1213.5,-210.73"/>
 <path fill="none" stroke="black" d="M1213.5,-210.73C1213.5,-208.92 1180.11,-207.45 1139,-207.45 1097.89,-207.45 1064.5,-208.92 1064.5,-210.73"/>
-<text text-anchor="middle" x="1139" y="-192.3" font-family="Arial" font-size="14.00" fill="white">Transaction Database</text>
+<text text-anchor="middle" x="1139" y="-192.3" font-family="Arial" font-size="14.00" fill="#1f2937">Transaction Database</text>
 </g>
 <!-- transaction_service&#45;&gt;transaction_db -->
 <g id="edge21" class="edge">
@@ -358,7 +358,7 @@
 <title>fraud_rules_db</title>
 <path fill="#2ecc71" stroke="black" d="M1215,-318.73C1215,-320.53 1180.94,-322 1139,-322 1097.06,-322 1063,-320.53 1063,-318.73 1063,-318.73 1063,-289.27 1063,-289.27 1063,-287.47 1097.06,-286 1139,-286 1180.94,-286 1215,-287.47 1215,-289.27 1215,-289.27 1215,-318.73 1215,-318.73"/>
 <path fill="none" stroke="black" d="M1215,-318.73C1215,-316.92 1180.94,-315.45 1139,-315.45 1097.06,-315.45 1063,-316.92 1063,-318.73"/>
-<text text-anchor="middle" x="1139" y="-300.3" font-family="Arial" font-size="14.00" fill="white">Fraud Rules Database</text>
+<text text-anchor="middle" x="1139" y="-300.3" font-family="Arial" font-size="14.00" fill="#1f2937">Fraud Rules Database</text>
 </g>
 <!-- fraud_detection&#45;&gt;fraud_rules_db -->
 <g id="edge24" class="edge">
@@ -399,7 +399,7 @@
 <title>audit_log_db</title>
 <path fill="#2ecc71" stroke="black" d="M1206.5,-264.73C1206.5,-266.53 1176.25,-268 1139,-268 1101.75,-268 1071.5,-266.53 1071.5,-264.73 1071.5,-264.73 1071.5,-235.27 1071.5,-235.27 1071.5,-233.47 1101.75,-232 1139,-232 1176.25,-232 1206.5,-233.47 1206.5,-235.27 1206.5,-235.27 1206.5,-264.73 1206.5,-264.73"/>
 <path fill="none" stroke="black" d="M1206.5,-264.73C1206.5,-262.92 1176.25,-261.45 1139,-261.45 1101.75,-261.45 1071.5,-262.92 1071.5,-264.73"/>
-<text text-anchor="middle" x="1139" y="-246.3" font-family="Arial" font-size="14.00" fill="white">Audit Log Database</text>
+<text text-anchor="middle" x="1139" y="-246.3" font-family="Arial" font-size="14.00" fill="#1f2937">Audit Log Database</text>
 </g>
 <!-- audit_service&#45;&gt;audit_log_db -->
 <g id="edge27" class="edge">
@@ -413,7 +413,7 @@
 <title>hsm</title>
 <path fill="#2ecc71" stroke="black" d="M1227,-372.73C1227,-374.53 1187.56,-376 1139,-376 1090.44,-376 1051,-374.53 1051,-372.73 1051,-372.73 1051,-343.27 1051,-343.27 1051,-341.47 1090.44,-340 1139,-340 1187.56,-340 1227,-341.47 1227,-343.27 1227,-343.27 1227,-372.73 1227,-372.73"/>
 <path fill="none" stroke="black" d="M1227,-372.73C1227,-370.92 1187.56,-369.45 1139,-369.45 1090.44,-369.45 1051,-370.92 1051,-372.73"/>
-<text text-anchor="middle" x="1139" y="-354.3" font-family="Arial" font-size="14.00" fill="white">Hardware Security Module</text>
+<text text-anchor="middle" x="1139" y="-354.3" font-family="Arial" font-size="14.00" fill="#1f2937">Hardware Security Module</text>
 </g>
 <!-- hsm_proxy&#45;&gt;hsm -->
 <g id="edge23" class="edge">

@@ -12,7 +12,7 @@
 <!-- Deploy_Ransomware -->
 <g id="node1" class="node">
 <title>Deploy_Ransomware</title>
-<ellipse fill="#ff6b6b" stroke="black" cx="279.5" cy="-770.17" rx="107.48" ry="18"/>
+<ellipse fill="#e03131" stroke="black" cx="279.5" cy="-770.17" rx="107.48" ry="18"/>
 <text text-anchor="middle" x="279.5" y="-766.47" font-family="Times,serif" font-size="14.00" fill="white">Deploy Ransomware</text>
 </g>
 <!-- Initial_Access -->
@@ -208,7 +208,7 @@
 <!-- Demand_Ransom -->
 <g id="node15" class="node">
 <title>Demand_Ransom</title>
-<polygon fill="#ff6b6b" stroke="black" points="377.07,-10.54 377.07,-25.46 319.92,-36 239.08,-36 181.93,-25.46 181.93,-10.54 239.08,0 319.92,0 377.07,-10.54"/>
+<polygon fill="#e03131" stroke="black" points="377.07,-10.54 377.07,-25.46 319.92,-36 239.08,-36 181.93,-25.46 181.93,-10.54 239.08,0 319.92,0 377.07,-10.54"/>
 <text text-anchor="middle" x="279.5" y="-14.3" font-family="Times,serif" font-size="14.00" fill="white">Demand Ransom</text>
 </g>
 <!-- Encrypt_Files&#45;&gt;Demand_Ransom -->

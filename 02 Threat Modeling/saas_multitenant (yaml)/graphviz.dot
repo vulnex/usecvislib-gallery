@@ -18,7 +18,7 @@ digraph "SaaS Multi-Tenant Platform" {
 		];
 		tenant_user	[description="End user from a tenant organization",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -30,7 +30,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.2361];
 		tenant_admin	[description="Administrator of a tenant organization",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -42,7 +42,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.375];
 		integration_api	[description="Customer's systems integrating via API",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -65,7 +65,7 @@ digraph "SaaS Multi-Tenant Platform" {
 		];
 		tenant_idp	[description="Customer's identity provider (Okta, Azure AD)",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -88,7 +88,7 @@ digraph "SaaS Multi-Tenant Platform" {
 		];
 		payment_processor	[description="Stripe/Braintree for subscription billing",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -99,7 +99,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.875];
 		email_provider	[description="SendGrid/SES for transactional emails",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -110,7 +110,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.4583];
 		cdn	[description="CloudFront/Cloudflare for static assets",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -133,7 +133,7 @@ digraph "SaaS Multi-Tenant Platform" {
 		];
 		platform_admin	[description="SaaS platform super administrator",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=True,
@@ -149,8 +149,9 @@ digraph "SaaS Multi-Tenant Platform" {
 			color="#e74c3c",
 			fontname=Arial,
 			label="Edge / DMZ",
+			labeljust=l,
 			lheight=0.21,
-			lp="477.25,993.5",
+			lp="342,993.5",
 			lwidth=1.01,
 			penwidth=2,
 			style=dashed
@@ -206,8 +207,9 @@ digraph "SaaS Multi-Tenant Platform" {
 			color="#e74c3c",
 			fontname=Arial,
 			label="Application Services",
+			labeljust=l,
 			lheight=0.21,
-			lp="988.75,1209.5",
+			lp="825,1209.5",
 			lwidth=1.69,
 			penwidth=2,
 			style=dashed
@@ -411,7 +413,7 @@ digraph "SaaS Multi-Tenant Platform" {
 		];
 		tenant_db	[description="PostgreSQL with row-level security for tenant isolation",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -427,7 +429,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.6528];
 		user_db	[description="PostgreSQL - Tenant-scoped user data",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -444,7 +446,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.4861];
 		app_data_db	[description="PostgreSQL - Core application data with tenant isolation",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -460,7 +462,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=2];
 		session_cache	[description="Redis Cluster - Sessions with tenant prefix",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,
@@ -475,7 +477,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.4861];
 		feature_flags	[description="LaunchDarkly/custom - Tenant-specific features",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,
@@ -489,7 +491,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.3889];
 		file_storage	[description="S3 with tenant-prefixed paths",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -505,7 +507,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.2361];
 		analytics_db	[description="ClickHouse/BigQuery - Tenant-partitioned analytics",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -520,7 +522,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.8333];
 		job_queue	[description="Redis/SQS - Background job queue with tenant context",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,
@@ -534,7 +536,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.1528];
 		audit_log_db	[description="Immutable tenant audit trail",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -550,7 +552,7 @@ digraph "SaaS Multi-Tenant Platform" {
 			width=1.875];
 		secrets_vault	[description="Tenant API keys and integration secrets",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,

@@ -136,9 +136,10 @@ digraph "AD Tiering (grouped by role)" {
 			fontname="Arial Bold",
 			fontsize=13,
 			label="Tier 1 - Servers\n(Trust Level 1)",
+			labeljust=l,
 			labelloc=t,
 			lheight=0.39,
-			lp="1072,325.79",
+			lp="822.5,325.79",
 			lwidth=1.35,
 			penwidth=2,
 			style="filled,rounded"
@@ -190,9 +191,10 @@ digraph "AD Tiering (grouped by role)" {
 				fontname="Arial Bold",
 				fontsize=11,
 				label=database,
+				labeljust=l,
 				labelloc=t,
 				lheight=0.17,
-				lp="1213.8,132.79",
+				lp="1089.5,132.79",
 				lwidth=0.67,
 				style="rounded,dashed,filled"
 			];
@@ -241,7 +243,7 @@ digraph "AD Tiering (grouped by role)" {
 				label=backup,
 				labelloc=t,
 				lheight=0.17,
-				lp="833,115.79",
+				lp="809,115.79",
 				lwidth=0.54,
 				style="rounded,dashed,filled"
 			];

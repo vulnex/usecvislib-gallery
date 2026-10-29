@@ -12,7 +12,7 @@
 <g id="clust1" class="cluster">
 <title>cluster_boundary_DataSubnet_d2006ce1bb</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="307,-8 307,-192.67 929,-192.67 929,-8 307,-8"/>
-<text text-anchor="start" x="590.5" y="-181.67" font-family="Arial" font-style="italic" font-size="10.00">Data Subnet</text>
+<text text-anchor="start" x="866" y="-181.67" font-family="Arial" font-style="italic" font-size="10.00">Data Subnet</text>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_boundary_EdgeNetwork_88f2d9c06f</title>

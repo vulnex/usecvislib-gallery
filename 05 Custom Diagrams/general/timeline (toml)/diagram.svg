@@ -44,7 +44,7 @@
 <g id="node3" class="node">
 <title>research</title>
 <polygon fill="#2ecc71" stroke="#333333" points="651.5,-300 552.5,-300 552.5,-264 651.5,-264 651.5,-300"/>
-<text text-anchor="middle" x="602" y="-279.2" font-family="Arial" font-size="11.00" fill="white">Market Research</text>
+<text text-anchor="middle" x="602" y="-279.2" font-family="Arial" font-size="11.00" fill="#1f2937">Market Research</text>
 </g>
 <!-- phase1&#45;&gt;research -->
 <g id="edge5" class="edge">
@@ -69,7 +69,7 @@
 <g id="node4" class="node">
 <title>design</title>
 <polygon fill="#2ecc71" stroke="#333333" points="895.5,-300 812.5,-300 812.5,-264 895.5,-264 895.5,-300"/>
-<text text-anchor="middle" x="854" y="-279.2" font-family="Arial" font-size="11.00" fill="white">UI/UX Design</text>
+<text text-anchor="middle" x="854" y="-279.2" font-family="Arial" font-size="11.00" fill="#1f2937">UI/UX Design</text>
 </g>
 <!-- research&#45;&gt;design -->
 <g id="edge6" class="edge">
@@ -106,7 +106,7 @@
 <g id="node9" class="node">
 <title>testing</title>
 <polygon fill="#95a5a6" stroke="#333333" points="1160,-52 1092,-52 1092,-16 1160,-16 1160,-52"/>
-<text text-anchor="middle" x="1126" y="-31.2" font-family="Arial" font-size="11.00" fill="white">QA Testing</text>
+<text text-anchor="middle" x="1126" y="-31.2" font-family="Arial" font-size="11.00" fill="#1f2937">QA Testing</text>
 </g>
 <!-- phase3&#45;&gt;testing -->
 <g id="edge9" class="edge">

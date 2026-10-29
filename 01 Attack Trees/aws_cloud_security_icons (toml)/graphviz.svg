@@ -80,7 +80,7 @@
 <title>Attack_IAM&#45;&gt;Privilege_Escalation</title>
 <path fill="none" stroke="black" d="M409.57,-132.73C388.71,-112.29 362.27,-86.37 342.99,-67.47"/>
 <polygon fill="black" stroke="black" points="345.31,-64.85 335.72,-60.35 340.41,-69.85 345.31,-64.85"/>
-<text text-anchor="middle" x="427" y="-103.8" font-family="Times,serif" font-size="14.00">CRITICAL</text>
+<text text-anchor="middle" x="412.5" y="-103.8" font-family="Times,serif" font-size="14.00">HIGH</text>
 </g>
 <!-- Access_Key_Exposure -->
 <g id="node7" class="node">
@@ -94,7 +94,7 @@
 <title>Attack_IAM&#45;&gt;Access_Key_Exposure</title>
 <path fill="none" stroke="black" d="M476.17,-132.73C496.86,-112.29 523.09,-86.37 542.22,-67.47"/>
 <polygon fill="black" stroke="black" points="544.77,-69.87 549.43,-60.35 539.85,-64.89 544.77,-69.87"/>
-<text text-anchor="middle" x="530.5" y="-103.8" font-family="Times,serif" font-size="14.00">HIGH</text>
+<text text-anchor="middle" x="545" y="-103.8" font-family="Times,serif" font-size="14.00">CRITICAL</text>
 </g>
 <!-- VPC_Misconfiguration -->
 <g id="node8" class="node">
@@ -108,7 +108,7 @@
 <title>Attack_Network_Layer&#45;&gt;VPC_Misconfiguration</title>
 <path fill="none" stroke="black" d="M1022.5,-132.89C975.77,-111.28 915.68,-83.48 874.32,-64.35"/>
 <polygon fill="black" stroke="black" points="875.56,-61.07 865.02,-60.05 872.62,-67.42 875.56,-61.07"/>
-<text text-anchor="middle" x="1018" y="-103.8" font-family="Times,serif" font-size="14.00">MEDIUM</text>
+<text text-anchor="middle" x="1004.5" y="-103.8" font-family="Times,serif" font-size="14.00">HIGH</text>
 </g>
 <!-- Security_Group_Bypass -->
 <g id="node9" class="node">
@@ -178,7 +178,7 @@
 <title>Attack_Data_Storage&#45;&gt;DynamoDB_Access:n</title>
 <path fill="none" stroke="black" d="M1794.82,-145.2C1886.2,-122.79 2025.39,-88.67 2063.22,-79.4"/>
 <polygon fill="black" stroke="black" points="2064.12,-82.78 2073,-77 2062.45,-75.98 2064.12,-82.78"/>
-<text text-anchor="middle" x="2010" y="-103.8" font-family="Times,serif" font-size="14.00">MEDIUM</text>
+<text text-anchor="middle" x="1996.5" y="-103.8" font-family="Times,serif" font-size="14.00">HIGH</text>
 </g>
 </g>
 </svg>

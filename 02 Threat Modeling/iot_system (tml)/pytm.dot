@@ -57,8 +57,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Cloud Internal</i>>,
+			labeljust=l,
 			lheight=0.15,
-			lp="243.5,267.46",
+			lp="46.5,267.46",
 			lwidth=0.85,
 			style=dashed
 		];

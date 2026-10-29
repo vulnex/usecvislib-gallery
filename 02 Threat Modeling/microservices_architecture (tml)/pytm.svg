@@ -22,8 +22,8 @@
 <g id="clust3" class="cluster">
 <title>cluster_boundary_InternalServiceMesh_579e9aae81</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="680,-8 680,-331.82 1288,-331.82 1288,-8 680,-8"/>
-<text text-anchor="start" x="949.5" y="-320.82" font-family="Arial" font-style="italic" font-size="10.00">Internal Service</text>
-<text text-anchor="start" x="971.5" y="-310.82" font-family="Arial" font-style="italic" font-size="10.00">Mesh</text>
+<text text-anchor="start" x="688" y="-320.82" font-family="Arial" font-style="italic" font-size="10.00">Internal Service</text>
+<text text-anchor="start" x="710" y="-310.82" font-family="Arial" font-style="italic" font-size="10.00">Mesh</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_boundary_PublicZoneInternet_acf3059e70</title>

@@ -269,9 +269,10 @@ digraph "Cloud Zero Trust Architecture" {
 			fontname="Arial Bold",
 			fontsize=13,
 			label="Secrets / Identity Root\n(Trust Level 4)",
+			labeljust=r,
 			labelloc=t,
 			lheight=0.39,
-			lp="1707.5,531",
+			lp="1811.5,531",
 			lwidth=1.99,
 			penwidth=2,
 			style="filled,rounded"

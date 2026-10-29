@@ -17,7 +17,7 @@ digraph "Cloud Infrastructure" {
 			style=dashed
 		];
 		internet_users	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Internet Users",
@@ -26,7 +26,7 @@ digraph "Cloud Infrastructure" {
 			style="filled,dashed",
 			width=1.4028];
 		developers	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label=Developers,
@@ -35,7 +35,7 @@ digraph "Cloud Infrastructure" {
 			style="filled,dashed",
 			width=1.1806];
 		admin	[fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Cloud Admin",
@@ -176,7 +176,7 @@ digraph "Cloud Infrastructure" {
 			style=dashed
 		];
 		rds_primary	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="RDS Primary",
@@ -185,7 +185,7 @@ digraph "Cloud Infrastructure" {
 			style=filled,
 			width=1.3333];
 		rds_replica	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="RDS Read Replica",
@@ -201,7 +201,7 @@ digraph "Cloud Infrastructure" {
 			pos="e,1353.8,196 1249.1,196 1276.8,196 1312.4,196 1343.7,196",
 			style=solid];
 		s3_bucket	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="S3 Storage",
@@ -210,7 +210,7 @@ digraph "Cloud Infrastructure" {
 			style=filled,
 			width=1.1667];
 		elasticache	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label=ElastiCache,
@@ -219,7 +219,7 @@ digraph "Cloud Infrastructure" {
 			style=filled,
 			width=1.2361];
 		secrets_manager	[fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			label="Secrets Manager",

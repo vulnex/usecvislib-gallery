@@ -21,8 +21,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Application<br/>Services</i>>,
+			labeljust=l,
 			lheight=0.28,
-			lp="3197,390.6",
+			lp="2368.5,390.6",
 			lwidth=0.68,
 			style=dashed
 		];
@@ -147,8 +148,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Data Zone (Tenant<br/>Isolated)</i>>,
+			labeljust=r,
 			lheight=0.28,
-			lp="1470,125.39",
+			lp="2279,125.39",
 			lwidth=1.14,
 			style=dashed
 		];
@@ -229,8 +231,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Edge / DMZ</i>>,
+			labeljust=l,
 			lheight=0.15,
-			lp="3212.5,715.43",
+			lp="3178,715.43",
 			lwidth=0.75,
 			style=dashed
 		];
@@ -319,8 +322,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Trusted Third-<br/>Party Services</i>>,
+			labeljust=r,
 			lheight=0.28,
-			lp="212.5,159.76",
+			lp="376.5,159.76",
 			lwidth=0.90,
 			style=dashed
 		];

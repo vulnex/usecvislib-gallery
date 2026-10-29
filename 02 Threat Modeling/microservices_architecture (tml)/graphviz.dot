@@ -18,7 +18,7 @@ digraph "Microservices Architecture" {
 		];
 		mobile_app	[description="iOS/Android mobile application",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -29,7 +29,7 @@ digraph "Microservices Architecture" {
 			width=1.1667];
 		web_client	[description="Single-page web application",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -40,7 +40,7 @@ digraph "Microservices Architecture" {
 			width=1.1528];
 		third_party_api	[description="External payment processor API",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -185,7 +185,7 @@ digraph "Microservices Architecture" {
 		];
 		user_db	[description="PostgreSQL database for user data",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -202,7 +202,7 @@ digraph "Microservices Architecture" {
 			width=1.4861];
 		order_db	[description="PostgreSQL database for orders",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -218,7 +218,7 @@ digraph "Microservices Architecture" {
 			width=1.5694];
 		redis_cache	[description="In-memory cache for sessions",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,
@@ -232,7 +232,7 @@ digraph "Microservices Architecture" {
 			width=1.3056];
 		message_queue	[description="RabbitMQ for async messaging",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isEncrypted=True,

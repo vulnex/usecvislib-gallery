@@ -18,7 +18,7 @@
 <g id="clust2" class="cluster">
 <title>cluster_gateway_layer</title>
 <polygon fill="#2a4a6f" stroke="#4a90d9" stroke-dasharray="5,2" points="105,-229.25 105,-412.25 279,-412.25 279,-229.25 105,-229.25"/>
-<text text-anchor="middle" x="192" y="-397.05" font-family="Courier New" font-size="14.00" fill="#90caf9">Gateway Layer</text>
+<text text-anchor="middle" x="167" y="-397.05" font-family="Courier New" font-size="14.00" fill="#90caf9">Gateway Layer</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_services</title>

@@ -18,7 +18,7 @@
 <g id="clust2" class="cluster">
 <title>cluster_business</title>
 <polygon fill="white" stroke="#3498db" stroke-dasharray="5,2" points="91,-8 91,-316.43 463,-316.43 463,-8 91,-8"/>
-<text text-anchor="middle" x="277" y="-301.23" font-family="Arial" font-size="14.00" fill="#333333">Business Layer</text>
+<text text-anchor="middle" x="408.5" y="-301.23" font-family="Arial" font-size="14.00" fill="#333333">Business Layer</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_data</title>
@@ -56,7 +56,7 @@
 <g id="node3" class="node">
 <title>auth_ctrl</title>
 <ellipse fill="#f39c12" stroke="#333333" cx="217" cy="-233.72" rx="51.93" ry="51.93"/>
-<text text-anchor="middle" x="217" y="-230.92" font-family="Arial" font-size="11.00" fill="white">AuthController</text>
+<text text-anchor="middle" x="217" y="-230.92" font-family="Arial" font-size="11.00" fill="#1f2937">AuthController</text>
 </g>
 <!-- ui&#45;&gt;auth_ctrl -->
 <g id="edge2" class="edge">
@@ -138,7 +138,7 @@
 <title>db</title>
 <path fill="#1abc9c" stroke="black" d="M1012.5,-131.73C1012.5,-133.53 998.38,-135 981,-135 963.62,-135 949.5,-133.53 949.5,-131.73 949.5,-131.73 949.5,-102.27 949.5,-102.27 949.5,-100.47 963.62,-99 981,-99 998.38,-99 1012.5,-100.47 1012.5,-102.27 1012.5,-102.27 1012.5,-131.73 1012.5,-131.73"/>
 <path fill="none" stroke="black" d="M1012.5,-131.73C1012.5,-129.92 998.38,-128.45 981,-128.45 963.62,-128.45 949.5,-129.92 949.5,-131.73"/>
-<text text-anchor="middle" x="981" y="-114.2" font-family="Arial" font-size="11.00" fill="white">Database</text>
+<text text-anchor="middle" x="981" y="-114.2" font-family="Arial" font-size="11.00" fill="#1f2937">Database</text>
 </g>
 <!-- user_repo&#45;&gt;db -->
 <g id="edge5" class="edge">

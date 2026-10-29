@@ -123,9 +123,10 @@ digraph "Microservices Authentication Architecture" {
 			fontname="Arial Bold",
 			fontsize=13,
 			label="Application Tier\n(Trust Level 2)",
+			labeljust=l,
 			labelloc=t,
 			lheight=0.39,
-			lp="1185.5,233",
+			lp="1080,233",
 			lwidth=1.42,
 			penwidth=2,
 			style="filled,rounded"
@@ -257,9 +258,10 @@ digraph "Microservices Authentication Architecture" {
 			fontname="Arial Bold",
 			fontsize=13,
 			label="Root of Trust\n(Trust Level 4)",
+			labeljust=r,
 			labelloc=t,
 			lheight=0.39,
-			lp="1627.5,293",
+			lp="1775,293",
 			lwidth=1.28,
 			penwidth=2,
 			style="filled,rounded"

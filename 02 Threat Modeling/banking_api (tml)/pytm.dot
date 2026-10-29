@@ -144,8 +144,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>DMZ / API Zone</i>>,
+			labeljust=l,
 			lheight=0.15,
-			lp="1212,677.52",
+			lp="1168,677.52",
 			lwidth=1.00,
 			style=dashed
 		];
@@ -239,8 +240,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>High Security Zone<br/>(PCI)</i>>,
+			labeljust=l,
 			lheight=0.28,
-			lp="1897.5,313.84",
+			lp="1803.5,313.84",
 			lwidth=1.18,
 			style=dashed
 		];
@@ -302,8 +304,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Partner Network</i>>,
+			labeljust=r,
 			lheight=0.15,
-			lp="371.5,132.5",
+			lp="691,132.5",
 			lwidth=1.00,
 			style=dashed
 		];

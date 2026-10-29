@@ -18,17 +18,17 @@
 <g id="clust2" class="cluster">
 <title>cluster_API_Gateway</title>
 <path fill="#f5f5f5" stroke="#cccccc" d="M218,-234.75C218,-234.75 306,-234.75 306,-234.75 312,-234.75 318,-240.75 318,-246.75 318,-246.75 318,-297.75 318,-297.75 318,-303.75 312,-309.75 306,-309.75 306,-309.75 218,-309.75 218,-309.75 212,-309.75 206,-303.75 206,-297.75 206,-297.75 206,-246.75 206,-246.75 206,-240.75 212,-234.75 218,-234.75"/>
-<text text-anchor="middle" x="262" y="-294.55" font-family="Arial Bold" font-size="14.00" fill="#333333">API Gateway</text>
+<text text-anchor="middle" x="268" y="-294.55" font-family="Arial Bold" font-size="14.00" fill="#333333">API Gateway</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_Services</title>
 <path fill="#f5f5f5" stroke="#cccccc" d="M20,-126.75C20,-126.75 500,-126.75 500,-126.75 506,-126.75 512,-132.75 512,-138.75 512,-138.75 512,-189.75 512,-189.75 512,-195.75 506,-201.75 500,-201.75 500,-201.75 20,-201.75 20,-201.75 14,-201.75 8,-195.75 8,-189.75 8,-189.75 8,-138.75 8,-138.75 8,-132.75 14,-126.75 20,-126.75"/>
-<text text-anchor="middle" x="260" y="-186.55" font-family="Arial Bold" font-size="14.00" fill="#333333">Services</text>
+<text text-anchor="middle" x="476" y="-186.55" font-family="Arial Bold" font-size="14.00" fill="#333333">Services</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_Data</title>
 <path fill="#f5f5f5" stroke="#cccccc" d="M67,-8C67,-8 472,-8 472,-8 478,-8 484,-14 484,-20 484,-20 484,-81.75 484,-81.75 484,-87.75 478,-93.75 472,-93.75 472,-93.75 67,-93.75 67,-93.75 61,-93.75 55,-87.75 55,-81.75 55,-81.75 55,-20 55,-20 55,-14 61,-8 67,-8"/>
-<text text-anchor="middle" x="269.5" y="-78.55" font-family="Arial Bold" font-size="14.00" fill="#333333">Data</text>
+<text text-anchor="middle" x="78" y="-78.55" font-family="Arial Bold" font-size="14.00" fill="#333333">Data</text>
 </g>
 <!-- web_ui -->
 <g id="node1" class="node">

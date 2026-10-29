@@ -53,7 +53,7 @@
 <g id="node1" class="node">
 <title>developer</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="116.5,-455.08 38.5,-455.08 38.5,-419.08 116.5,-419.08 116.5,-455.08"/>
-<text text-anchor="middle" x="77.5" y="-433.38" font-family="Arial" font-size="14.00" fill="white">Developer</text>
+<text text-anchor="middle" x="77.5" y="-433.38" font-family="Arial" font-size="14.00" fill="#1f2937">Developer</text>
 </g>
 <!-- source_control -->
 <g id="node8" class="node">
@@ -72,7 +72,7 @@
 <g id="node2" class="node">
 <title>security_engineer</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="139,-563.08 16,-563.08 16,-527.08 139,-527.08 139,-563.08"/>
-<text text-anchor="middle" x="77.5" y="-541.38" font-family="Arial" font-size="14.00" fill="white">Security Engineer</text>
+<text text-anchor="middle" x="77.5" y="-541.38" font-family="Arial" font-size="14.00" fill="#1f2937">Security Engineer</text>
 </g>
 <!-- sast_scanner -->
 <g id="node12" class="node">
@@ -91,7 +91,7 @@
 <g id="node3" class="node">
 <title>platform_admin</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="132.5,-509.08 22.5,-509.08 22.5,-473.08 132.5,-473.08 132.5,-509.08"/>
-<text text-anchor="middle" x="77.5" y="-487.38" font-family="Arial" font-size="14.00" fill="white">Platform Admin</text>
+<text text-anchor="middle" x="77.5" y="-487.38" font-family="Arial" font-size="14.00" fill="#1f2937">Platform Admin</text>
 </g>
 <!-- ci_orchestrator -->
 <g id="node9" class="node">
@@ -110,13 +110,13 @@
 <g id="node4" class="node">
 <title>external_deps</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1172,-318.08 1016,-318.08 1016,-282.08 1172,-282.08 1172,-318.08"/>
-<text text-anchor="middle" x="1094" y="-296.38" font-family="Arial" font-size="14.00" fill="white">External Dependencies</text>
+<text text-anchor="middle" x="1094" y="-296.38" font-family="Arial" font-size="14.00" fill="#1f2937">External Dependencies</text>
 </g>
 <!-- container_registry_ext -->
 <g id="node5" class="node">
 <title>container_registry_ext</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1185,-372.08 1003,-372.08 1003,-336.08 1185,-336.08 1185,-372.08"/>
-<text text-anchor="middle" x="1094" y="-350.38" font-family="Arial" font-size="14.00" fill="white">External Container Registry</text>
+<text text-anchor="middle" x="1094" y="-350.38" font-family="Arial" font-size="14.00" fill="#1f2937">External Container Registry</text>
 </g>
 <!-- artifact_builder -->
 <g id="node11" class="node">
@@ -135,13 +135,13 @@
 <g id="node6" class="node">
 <title>cloud_provider</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1721.5,-517.08 1615.5,-517.08 1615.5,-481.08 1721.5,-481.08 1721.5,-517.08"/>
-<text text-anchor="middle" x="1668.5" y="-495.38" font-family="Arial" font-size="14.00" fill="white">Cloud Provider</text>
+<text text-anchor="middle" x="1668.5" y="-495.38" font-family="Arial" font-size="14.00" fill="#1f2937">Cloud Provider</text>
 </g>
 <!-- monitoring_saas -->
 <g id="node7" class="node">
 <title>monitoring_saas</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1727,-463.08 1610,-463.08 1610,-427.08 1727,-427.08 1727,-463.08"/>
-<text text-anchor="middle" x="1668.5" y="-441.38" font-family="Arial" font-size="14.00" fill="white">Monitoring SaaS</text>
+<text text-anchor="middle" x="1668.5" y="-441.38" font-family="Arial" font-size="14.00" fill="#1f2937">Monitoring SaaS</text>
 </g>
 <!-- source_control&#45;&gt;ci_orchestrator -->
 <g id="edge4" class="edge">
@@ -155,7 +155,7 @@
 <title>git_repo</title>
 <path fill="#2ecc71" stroke="black" d="M1996.5,-678.81C1996.5,-680.62 1973.42,-682.08 1945,-682.08 1916.58,-682.08 1893.5,-680.62 1893.5,-678.81 1893.5,-678.81 1893.5,-649.36 1893.5,-649.36 1893.5,-647.55 1916.58,-646.08 1945,-646.08 1973.42,-646.08 1996.5,-647.55 1996.5,-649.36 1996.5,-649.36 1996.5,-678.81 1996.5,-678.81"/>
 <path fill="none" stroke="black" d="M1996.5,-678.81C1996.5,-677.01 1973.42,-675.54 1945,-675.54 1916.58,-675.54 1893.5,-677.01 1893.5,-678.81"/>
-<text text-anchor="middle" x="1945" y="-660.38" font-family="Arial" font-size="14.00" fill="white">Git Repository</text>
+<text text-anchor="middle" x="1945" y="-660.38" font-family="Arial" font-size="14.00" fill="#1f2937">Git Repository</text>
 </g>
 <!-- source_control&#45;&gt;git_repo -->
 <g id="edge25" class="edge">
@@ -195,7 +195,7 @@
 <title>pipeline_config</title>
 <path fill="#2ecc71" stroke="black" d="M2019.5,-354.81C2019.5,-356.62 1986.11,-358.08 1945,-358.08 1903.89,-358.08 1870.5,-356.62 1870.5,-354.81 1870.5,-354.81 1870.5,-325.36 1870.5,-325.36 1870.5,-323.55 1903.89,-322.08 1945,-322.08 1986.11,-322.08 2019.5,-323.55 2019.5,-325.36 2019.5,-325.36 2019.5,-354.81 2019.5,-354.81"/>
 <path fill="none" stroke="black" d="M2019.5,-354.81C2019.5,-353.01 1986.11,-351.54 1945,-351.54 1903.89,-351.54 1870.5,-353.01 1870.5,-354.81"/>
-<text text-anchor="middle" x="1945" y="-336.38" font-family="Arial" font-size="14.00" fill="white">Pipeline Configuration</text>
+<text text-anchor="middle" x="1945" y="-336.38" font-family="Arial" font-size="14.00" fill="#1f2937">Pipeline Configuration</text>
 </g>
 <!-- ci_orchestrator&#45;&gt;pipeline_config -->
 <g id="edge24" class="edge">
@@ -209,7 +209,7 @@
 <title>audit_log</title>
 <path fill="#2ecc71" stroke="black" d="M2007.5,-624.81C2007.5,-626.62 1979.49,-628.08 1945,-628.08 1910.51,-628.08 1882.5,-626.62 1882.5,-624.81 1882.5,-624.81 1882.5,-595.36 1882.5,-595.36 1882.5,-593.55 1910.51,-592.08 1945,-592.08 1979.49,-592.08 2007.5,-593.55 2007.5,-595.36 2007.5,-595.36 2007.5,-624.81 2007.5,-624.81"/>
 <path fill="none" stroke="black" d="M2007.5,-624.81C2007.5,-623.01 1979.49,-621.54 1945,-621.54 1910.51,-621.54 1882.5,-623.01 1882.5,-624.81"/>
-<text text-anchor="middle" x="1945" y="-606.38" font-family="Arial" font-size="14.00" fill="white">Pipeline Audit Log</text>
+<text text-anchor="middle" x="1945" y="-606.38" font-family="Arial" font-size="14.00" fill="#1f2937">Pipeline Audit Log</text>
 </g>
 <!-- ci_orchestrator&#45;&gt;audit_log -->
 <g id="edge26" class="edge">
@@ -296,7 +296,7 @@
 <title>artifact_registry</title>
 <path fill="#2ecc71" stroke="black" d="M2001,-570.81C2001,-572.62 1975.9,-574.08 1945,-574.08 1914.1,-574.08 1889,-572.62 1889,-570.81 1889,-570.81 1889,-541.36 1889,-541.36 1889,-539.55 1914.1,-538.08 1945,-538.08 1975.9,-538.08 2001,-539.55 2001,-541.36 2001,-541.36 2001,-570.81 2001,-570.81"/>
 <path fill="none" stroke="black" d="M2001,-570.81C2001,-569.01 1975.9,-567.54 1945,-567.54 1914.1,-567.54 1889,-569.01 1889,-570.81"/>
-<text text-anchor="middle" x="1945" y="-552.38" font-family="Arial" font-size="14.00" fill="white">Artifact Registry</text>
+<text text-anchor="middle" x="1945" y="-552.38" font-family="Arial" font-size="14.00" fill="#1f2937">Artifact Registry</text>
 </g>
 <!-- artifact_builder&#45;&gt;artifact_registry -->
 <g id="edge14" class="edge">
@@ -310,7 +310,7 @@
 <title>scan_results_db</title>
 <path fill="#2ecc71" stroke="black" d="M2024,-462.81C2024,-464.62 1988.59,-466.08 1945,-466.08 1901.41,-466.08 1866,-464.62 1866,-462.81 1866,-462.81 1866,-433.36 1866,-433.36 1866,-431.55 1901.41,-430.08 1945,-430.08 1988.59,-430.08 2024,-431.55 2024,-433.36 2024,-433.36 2024,-462.81 2024,-462.81"/>
 <path fill="none" stroke="black" d="M2024,-462.81C2024,-461.01 1988.59,-459.54 1945,-459.54 1901.41,-459.54 1866,-461.01 1866,-462.81"/>
-<text text-anchor="middle" x="1945" y="-444.38" font-family="Arial" font-size="14.00" fill="white">Scan Results Database</text>
+<text text-anchor="middle" x="1945" y="-444.38" font-family="Arial" font-size="14.00" fill="#1f2937">Scan Results Database</text>
 </g>
 <!-- sast_scanner&#45;&gt;scan_results_db -->
 <g id="edge21" class="edge">
@@ -350,7 +350,7 @@
 <title>signing_keys</title>
 <path fill="#2ecc71" stroke="black" d="M1992.5,-516.81C1992.5,-518.62 1971.21,-520.08 1945,-520.08 1918.79,-520.08 1897.5,-518.62 1897.5,-516.81 1897.5,-516.81 1897.5,-487.36 1897.5,-487.36 1897.5,-485.55 1918.79,-484.08 1945,-484.08 1971.21,-484.08 1992.5,-485.55 1992.5,-487.36 1992.5,-487.36 1992.5,-516.81 1992.5,-516.81"/>
 <path fill="none" stroke="black" d="M1992.5,-516.81C1992.5,-515.01 1971.21,-513.54 1945,-513.54 1918.79,-513.54 1897.5,-515.01 1897.5,-516.81"/>
-<text text-anchor="middle" x="1945" y="-498.38" font-family="Arial" font-size="14.00" fill="white">Signing Keys</text>
+<text text-anchor="middle" x="1945" y="-498.38" font-family="Arial" font-size="14.00" fill="#1f2937">Signing Keys</text>
 </g>
 <!-- signing_service&#45;&gt;signing_keys -->
 <g id="edge13" class="edge">
@@ -405,7 +405,7 @@
 <title>secrets_store</title>
 <path fill="#2ecc71" stroke="black" d="M1994,-408.81C1994,-410.62 1972.04,-412.08 1945,-412.08 1917.96,-412.08 1896,-410.62 1896,-408.81 1896,-408.81 1896,-379.36 1896,-379.36 1896,-377.55 1917.96,-376.08 1945,-376.08 1972.04,-376.08 1994,-377.55 1994,-379.36 1994,-379.36 1994,-408.81 1994,-408.81"/>
 <path fill="none" stroke="black" d="M1994,-408.81C1994,-407.01 1972.04,-405.54 1945,-405.54 1917.96,-405.54 1896,-407.01 1896,-408.81"/>
-<text text-anchor="middle" x="1945" y="-390.38" font-family="Arial" font-size="14.00" fill="white">Secrets Store</text>
+<text text-anchor="middle" x="1945" y="-390.38" font-family="Arial" font-size="14.00" fill="#1f2937">Secrets Store</text>
 </g>
 <!-- secrets_manager&#45;&gt;secrets_store -->
 <g id="edge20" class="edge">

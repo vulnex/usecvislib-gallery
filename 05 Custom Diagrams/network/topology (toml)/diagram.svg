@@ -23,7 +23,7 @@
 <g id="clust3" class="cluster">
 <title>cluster_client_vlan</title>
 <path fill="#2a2a4e" stroke="#444444" d="M37.31,0.41C37.31,0.41 268.31,0.41 268.31,0.41 274.31,0.41 280.31,-5.59 280.31,-11.59 280.31,-11.59 280.31,-182.59 280.31,-182.59 280.31,-188.59 274.31,-194.59 268.31,-194.59 268.31,-194.59 37.31,-194.59 37.31,-194.59 31.31,-194.59 25.31,-188.59 25.31,-182.59 25.31,-182.59 25.31,-11.59 25.31,-11.59 25.31,-5.59 31.31,0.41 37.31,0.41"/>
-<text text-anchor="middle" x="152.81" y="-179.39" font-family="Arial" font-size="14.00" fill="#ffffff">Client VLAN (10)</text>
+<text text-anchor="middle" x="84.31" y="-179.39" font-family="Arial" font-size="14.00" fill="#ffffff">Client VLAN (10)</text>
 </g>
 <!-- fw1 -->
 <g id="node1" class="node">
@@ -178,7 +178,7 @@
 <g id="edge9" class="edge">
 <title>switch2&#45;&gt;ap1</title>
 <path fill="none" stroke="#666666" stroke-width="1.2" d="M299.7,-218.57C207.66,-180.63 178.62,-168.94 143.97,-156.92"/>
-<text text-anchor="middle" x="214.81" y="-170.02" font-family="Arial" font-size="10.00" fill="#cccccc">1Gbps</text>
+<text text-anchor="middle" x="185.81" y="-181.02" font-family="Arial" font-size="10.00" fill="#cccccc">1Gbps</text>
 </g>
 <!-- switch3&#45;&gt;srv2 -->
 <g id="edge10" class="edge">

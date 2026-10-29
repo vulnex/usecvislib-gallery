@@ -121,8 +121,8 @@
 <polygon fill="#1abc9c" stroke="#daa520" points="748,-428 678,-428 678,-392 754,-392 754,-422 748,-428"/>
 <polyline fill="none" stroke="#daa520" points="748,-428 748,-422 "/>
 <polyline fill="none" stroke="#daa520" points="754,-422 748,-422 "/>
-<text text-anchor="middle" x="716" y="-413.2" font-family="Arial" font-size="11.00" fill="white">&lt;&lt;artifact&gt;&gt;</text>
-<text text-anchor="middle" x="716" y="-401.2" font-family="Arial" font-size="11.00" fill="white">users.db</text>
+<text text-anchor="middle" x="716" y="-413.2" font-family="Arial" font-size="11.00" fill="#1f2937">&lt;&lt;artifact&gt;&gt;</text>
+<text text-anchor="middle" x="716" y="-401.2" font-family="Arial" font-size="11.00" fill="#1f2937">users.db</text>
 </g>
 <!-- auth&#45;&gt;user_db -->
 <g id="edge8" class="edge">
@@ -136,8 +136,8 @@
 <polygon fill="#1abc9c" stroke="#daa520" points="748,-334 678,-334 678,-298 754,-298 754,-328 748,-334"/>
 <polyline fill="none" stroke="#daa520" points="748,-334 748,-328 "/>
 <polyline fill="none" stroke="#daa520" points="754,-328 748,-328 "/>
-<text text-anchor="middle" x="716" y="-319.2" font-family="Arial" font-size="11.00" fill="white">&lt;&lt;artifact&gt;&gt;</text>
-<text text-anchor="middle" x="716" y="-307.2" font-family="Arial" font-size="11.00" fill="white">products.db</text>
+<text text-anchor="middle" x="716" y="-319.2" font-family="Arial" font-size="11.00" fill="#1f2937">&lt;&lt;artifact&gt;&gt;</text>
+<text text-anchor="middle" x="716" y="-307.2" font-family="Arial" font-size="11.00" fill="#1f2937">products.db</text>
 </g>
 <!-- catalog&#45;&gt;product_db -->
 <g id="edge9" class="edge">
@@ -183,8 +183,8 @@
 <polygon fill="#1abc9c" stroke="#daa520" points="748,-240 678,-240 678,-204 754,-204 754,-234 748,-240"/>
 <polyline fill="none" stroke="#daa520" points="748,-240 748,-234 "/>
 <polyline fill="none" stroke="#daa520" points="754,-234 748,-234 "/>
-<text text-anchor="middle" x="716" y="-225.2" font-family="Arial" font-size="11.00" fill="white">&lt;&lt;artifact&gt;&gt;</text>
-<text text-anchor="middle" x="716" y="-213.2" font-family="Arial" font-size="11.00" fill="white">orders.db</text>
+<text text-anchor="middle" x="716" y="-225.2" font-family="Arial" font-size="11.00" fill="#1f2937">&lt;&lt;artifact&gt;&gt;</text>
+<text text-anchor="middle" x="716" y="-213.2" font-family="Arial" font-size="11.00" fill="#1f2937">orders.db</text>
 </g>
 <!-- orders&#45;&gt;order_db -->
 <g id="edge10" class="edge">

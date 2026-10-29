@@ -24,20 +24,20 @@
 <g id="clust2" class="cluster">
 <title>cluster_dmz</title>
 <path fill="#ffe0b2" stroke="#e65100" stroke-width="2" d="M817,-8C817,-8 1167,-8 1167,-8 1173,-8 1179,-14 1179,-20 1179,-20 1179,-206 1179,-206 1179,-212 1173,-218 1167,-218 1167,-218 817,-218 817,-218 811,-218 805,-212 805,-206 805,-206 805,-20 805,-20 805,-14 811,-8 817,-8"/>
-<text text-anchor="middle" x="992" y="-203.6" font-family="Arial Bold" font-size="13.00" fill="#663300">DMZ</text>
-<text text-anchor="middle" x="992" y="-189.6" font-family="Arial Bold" font-size="13.00" fill="#663300">(Trust Level 1)</text>
+<text text-anchor="middle" x="1125" y="-203.6" font-family="Arial Bold" font-size="13.00" fill="#663300">DMZ</text>
+<text text-anchor="middle" x="1125" y="-189.6" font-family="Arial Bold" font-size="13.00" fill="#663300">(Trust Level 1)</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_corporate</title>
 <path fill="#fff9c4" stroke="#f9a825" stroke-width="2" d="M1091.5,-226C1091.5,-226 1715,-226 1715,-226 1721,-226 1727,-232 1727,-238 1727,-238 1727,-398 1727,-398 1727,-404 1721,-410 1715,-410 1715,-410 1091.5,-410 1091.5,-410 1085.5,-410 1079.5,-404 1079.5,-398 1079.5,-398 1079.5,-238 1079.5,-238 1079.5,-232 1085.5,-226 1091.5,-226"/>
-<text text-anchor="middle" x="1403.25" y="-395.6" font-family="Arial Bold" font-size="13.00" fill="#665500">Corporate LAN</text>
-<text text-anchor="middle" x="1403.25" y="-381.6" font-family="Arial Bold" font-size="13.00" fill="#665500">(Trust Level 2)</text>
+<text text-anchor="middle" x="1136" y="-395.6" font-family="Arial Bold" font-size="13.00" fill="#665500">Corporate LAN</text>
+<text text-anchor="middle" x="1136" y="-381.6" font-family="Arial Bold" font-size="13.00" fill="#665500">(Trust Level 2)</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_datacenter</title>
 <path fill="#c8e6c9" stroke="#2e7d32" stroke-width="2" d="M1384.5,-55C1384.5,-55 1726,-55 1726,-55 1732,-55 1738,-61 1738,-67 1738,-67 1738,-206 1738,-206 1738,-212 1732,-218 1726,-218 1726,-218 1384.5,-218 1384.5,-218 1378.5,-218 1372.5,-212 1372.5,-206 1372.5,-206 1372.5,-67 1372.5,-67 1372.5,-61 1378.5,-55 1384.5,-55"/>
-<text text-anchor="middle" x="1555.25" y="-203.6" font-family="Arial Bold" font-size="13.00" fill="#1b5e20">Data Center</text>
-<text text-anchor="middle" x="1555.25" y="-189.6" font-family="Arial Bold" font-size="13.00" fill="#1b5e20">(Trust Level 3)</text>
+<text text-anchor="middle" x="1426.5" y="-203.6" font-family="Arial Bold" font-size="13.00" fill="#1b5e20">Data Center</text>
+<text text-anchor="middle" x="1426.5" y="-189.6" font-family="Arial Bold" font-size="13.00" fill="#1b5e20">(Trust Level 3)</text>
 </g>
 <!-- _anchor_internet -->
 <!-- _anchor_dmz -->

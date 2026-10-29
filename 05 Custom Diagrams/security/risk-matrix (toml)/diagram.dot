@@ -57,8 +57,9 @@ digraph Risk_Assessment_Matrix {
 		graph [bb="253,86,766,161",
 			color="#E74C3C",
 			label="High Risks",
+			labeljust=l,
 			lheight=0.21,
-			lp="509.5,149.5",
+			lp="293.5,149.5",
 			lwidth=0.90,
 			style=dashed
 		];
@@ -106,7 +107,7 @@ digraph Risk_Assessment_Matrix {
 		];
 		waf	[color="#333333",
 			fillcolor="#1ABC9C",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=WAF,
 			pos="608,206",
@@ -114,7 +115,7 @@ digraph Risk_Assessment_Matrix {
 			width=0.75];
 		encryption	[color="#333333",
 			fillcolor="#1ABC9C",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="Encryption at Rest",
 			pos="470,206",
@@ -122,7 +123,7 @@ digraph Risk_Assessment_Matrix {
 			width=1.8984];
 		mfa	[color="#333333",
 			fillcolor="#1ABC9C",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=MFA,
 			pos="705,206",
@@ -130,7 +131,7 @@ digraph Risk_Assessment_Matrix {
 			width=0.75];
 		audit_logs	[color="#333333",
 			fillcolor="#1ABC9C",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="Audit Logging",
 			pos="305,206",
@@ -164,7 +165,7 @@ digraph Risk_Assessment_Matrix {
 		xlp="695,169.47"];
 	brute_force	[color="#333333",
 		fillcolor="#F39C12",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label="Brute Force",
 		pos="910,18",
@@ -208,7 +209,7 @@ digraph Risk_Assessment_Matrix {
 		style=solid];
 	weak_password	[color="#333333",
 		fillcolor="#F39C12",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label="Weak Passwords",
 		pos="1026,112",
@@ -246,7 +247,7 @@ digraph Risk_Assessment_Matrix {
 		width=1.3194];
 	debug_enabled	[color="#333333",
 		fillcolor="#F39C12",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label="Debug Mode",
 		pos="1159,112",

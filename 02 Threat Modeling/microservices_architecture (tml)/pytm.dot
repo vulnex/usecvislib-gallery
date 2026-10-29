@@ -81,8 +81,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Internal Service<br/>Mesh</i>>,
+			labeljust=l,
 			lheight=0.28,
-			lp="984,317.82",
+			lp="722.5,317.82",
 			lwidth=0.96,
 			style=dashed
 		];

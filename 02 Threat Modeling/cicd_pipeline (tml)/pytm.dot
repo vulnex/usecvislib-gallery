@@ -21,8 +21,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>CI/CD Zone</i>>,
+			labeljust=l,
 			lheight=0.15,
-			lp="1418,1192.8",
+			lp="1363,1192.8",
 			lwidth=0.75,
 			style=dashed
 		];
@@ -144,8 +145,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Deployment Zone</i>>,
+			labeljust=l,
 			lheight=0.15,
-			lp="1136,466.12",
+			lp="1032,466.12",
 			lwidth=1.08,
 			style=dashed
 		];
@@ -208,8 +210,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>External Services<br/>(Untrusted)</i>>,
+			labeljust=l,
 			lheight=0.28,
-			lp="1719.5,663.62",
+			lp="1621,663.62",
 			lwidth=1.08,
 			style=dashed
 		];

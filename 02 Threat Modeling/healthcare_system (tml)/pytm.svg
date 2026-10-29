@@ -22,7 +22,7 @@
 <g id="clust3" class="cluster">
 <title>cluster_boundary_DMZ_f2eb7a3ff7</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="940,-610.79 940,-743.37 1221,-743.37 1221,-610.79 940,-610.79"/>
-<text text-anchor="start" x="1069.5" y="-732.37" font-family="Arial" font-style="italic" font-size="10.00">DMZ</text>
+<text text-anchor="start" x="948" y="-732.37" font-family="Arial" font-style="italic" font-size="10.00">DMZ</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_boundary_HealthcarePartnersBAARequired_579e9aae81</title>
@@ -40,8 +40,8 @@
 <g id="clust6" class="cluster">
 <title>cluster_boundary_PHIDataZoneHIPAA_f8af758679</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="8,-38.88 8,-135.12 1237,-135.12 1237,-38.88 8,-38.88"/>
-<text text-anchor="start" x="589" y="-124.12" font-family="Arial" font-style="italic" font-size="10.00">PHI Data Zone</text>
-<text text-anchor="start" x="604" y="-114.12" font-family="Arial" font-style="italic" font-size="10.00">(HIPAA)</text>
+<text text-anchor="start" x="16" y="-124.12" font-family="Arial" font-style="italic" font-size="10.00">PHI Data Zone</text>
+<text text-anchor="start" x="31" y="-114.12" font-family="Arial" font-style="italic" font-size="10.00">(HIPAA)</text>
 </g>
 <!-- server_IdentityProvider_a22abb380b -->
 <g id="node1" class="node">

@@ -43,7 +43,7 @@
 <g id="node1" class="node">
 <title>patient</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="97.5,-547 38.5,-547 38.5,-511 97.5,-511 97.5,-547"/>
-<text text-anchor="middle" x="68" y="-525.3" font-family="Arial" font-size="14.00" fill="white">Patient</text>
+<text text-anchor="middle" x="68" y="-525.3" font-family="Arial" font-size="14.00" fill="#1f2937">Patient</text>
 </g>
 <!-- patient_portal -->
 <g id="node9" class="node">
@@ -62,7 +62,7 @@
 <g id="node2" class="node">
 <title>physician</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="105,-356 31,-356 31,-320 105,-320 105,-356"/>
-<text text-anchor="middle" x="68" y="-334.3" font-family="Arial" font-size="14.00" fill="white">Physician</text>
+<text text-anchor="middle" x="68" y="-334.3" font-family="Arial" font-size="14.00" fill="#1f2937">Physician</text>
 </g>
 <!-- clinical_app -->
 <g id="node10" class="node">
@@ -81,7 +81,7 @@
 <g id="node3" class="node">
 <title>nurse</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="95,-464 41,-464 41,-428 95,-428 95,-464"/>
-<text text-anchor="middle" x="68" y="-442.3" font-family="Arial" font-size="14.00" fill="white">Nurse</text>
+<text text-anchor="middle" x="68" y="-442.3" font-family="Arial" font-size="14.00" fill="#1f2937">Nurse</text>
 </g>
 <!-- nurse&#45;&gt;clinical_app -->
 <g id="edge3" class="edge">
@@ -94,7 +94,7 @@
 <g id="node4" class="node">
 <title>admin</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="120,-410 16,-410 16,-374 120,-374 120,-410"/>
-<text text-anchor="middle" x="68" y="-388.3" font-family="Arial" font-size="14.00" fill="white">System Admin</text>
+<text text-anchor="middle" x="68" y="-388.3" font-family="Arial" font-size="14.00" fill="#1f2937">System Admin</text>
 </g>
 <!-- admin&#45;&gt;clinical_app -->
 <g id="edge4" class="edge">
@@ -107,25 +107,25 @@
 <g id="node5" class="node">
 <title>lab_system</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1234,-160 1145,-160 1145,-124 1234,-124 1234,-160"/>
-<text text-anchor="middle" x="1189.5" y="-138.3" font-family="Arial" font-size="14.00" fill="white">Lab System</text>
+<text text-anchor="middle" x="1189.5" y="-138.3" font-family="Arial" font-size="14.00" fill="#1f2937">Lab System</text>
 </g>
 <!-- pharmacy_system -->
 <g id="node6" class="node">
 <title>pharmacy_system</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1253.5,-214 1125.5,-214 1125.5,-178 1253.5,-178 1253.5,-214"/>
-<text text-anchor="middle" x="1189.5" y="-192.3" font-family="Arial" font-size="14.00" fill="white">Pharmacy System</text>
+<text text-anchor="middle" x="1189.5" y="-192.3" font-family="Arial" font-size="14.00" fill="#1f2937">Pharmacy System</text>
 </g>
 <!-- insurance_api -->
 <g id="node7" class="node">
 <title>insurance_api</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1240,-106 1139,-106 1139,-70 1240,-70 1240,-106"/>
-<text text-anchor="middle" x="1189.5" y="-84.3" font-family="Arial" font-size="14.00" fill="white">Insurance API</text>
+<text text-anchor="middle" x="1189.5" y="-84.3" font-family="Arial" font-size="14.00" fill="#1f2937">Insurance API</text>
 </g>
 <!-- hie_network -->
 <g id="node8" class="node">
 <title>hie_network</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1235.5,-52 1143.5,-52 1143.5,-16 1235.5,-16 1235.5,-52"/>
-<text text-anchor="middle" x="1189.5" y="-30.3" font-family="Arial" font-size="14.00" fill="white">HIE Network</text>
+<text text-anchor="middle" x="1189.5" y="-30.3" font-family="Arial" font-size="14.00" fill="#1f2937">HIE Network</text>
 </g>
 <!-- identity_provider -->
 <g id="node11" class="node">
@@ -172,7 +172,7 @@
 <title>identity_store</title>
 <path fill="#2ecc71" stroke="black" d="M1237.5,-617.73C1237.5,-619.53 1215.99,-621 1189.5,-621 1163.01,-621 1141.5,-619.53 1141.5,-617.73 1141.5,-617.73 1141.5,-588.27 1141.5,-588.27 1141.5,-586.47 1163.01,-585 1189.5,-585 1215.99,-585 1237.5,-586.47 1237.5,-588.27 1237.5,-588.27 1237.5,-617.73 1237.5,-617.73"/>
 <path fill="none" stroke="black" d="M1237.5,-617.73C1237.5,-615.92 1215.99,-614.45 1189.5,-614.45 1163.01,-614.45 1141.5,-615.92 1141.5,-617.73"/>
-<text text-anchor="middle" x="1189.5" y="-599.3" font-family="Arial" font-size="14.00" fill="white">Identity Store</text>
+<text text-anchor="middle" x="1189.5" y="-599.3" font-family="Arial" font-size="14.00" fill="#1f2937">Identity Store</text>
 </g>
 <!-- identity_provider&#45;&gt;identity_store -->
 <g id="edge20" class="edge">
@@ -259,7 +259,7 @@
 <title>patient_db</title>
 <path fill="#2ecc71" stroke="black" d="M1249.5,-401.73C1249.5,-403.53 1222.61,-405 1189.5,-405 1156.39,-405 1129.5,-403.53 1129.5,-401.73 1129.5,-401.73 1129.5,-372.27 1129.5,-372.27 1129.5,-370.47 1156.39,-369 1189.5,-369 1222.61,-369 1249.5,-370.47 1249.5,-372.27 1249.5,-372.27 1249.5,-401.73 1249.5,-401.73"/>
 <path fill="none" stroke="black" d="M1249.5,-401.73C1249.5,-399.92 1222.61,-398.45 1189.5,-398.45 1156.39,-398.45 1129.5,-399.92 1129.5,-401.73"/>
-<text text-anchor="middle" x="1189.5" y="-383.3" font-family="Arial" font-size="14.00" fill="white">Patient Database</text>
+<text text-anchor="middle" x="1189.5" y="-383.3" font-family="Arial" font-size="14.00" fill="#1f2937">Patient Database</text>
 </g>
 <!-- record_service&#45;&gt;patient_db -->
 <g id="edge12" class="edge">
@@ -273,7 +273,7 @@
 <title>medical_records_db</title>
 <path fill="#2ecc71" stroke="black" d="M1279,-347.73C1279,-349.53 1238.88,-351 1189.5,-351 1140.12,-351 1100,-349.53 1100,-347.73 1100,-347.73 1100,-318.27 1100,-318.27 1100,-316.47 1140.12,-315 1189.5,-315 1238.88,-315 1279,-316.47 1279,-318.27 1279,-318.27 1279,-347.73 1279,-347.73"/>
 <path fill="none" stroke="black" d="M1279,-347.73C1279,-345.92 1238.88,-344.45 1189.5,-344.45 1140.12,-344.45 1100,-345.92 1100,-347.73"/>
-<text text-anchor="middle" x="1189.5" y="-329.3" font-family="Arial" font-size="14.00" fill="white">Medical Records Database</text>
+<text text-anchor="middle" x="1189.5" y="-329.3" font-family="Arial" font-size="14.00" fill="#1f2937">Medical Records Database</text>
 </g>
 <!-- record_service&#45;&gt;medical_records_db -->
 <g id="edge13" class="edge">
@@ -287,7 +287,7 @@
 <title>imaging_storage</title>
 <path fill="#2ecc71" stroke="black" d="M1273,-455.73C1273,-457.53 1235.57,-459 1189.5,-459 1143.43,-459 1106,-457.53 1106,-455.73 1106,-455.73 1106,-426.27 1106,-426.27 1106,-424.47 1143.43,-423 1189.5,-423 1235.57,-423 1273,-424.47 1273,-426.27 1273,-426.27 1273,-455.73 1273,-455.73"/>
 <path fill="none" stroke="black" d="M1273,-455.73C1273,-453.92 1235.57,-452.45 1189.5,-452.45 1143.43,-452.45 1106,-453.92 1106,-455.73"/>
-<text text-anchor="middle" x="1189.5" y="-437.3" font-family="Arial" font-size="14.00" fill="white">Medical Imaging Storage</text>
+<text text-anchor="middle" x="1189.5" y="-437.3" font-family="Arial" font-size="14.00" fill="#1f2937">Medical Imaging Storage</text>
 </g>
 <!-- record_service&#45;&gt;imaging_storage -->
 <g id="edge14" class="edge">
@@ -308,7 +308,7 @@
 <title>prescription_db</title>
 <path fill="#2ecc71" stroke="black" d="M1264,-509.73C1264,-511.53 1230.61,-513 1189.5,-513 1148.39,-513 1115,-511.53 1115,-509.73 1115,-509.73 1115,-480.27 1115,-480.27 1115,-478.47 1148.39,-477 1189.5,-477 1230.61,-477 1264,-478.47 1264,-480.27 1264,-480.27 1264,-509.73 1264,-509.73"/>
 <path fill="none" stroke="black" d="M1264,-509.73C1264,-507.92 1230.61,-506.45 1189.5,-506.45 1148.39,-506.45 1115,-507.92 1115,-509.73"/>
-<text text-anchor="middle" x="1189.5" y="-491.3" font-family="Arial" font-size="14.00" fill="white">Prescription Database</text>
+<text text-anchor="middle" x="1189.5" y="-491.3" font-family="Arial" font-size="14.00" fill="#1f2937">Prescription Database</text>
 </g>
 <!-- prescription_service&#45;&gt;prescription_db -->
 <g id="edge15" class="edge">
@@ -322,7 +322,7 @@
 <title>audit_log_db</title>
 <path fill="#2ecc71" stroke="black" d="M1257,-563.73C1257,-565.53 1226.75,-567 1189.5,-567 1152.25,-567 1122,-565.53 1122,-563.73 1122,-563.73 1122,-534.27 1122,-534.27 1122,-532.47 1152.25,-531 1189.5,-531 1226.75,-531 1257,-532.47 1257,-534.27 1257,-534.27 1257,-563.73 1257,-563.73"/>
 <path fill="none" stroke="black" d="M1257,-563.73C1257,-561.92 1226.75,-560.45 1189.5,-560.45 1152.25,-560.45 1122,-561.92 1122,-563.73"/>
-<text text-anchor="middle" x="1189.5" y="-545.3" font-family="Arial" font-size="14.00" fill="white">Audit Log Database</text>
+<text text-anchor="middle" x="1189.5" y="-545.3" font-family="Arial" font-size="14.00" fill="#1f2937">Audit Log Database</text>
 </g>
 <!-- audit_service&#45;&gt;audit_log_db -->
 <g id="edge22" class="edge">
@@ -349,7 +349,7 @@
 <title>cache</title>
 <path fill="#2ecc71" stroke="black" d="M1243,-293.73C1243,-295.53 1219.02,-297 1189.5,-297 1159.98,-297 1136,-295.53 1136,-293.73 1136,-293.73 1136,-264.27 1136,-264.27 1136,-262.47 1159.98,-261 1189.5,-261 1219.02,-261 1243,-262.47 1243,-264.27 1243,-264.27 1243,-293.73 1243,-293.73"/>
 <path fill="none" stroke="black" d="M1243,-293.73C1243,-291.92 1219.02,-290.45 1189.5,-290.45 1159.98,-290.45 1136,-291.92 1136,-293.73"/>
-<text text-anchor="middle" x="1189.5" y="-275.3" font-family="Arial" font-size="14.00" fill="white">Session Cache</text>
+<text text-anchor="middle" x="1189.5" y="-275.3" font-family="Arial" font-size="14.00" fill="#1f2937">Session Cache</text>
 </g>
 </g>
 </svg>

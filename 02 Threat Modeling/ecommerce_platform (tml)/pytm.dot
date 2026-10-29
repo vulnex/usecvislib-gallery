@@ -129,8 +129,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Data Tier (PCI<br/>Zone)</i>>,
+			labeljust=l,
 			lheight=0.28,
-			lp="603,113",
+			lp="48,113",
 			lwidth=0.89,
 			style=dashed
 		];

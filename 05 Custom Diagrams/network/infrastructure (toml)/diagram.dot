@@ -71,8 +71,9 @@ digraph Infrastructure_Diagram {
 				color="#4a90d9",
 				fontcolor="#90caf9",
 				label="us-east-1 (N. Virginia)",
+				labeljust=r,
 				lheight=0.21,
-				lp="444,526.45",
+				lp="655,526.45",
 				lwidth=2.64,
 				style=dashed
 			];
@@ -82,8 +83,9 @@ digraph Infrastructure_Diagram {
 					color="#4a90d9",
 					fontcolor="#90caf9",
 					label=Storage,
+					labeljust=l,
 					lheight=0.21,
-					lp="213,467.66",
+					lp="175,467.66",
 					lwidth=0.81,
 					style=dashed
 				];
@@ -100,7 +102,7 @@ digraph Infrastructure_Diagram {
 					fontcolor="#90caf9",
 					label="Production VPC 10.0.0.0/16",
 					lheight=0.21,
-					lp="523,495.45",
+					lp="634.5,495.45",
 					lwidth=2.99,
 					style=dashed
 				];

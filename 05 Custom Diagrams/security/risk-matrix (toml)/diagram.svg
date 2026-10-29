@@ -18,7 +18,7 @@
 <g id="clust2" class="cluster">
 <title>cluster_high_risks</title>
 <polygon fill="white" stroke="#e74c3c" stroke-dasharray="5,2" points="253,-86 253,-161 766,-161 766,-86 253,-86"/>
-<text text-anchor="middle" x="509.5" y="-145.8" font-family="Arial" font-size="14.00" fill="#333333">High Risks</text>
+<text text-anchor="middle" x="293.5" y="-145.8" font-family="Arial" font-size="14.00" fill="#333333">High Risks</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_controls</title>
@@ -65,7 +65,7 @@
 <g id="node7" class="node">
 <title>waf</title>
 <polygon fill="#1abc9c" stroke="#333333" points="635,-198.54 635,-213.46 619.18,-224 596.82,-224 581,-213.46 581,-198.54 596.82,-188 619.18,-188 635,-198.54"/>
-<text text-anchor="middle" x="608" y="-203.2" font-family="Arial" font-size="11.00" fill="white">WAF</text>
+<text text-anchor="middle" x="608" y="-203.2" font-family="Arial" font-size="11.00" fill="#1f2937">WAF</text>
 </g>
 <!-- waf&#45;&gt;sql_injection -->
 <g id="edge11" class="edge">
@@ -85,7 +85,7 @@
 <g id="node8" class="node">
 <title>encryption</title>
 <polygon fill="#1abc9c" stroke="#333333" points="538.19,-198.54 538.19,-213.46 498.24,-224 441.76,-224 401.81,-213.46 401.81,-198.54 441.76,-188 498.24,-188 538.19,-198.54"/>
-<text text-anchor="middle" x="470" y="-203.2" font-family="Arial" font-size="11.00" fill="white">Encryption at Rest</text>
+<text text-anchor="middle" x="470" y="-203.2" font-family="Arial" font-size="11.00" fill="#1f2937">Encryption at Rest</text>
 </g>
 <!-- encryption&#45;&gt;pii_exposure -->
 <g id="edge13" class="edge">
@@ -98,7 +98,7 @@
 <g id="node9" class="node">
 <title>mfa</title>
 <polygon fill="#1abc9c" stroke="#333333" points="732,-198.54 732,-213.46 716.18,-224 693.82,-224 678,-213.46 678,-198.54 693.82,-188 716.18,-188 732,-198.54"/>
-<text text-anchor="middle" x="705" y="-203.2" font-family="Arial" font-size="11.00" fill="white">MFA</text>
+<text text-anchor="middle" x="705" y="-203.2" font-family="Arial" font-size="11.00" fill="#1f2937">MFA</text>
 </g>
 <!-- mfa&#45;&gt;session_hijack -->
 <g id="edge15" class="edge">
@@ -111,7 +111,7 @@
 <g id="node16" class="node">
 <title>brute_force</title>
 <polygon fill="#f39c12" stroke="#333333" points="947,-36 873,-36 873,0 947,0 947,-36"/>
-<text text-anchor="middle" x="910" y="-15.2" font-family="Arial" font-size="11.00" fill="white">Brute Force</text>
+<text text-anchor="middle" x="910" y="-15.2" font-family="Arial" font-size="11.00" fill="#1f2937">Brute Force</text>
 </g>
 <!-- mfa&#45;&gt;brute_force -->
 <g id="edge14" class="edge">
@@ -124,7 +124,7 @@
 <g id="node10" class="node">
 <title>audit_logs</title>
 <polygon fill="#1abc9c" stroke="#333333" points="359.05,-198.54 359.05,-213.46 327.39,-224 282.61,-224 250.95,-213.46 250.95,-198.54 282.61,-188 327.39,-188 359.05,-198.54"/>
-<text text-anchor="middle" x="305" y="-203.2" font-family="Arial" font-size="11.00" fill="white">Audit Logging</text>
+<text text-anchor="middle" x="305" y="-203.2" font-family="Arial" font-size="11.00" fill="#1f2937">Audit Logging</text>
 </g>
 <!-- cat_injection -->
 <g id="node11" class="node">
@@ -164,7 +164,7 @@
 <g id="node15" class="node">
 <title>weak_password</title>
 <polygon fill="#f39c12" stroke="#333333" points="1076.5,-130 975.5,-130 975.5,-94 1076.5,-94 1076.5,-130"/>
-<text text-anchor="middle" x="1026" y="-109.2" font-family="Arial" font-size="11.00" fill="white">Weak Passwords</text>
+<text text-anchor="middle" x="1026" y="-109.2" font-family="Arial" font-size="11.00" fill="#1f2937">Weak Passwords</text>
 </g>
 <!-- cat_auth&#45;&gt;weak_password -->
 <g id="edge4" class="edge">
@@ -204,7 +204,7 @@
 <g id="node17" class="node">
 <title>debug_enabled</title>
 <polygon fill="#f39c12" stroke="#333333" points="1198.5,-130 1119.5,-130 1119.5,-94 1198.5,-94 1198.5,-130"/>
-<text text-anchor="middle" x="1159" y="-109.2" font-family="Arial" font-size="11.00" fill="white">Debug Mode</text>
+<text text-anchor="middle" x="1159" y="-109.2" font-family="Arial" font-size="11.00" fill="#1f2937">Debug Mode</text>
 </g>
 <!-- cat_config&#45;&gt;debug_enabled -->
 <g id="edge9" class="edge">

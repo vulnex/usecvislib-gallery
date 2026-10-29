@@ -57,8 +57,9 @@ digraph System_Architecture {
 			color="#4a90d9",
 			fontcolor="#90caf9",
 			label="Gateway Layer",
+			labeljust=l,
 			lheight=0.21,
-			lp="192,400.75",
+			lp="167,400.75",
 			lwidth=1.50,
 			style=dashed
 		];

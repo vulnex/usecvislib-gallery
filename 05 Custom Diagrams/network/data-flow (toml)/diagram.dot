@@ -152,14 +152,15 @@ digraph Data_Flow_Diagram {
 		graph [bb="8,100,329.5,269",
 			color="#95A5A6",
 			label="External Entities",
+			labeljust=l,
 			lheight=0.21,
-			lp="168.75,257.5",
+			lp="65,257.5",
 			lwidth=1.36,
 			style=dashed
 		];
 		customer	[color="#333333",
 			fillcolor="#95A5A6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label=Customer,
 			pos="289.5,206",
@@ -167,7 +168,7 @@ digraph Data_Flow_Diagram {
 			width=0.88889];
 		payment_provider	[color="#333333",
 			fillcolor="#95A5A6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="Payment Gateway",
 			pos="68.5,220",
@@ -175,7 +176,7 @@ digraph Data_Flow_Diagram {
 			width=1.4583];
 		shipping	[color="#333333",
 			fillcolor="#95A5A6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			height=0.5,
 			label="Shipping Provider",
 			pos="68.5,126",

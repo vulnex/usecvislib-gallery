@@ -195,7 +195,7 @@ digraph "AI Agent Prompt Injection - MITRE ATLAS" {
 		];
 		"AML.T0080"	[color="#64748b",
 			fillcolor="#e74c3c99",
-			fontcolor="#ffffff",
+			fontcolor="#1f2937",
 			fontname=Helvetica,
 			fontsize=10,
 			height=0.66667,

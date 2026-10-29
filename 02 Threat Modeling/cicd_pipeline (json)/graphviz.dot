@@ -18,7 +18,7 @@ digraph "CI/CD Pipeline" {
 		];
 		developer	[description="Software developer committing code",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -30,7 +30,7 @@ digraph "CI/CD Pipeline" {
 			width=1.0833];
 		security_engineer	[description="Security team member reviewing findings",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -42,7 +42,7 @@ digraph "CI/CD Pipeline" {
 			width=1.7083];
 		platform_admin	[description="DevOps/Platform administrator",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=True,
@@ -66,7 +66,7 @@ digraph "CI/CD Pipeline" {
 		];
 		external_deps	[description="Public package registries (npm, PyPI, Maven)",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -77,7 +77,7 @@ digraph "CI/CD Pipeline" {
 			width=2.1667];
 		container_registry_ext	[description="Docker Hub and other public registries",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -100,7 +100,7 @@ digraph "CI/CD Pipeline" {
 		];
 		cloud_provider	[description="AWS/GCP/Azure infrastructure APIs",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -111,7 +111,7 @@ digraph "CI/CD Pipeline" {
 			width=1.4722];
 		monitoring_saas	[description="External monitoring and alerting (Datadog, PagerDuty)",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -405,7 +405,7 @@ digraph "CI/CD Pipeline" {
 		];
 		git_repo	[description="Source code repository with history",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -421,7 +421,7 @@ digraph "CI/CD Pipeline" {
 			width=1.4306];
 		artifact_registry	[description="Private container and package registry",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -436,7 +436,7 @@ digraph "CI/CD Pipeline" {
 			width=1.5556];
 		secrets_store	[description="Encrypted secrets and credentials vault",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -452,7 +452,7 @@ digraph "CI/CD Pipeline" {
 			width=1.3611];
 		scan_results_db	[description="Security scan findings and vulnerability data",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -467,7 +467,7 @@ digraph "CI/CD Pipeline" {
 			width=2.1944];
 		pipeline_config	[description="CI/CD pipeline definitions and policies",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -482,7 +482,7 @@ digraph "CI/CD Pipeline" {
 			width=2.0694];
 		signing_keys	[description="Code signing private keys (HSM-backed)",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -498,7 +498,7 @@ digraph "CI/CD Pipeline" {
 			width=1.3194];
 		audit_log	[description="Immutable deployment and change audit trail",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,

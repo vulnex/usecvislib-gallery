@@ -149,8 +149,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>DMZ</i>>,
+			labeljust=l,
 			lheight=0.15,
-			lp="1080.5,733.87",
+			lp="959,733.87",
 			lwidth=0.31,
 			style=dashed
 		];
@@ -241,8 +242,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>PHI Data Zone<br/>(HIPAA)</i>>,
+			labeljust=l,
 			lheight=0.28,
-			lp="622.5,121.12",
+			lp="49.5,121.12",
 			lwidth=0.93,
 			style=dashed
 		];

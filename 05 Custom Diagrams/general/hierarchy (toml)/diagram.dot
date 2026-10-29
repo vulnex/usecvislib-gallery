@@ -132,7 +132,7 @@ digraph Hierarchy_Diagram {
 		style=solid];
 	frontend	[color="#333333",
 		fillcolor="#F39C12",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label=Frontend,
 		pos="30,18",
@@ -144,7 +144,7 @@ digraph Hierarchy_Diagram {
 		style=solid];
 	backend	[color="#333333",
 		fillcolor="#F39C12",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label=Backend,
 		pos="126,18",
@@ -156,7 +156,7 @@ digraph Hierarchy_Diagram {
 		style=solid];
 	devops	[color="#333333",
 		fillcolor="#F39C12",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		height=0.5,
 		label=DevOps,
 		pos="220,18",

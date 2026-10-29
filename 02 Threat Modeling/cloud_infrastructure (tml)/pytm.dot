@@ -21,8 +21,9 @@ digraph tm {
 			fontcolor=black,
 			fontsize=10,
 			label=<<i>Data Subnet</i>>,
+			labeljust=r,
 			lheight=0.15,
-			lp="618,183.17",
+			lp="893.5,183.17",
 			lwidth=0.76,
 			style=dashed
 		];

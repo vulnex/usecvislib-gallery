@@ -33,7 +33,7 @@
 <g id="node1" class="node">
 <title>mobile_app</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="115,-428 31,-428 31,-392 115,-392 115,-428"/>
-<text text-anchor="middle" x="73" y="-406.3" font-family="Arial" font-size="14.00" fill="white">Mobile App</text>
+<text text-anchor="middle" x="73" y="-406.3" font-family="Arial" font-size="14.00" fill="#1f2937">Mobile App</text>
 </g>
 <!-- api_gateway -->
 <g id="node4" class="node">
@@ -52,7 +52,7 @@
 <g id="node2" class="node">
 <title>web_client</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="114.5,-374 31.5,-374 31.5,-338 114.5,-338 114.5,-374"/>
-<text text-anchor="middle" x="73" y="-352.3" font-family="Arial" font-size="14.00" fill="white">Web Client</text>
+<text text-anchor="middle" x="73" y="-352.3" font-family="Arial" font-size="14.00" fill="#1f2937">Web Client</text>
 </g>
 <!-- web_client&#45;&gt;api_gateway -->
 <g id="edge2" class="edge">
@@ -65,7 +65,7 @@
 <g id="node3" class="node">
 <title>third_party_api</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="127,-482 19,-482 19,-446 127,-446 127,-482"/>
-<text text-anchor="middle" x="73" y="-460.3" font-family="Arial" font-size="14.00" fill="white">Third&#45;Party API</text>
+<text text-anchor="middle" x="73" y="-460.3" font-family="Arial" font-size="14.00" fill="#1f2937">Third&#45;Party API</text>
 </g>
 <!-- auth_service -->
 <g id="node5" class="node">
@@ -111,7 +111,7 @@
 <title>redis_cache</title>
 <path fill="#2ecc71" stroke="black" d="M808.5,-48.73C808.5,-50.53 787.43,-52 761.5,-52 735.57,-52 714.5,-50.53 714.5,-48.73 714.5,-48.73 714.5,-19.27 714.5,-19.27 714.5,-17.47 735.57,-16 761.5,-16 787.43,-16 808.5,-17.47 808.5,-19.27 808.5,-19.27 808.5,-48.73 808.5,-48.73"/>
 <path fill="none" stroke="black" d="M808.5,-48.73C808.5,-46.92 787.43,-45.45 761.5,-45.45 735.57,-45.45 714.5,-46.92 714.5,-48.73"/>
-<text text-anchor="middle" x="761.5" y="-30.3" font-family="Arial" font-size="14.00" fill="white">Redis Cache</text>
+<text text-anchor="middle" x="761.5" y="-30.3" font-family="Arial" font-size="14.00" fill="#1f2937">Redis Cache</text>
 </g>
 <!-- auth_service&#45;&gt;redis_cache -->
 <g id="edge12" class="edge">
@@ -125,7 +125,7 @@
 <title>user_db</title>
 <path fill="#2ecc71" stroke="black" d="M815,-102.73C815,-104.53 791.02,-106 761.5,-106 731.98,-106 708,-104.53 708,-102.73 708,-102.73 708,-73.27 708,-73.27 708,-71.47 731.98,-70 761.5,-70 791.02,-70 815,-71.47 815,-73.27 815,-73.27 815,-102.73 815,-102.73"/>
 <path fill="none" stroke="black" d="M815,-102.73C815,-100.92 791.02,-99.45 761.5,-99.45 731.98,-99.45 708,-100.92 708,-102.73"/>
-<text text-anchor="middle" x="761.5" y="-84.3" font-family="Arial" font-size="14.00" fill="white">User Database</text>
+<text text-anchor="middle" x="761.5" y="-84.3" font-family="Arial" font-size="14.00" fill="#1f2937">User Database</text>
 </g>
 <!-- user_service&#45;&gt;user_db -->
 <g id="edge10" class="edge">
@@ -152,7 +152,7 @@
 <title>order_db</title>
 <path fill="#2ecc71" stroke="black" d="M818,-210.73C818,-212.53 792.68,-214 761.5,-214 730.32,-214 705,-212.53 705,-210.73 705,-210.73 705,-181.27 705,-181.27 705,-179.47 730.32,-178 761.5,-178 792.68,-178 818,-179.47 818,-181.27 818,-181.27 818,-210.73 818,-210.73"/>
 <path fill="none" stroke="black" d="M818,-210.73C818,-208.92 792.68,-207.45 761.5,-207.45 730.32,-207.45 705,-208.92 705,-210.73"/>
-<text text-anchor="middle" x="761.5" y="-192.3" font-family="Arial" font-size="14.00" fill="white">Order Database</text>
+<text text-anchor="middle" x="761.5" y="-192.3" font-family="Arial" font-size="14.00" fill="#1f2937">Order Database</text>
 </g>
 <!-- order_service&#45;&gt;order_db -->
 <g id="edge11" class="edge">
@@ -166,7 +166,7 @@
 <title>message_queue</title>
 <path fill="#2ecc71" stroke="black" d="M820,-156.73C820,-158.53 793.78,-160 761.5,-160 729.22,-160 703,-158.53 703,-156.73 703,-156.73 703,-127.27 703,-127.27 703,-125.47 729.22,-124 761.5,-124 793.78,-124 820,-125.47 820,-127.27 820,-127.27 820,-156.73 820,-156.73"/>
 <path fill="none" stroke="black" d="M820,-156.73C820,-154.92 793.78,-153.45 761.5,-153.45 729.22,-153.45 703,-154.92 703,-156.73"/>
-<text text-anchor="middle" x="761.5" y="-138.3" font-family="Arial" font-size="14.00" fill="white">Message Queue</text>
+<text text-anchor="middle" x="761.5" y="-138.3" font-family="Arial" font-size="14.00" fill="#1f2937">Message Queue</text>
 </g>
 <!-- order_service&#45;&gt;message_queue -->
 <g id="edge8" class="edge">

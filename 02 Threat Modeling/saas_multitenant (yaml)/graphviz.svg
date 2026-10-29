@@ -32,12 +32,12 @@
 <g id="clust5" class="cluster">
 <title>cluster_edge_zone</title>
 <polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="297.5,-930 297.5,-1005 657,-1005 657,-930 297.5,-930"/>
-<text text-anchor="middle" x="477.25" y="-989.8" font-family="Arial" font-size="14.00">Edge / DMZ</text>
+<text text-anchor="middle" x="342" y="-989.8" font-family="Arial" font-size="14.00">Edge / DMZ</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_application_zone</title>
 <polygon fill="white" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2" points="756,-660 756,-1221 1221.5,-1221 1221.5,-660 756,-660"/>
-<text text-anchor="middle" x="988.75" y="-1205.8" font-family="Arial" font-size="14.00">Application Services</text>
+<text text-anchor="middle" x="825" y="-1205.8" font-family="Arial" font-size="14.00">Application Services</text>
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_data_zone</title>
@@ -48,7 +48,7 @@
 <g id="node1" class="node">
 <title>tenant_user</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="132,-1038 43,-1038 43,-1002 132,-1002 132,-1038"/>
-<text text-anchor="middle" x="87.5" y="-1016.3" font-family="Arial" font-size="14.00" fill="white">Tenant User</text>
+<text text-anchor="middle" x="87.5" y="-1016.3" font-family="Arial" font-size="14.00" fill="#1f2937">Tenant User</text>
 </g>
 <!-- web_app -->
 <g id="node9" class="node">
@@ -67,7 +67,7 @@
 <g id="node2" class="node">
 <title>tenant_admin</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="137,-930 38,-930 38,-894 137,-894 137,-930"/>
-<text text-anchor="middle" x="87.5" y="-908.3" font-family="Arial" font-size="14.00" fill="white">Tenant Admin</text>
+<text text-anchor="middle" x="87.5" y="-908.3" font-family="Arial" font-size="14.00" fill="#1f2937">Tenant Admin</text>
 </g>
 <!-- tenant_admin&#45;&gt;web_app -->
 <g id="edge2" class="edge">
@@ -80,7 +80,7 @@
 <g id="node3" class="node">
 <title>integration_api</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="159,-984 16,-984 16,-948 159,-948 159,-984"/>
-<text text-anchor="middle" x="87.5" y="-962.3" font-family="Arial" font-size="14.00" fill="white">Customer Integration</text>
+<text text-anchor="middle" x="87.5" y="-962.3" font-family="Arial" font-size="14.00" fill="#1f2937">Customer Integration</text>
 </g>
 <!-- api_gateway -->
 <g id="node10" class="node">
@@ -99,31 +99,31 @@
 <g id="node4" class="node">
 <title>tenant_idp</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1193,-621 1112,-621 1112,-585 1193,-585 1193,-621"/>
-<text text-anchor="middle" x="1152.5" y="-599.3" font-family="Arial" font-size="14.00" fill="white">Tenant IdP</text>
+<text text-anchor="middle" x="1152.5" y="-599.3" font-family="Arial" font-size="14.00" fill="#1f2937">Tenant IdP</text>
 </g>
 <!-- payment_processor -->
 <g id="node5" class="node">
 <title>payment_processor</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1220,-1327 1085,-1327 1085,-1291 1220,-1291 1220,-1327"/>
-<text text-anchor="middle" x="1152.5" y="-1305.3" font-family="Arial" font-size="14.00" fill="white">Payment Processor</text>
+<text text-anchor="middle" x="1152.5" y="-1305.3" font-family="Arial" font-size="14.00" fill="#1f2937">Payment Processor</text>
 </g>
 <!-- email_provider -->
 <g id="node6" class="node">
 <title>email_provider</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1205,-1273 1100,-1273 1100,-1237 1205,-1237 1205,-1273"/>
-<text text-anchor="middle" x="1152.5" y="-1251.3" font-family="Arial" font-size="14.00" fill="white">Email Provider</text>
+<text text-anchor="middle" x="1152.5" y="-1251.3" font-family="Arial" font-size="14.00" fill="#1f2937">Email Provider</text>
 </g>
 <!-- cdn -->
 <g id="node7" class="node">
 <title>cdn</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="1179.5,-1381 1125.5,-1381 1125.5,-1345 1179.5,-1345 1179.5,-1381"/>
-<text text-anchor="middle" x="1152.5" y="-1359.3" font-family="Arial" font-size="14.00" fill="white">CDN</text>
+<text text-anchor="middle" x="1152.5" y="-1359.3" font-family="Arial" font-size="14.00" fill="#1f2937">CDN</text>
 </g>
 <!-- platform_admin -->
 <g id="node8" class="node">
 <title>platform_admin</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="417,-1057 307,-1057 307,-1021 417,-1021 417,-1057"/>
-<text text-anchor="middle" x="362" y="-1035.3" font-family="Arial" font-size="14.00" fill="white">Platform Admin</text>
+<text text-anchor="middle" x="362" y="-1035.3" font-family="Arial" font-size="14.00" fill="#1f2937">Platform Admin</text>
 </g>
 <!-- platform_admin&#45;&gt;api_gateway -->
 <g id="edge3" class="edge">
@@ -249,7 +249,7 @@
 <title>session_cache</title>
 <path fill="#2ecc71" stroke="black" d="M1206,-426.73C1206,-428.53 1182.02,-430 1152.5,-430 1122.98,-430 1099,-428.53 1099,-426.73 1099,-426.73 1099,-397.27 1099,-397.27 1099,-395.47 1122.98,-394 1152.5,-394 1182.02,-394 1206,-395.47 1206,-397.27 1206,-397.27 1206,-426.73 1206,-426.73"/>
 <path fill="none" stroke="black" d="M1206,-426.73C1206,-424.92 1182.02,-423.45 1152.5,-423.45 1122.98,-423.45 1099,-424.92 1099,-426.73"/>
-<text text-anchor="middle" x="1152.5" y="-408.3" font-family="Arial" font-size="14.00" fill="white">Session Cache</text>
+<text text-anchor="middle" x="1152.5" y="-408.3" font-family="Arial" font-size="14.00" fill="#1f2937">Session Cache</text>
 </g>
 <!-- auth_service&#45;&gt;session_cache -->
 <g id="edge20" class="edge">
@@ -263,7 +263,7 @@
 <title>tenant_db</title>
 <path fill="#2ecc71" stroke="black" d="M1212,-102.73C1212,-104.53 1185.33,-106 1152.5,-106 1119.67,-106 1093,-104.53 1093,-102.73 1093,-102.73 1093,-73.27 1093,-73.27 1093,-71.47 1119.67,-70 1152.5,-70 1185.33,-70 1212,-71.47 1212,-73.27 1212,-73.27 1212,-102.73 1212,-102.73"/>
 <path fill="none" stroke="black" d="M1212,-102.73C1212,-100.92 1185.33,-99.45 1152.5,-99.45 1119.67,-99.45 1093,-100.92 1093,-102.73"/>
-<text text-anchor="middle" x="1152.5" y="-84.3" font-family="Arial" font-size="14.00" fill="white">Tenant Database</text>
+<text text-anchor="middle" x="1152.5" y="-84.3" font-family="Arial" font-size="14.00" fill="#1f2937">Tenant Database</text>
 </g>
 <!-- tenant_service&#45;&gt;tenant_db -->
 <g id="edge18" class="edge">
@@ -277,7 +277,7 @@
 <title>user_db</title>
 <path fill="#2ecc71" stroke="black" d="M1206,-48.73C1206,-50.53 1182.02,-52 1152.5,-52 1122.98,-52 1099,-50.53 1099,-48.73 1099,-48.73 1099,-19.27 1099,-19.27 1099,-17.47 1122.98,-16 1152.5,-16 1182.02,-16 1206,-17.47 1206,-19.27 1206,-19.27 1206,-48.73 1206,-48.73"/>
 <path fill="none" stroke="black" d="M1206,-48.73C1206,-46.92 1182.02,-45.45 1152.5,-45.45 1122.98,-45.45 1099,-46.92 1099,-48.73"/>
-<text text-anchor="middle" x="1152.5" y="-30.3" font-family="Arial" font-size="14.00" fill="white">User Database</text>
+<text text-anchor="middle" x="1152.5" y="-30.3" font-family="Arial" font-size="14.00" fill="#1f2937">User Database</text>
 </g>
 <!-- user_service&#45;&gt;user_db -->
 <g id="edge19" class="edge">
@@ -304,7 +304,7 @@
 <title>app_data_db</title>
 <path fill="#2ecc71" stroke="black" d="M1224.5,-156.73C1224.5,-158.53 1192.23,-160 1152.5,-160 1112.77,-160 1080.5,-158.53 1080.5,-156.73 1080.5,-156.73 1080.5,-127.27 1080.5,-127.27 1080.5,-125.47 1112.77,-124 1152.5,-124 1192.23,-124 1224.5,-125.47 1224.5,-127.27 1224.5,-127.27 1224.5,-156.73 1224.5,-156.73"/>
 <path fill="none" stroke="black" d="M1224.5,-156.73C1224.5,-154.92 1192.23,-153.45 1152.5,-153.45 1112.77,-153.45 1080.5,-154.92 1080.5,-156.73"/>
-<text text-anchor="middle" x="1152.5" y="-138.3" font-family="Arial" font-size="14.00" fill="white">Application Database</text>
+<text text-anchor="middle" x="1152.5" y="-138.3" font-family="Arial" font-size="14.00" fill="#1f2937">Application Database</text>
 </g>
 <!-- core_app_service&#45;&gt;app_data_db -->
 <g id="edge21" class="edge">
@@ -318,7 +318,7 @@
 <title>feature_flags</title>
 <path fill="#2ecc71" stroke="black" d="M1202.5,-264.73C1202.5,-266.53 1180.09,-268 1152.5,-268 1124.91,-268 1102.5,-266.53 1102.5,-264.73 1102.5,-264.73 1102.5,-235.27 1102.5,-235.27 1102.5,-233.47 1124.91,-232 1152.5,-232 1180.09,-232 1202.5,-233.47 1202.5,-235.27 1202.5,-235.27 1202.5,-264.73 1202.5,-264.73"/>
 <path fill="none" stroke="black" d="M1202.5,-264.73C1202.5,-262.92 1180.09,-261.45 1152.5,-261.45 1124.91,-261.45 1102.5,-262.92 1102.5,-264.73"/>
-<text text-anchor="middle" x="1152.5" y="-246.3" font-family="Arial" font-size="14.00" fill="white">Feature Flags</text>
+<text text-anchor="middle" x="1152.5" y="-246.3" font-family="Arial" font-size="14.00" fill="#1f2937">Feature Flags</text>
 </g>
 <!-- core_app_service&#45;&gt;feature_flags -->
 <g id="edge29" class="edge">
@@ -332,7 +332,7 @@
 <title>job_queue</title>
 <path fill="#2ecc71" stroke="black" d="M1194,-210.73C1194,-212.53 1175.4,-214 1152.5,-214 1129.6,-214 1111,-212.53 1111,-210.73 1111,-210.73 1111,-181.27 1111,-181.27 1111,-179.47 1129.6,-178 1152.5,-178 1175.4,-178 1194,-179.47 1194,-181.27 1194,-181.27 1194,-210.73 1194,-210.73"/>
 <path fill="none" stroke="black" d="M1194,-210.73C1194,-208.92 1175.4,-207.45 1152.5,-207.45 1129.6,-207.45 1111,-208.92 1111,-210.73"/>
-<text text-anchor="middle" x="1152.5" y="-192.3" font-family="Arial" font-size="14.00" fill="white">Job Queue</text>
+<text text-anchor="middle" x="1152.5" y="-192.3" font-family="Arial" font-size="14.00" fill="#1f2937">Job Queue</text>
 </g>
 <!-- core_app_service&#45;&gt;job_queue -->
 <g id="edge24" class="edge">
@@ -346,7 +346,7 @@
 <title>file_storage</title>
 <path fill="#2ecc71" stroke="black" d="M1197,-318.73C1197,-320.53 1177.05,-322 1152.5,-322 1127.95,-322 1108,-320.53 1108,-318.73 1108,-318.73 1108,-289.27 1108,-289.27 1108,-287.47 1127.95,-286 1152.5,-286 1177.05,-286 1197,-287.47 1197,-289.27 1197,-289.27 1197,-318.73 1197,-318.73"/>
 <path fill="none" stroke="black" d="M1197,-318.73C1197,-316.92 1177.05,-315.45 1152.5,-315.45 1127.95,-315.45 1108,-316.92 1108,-318.73"/>
-<text text-anchor="middle" x="1152.5" y="-300.3" font-family="Arial" font-size="14.00" fill="white">File Storage</text>
+<text text-anchor="middle" x="1152.5" y="-300.3" font-family="Arial" font-size="14.00" fill="#1f2937">File Storage</text>
 </g>
 <!-- file_service&#45;&gt;file_storage -->
 <g id="edge22" class="edge">
@@ -386,7 +386,7 @@
 <title>analytics_db</title>
 <path fill="#2ecc71" stroke="black" d="M1218.5,-480.73C1218.5,-482.53 1188.92,-484 1152.5,-484 1116.08,-484 1086.5,-482.53 1086.5,-480.73 1086.5,-480.73 1086.5,-451.27 1086.5,-451.27 1086.5,-449.47 1116.08,-448 1152.5,-448 1188.92,-448 1218.5,-449.47 1218.5,-451.27 1218.5,-451.27 1218.5,-480.73 1218.5,-480.73"/>
 <path fill="none" stroke="black" d="M1218.5,-480.73C1218.5,-478.92 1188.92,-477.45 1152.5,-477.45 1116.08,-477.45 1086.5,-478.92 1086.5,-480.73"/>
-<text text-anchor="middle" x="1152.5" y="-462.3" font-family="Arial" font-size="14.00" fill="white">Analytics Database</text>
+<text text-anchor="middle" x="1152.5" y="-462.3" font-family="Arial" font-size="14.00" fill="#1f2937">Analytics Database</text>
 </g>
 <!-- analytics_service&#45;&gt;analytics_db -->
 <g id="edge23" class="edge">
@@ -407,7 +407,7 @@
 <title>secrets_vault</title>
 <path fill="#2ecc71" stroke="black" d="M1200.5,-534.73C1200.5,-536.53 1178.99,-538 1152.5,-538 1126.01,-538 1104.5,-536.53 1104.5,-534.73 1104.5,-534.73 1104.5,-505.27 1104.5,-505.27 1104.5,-503.47 1126.01,-502 1152.5,-502 1178.99,-502 1200.5,-503.47 1200.5,-505.27 1200.5,-505.27 1200.5,-534.73 1200.5,-534.73"/>
 <path fill="none" stroke="black" d="M1200.5,-534.73C1200.5,-532.92 1178.99,-531.45 1152.5,-531.45 1126.01,-531.45 1104.5,-532.92 1104.5,-534.73"/>
-<text text-anchor="middle" x="1152.5" y="-516.3" font-family="Arial" font-size="14.00" fill="white">Secrets Vault</text>
+<text text-anchor="middle" x="1152.5" y="-516.3" font-family="Arial" font-size="14.00" fill="#1f2937">Secrets Vault</text>
 </g>
 <!-- webhook_service&#45;&gt;secrets_vault -->
 <g id="edge30" class="edge">
@@ -434,7 +434,7 @@
 <title>audit_log_db</title>
 <path fill="#2ecc71" stroke="black" d="M1220,-372.73C1220,-374.53 1189.75,-376 1152.5,-376 1115.25,-376 1085,-374.53 1085,-372.73 1085,-372.73 1085,-343.27 1085,-343.27 1085,-341.47 1115.25,-340 1152.5,-340 1189.75,-340 1220,-341.47 1220,-343.27 1220,-343.27 1220,-372.73 1220,-372.73"/>
 <path fill="none" stroke="black" d="M1220,-372.73C1220,-370.92 1189.75,-369.45 1152.5,-369.45 1115.25,-369.45 1085,-370.92 1085,-372.73"/>
-<text text-anchor="middle" x="1152.5" y="-354.3" font-family="Arial" font-size="14.00" fill="white">Audit Log Database</text>
+<text text-anchor="middle" x="1152.5" y="-354.3" font-family="Arial" font-size="14.00" fill="#1f2937">Audit Log Database</text>
 </g>
 <!-- audit_service&#45;&gt;audit_log_db -->
 <g id="edge28" class="edge">

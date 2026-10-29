@@ -37,8 +37,8 @@
 <g id="clust5" class="cluster">
 <title>cluster_secrets</title>
 <path fill="#bbdefb" stroke="#1565c0" stroke-width="2" d="M1536,-418C1536,-418 1879,-418 1879,-418 1885,-418 1891,-424 1891,-430 1891,-430 1891,-537 1891,-537 1891,-543 1885,-549 1879,-549 1879,-549 1536,-549 1536,-549 1530,-549 1524,-543 1524,-537 1524,-537 1524,-430 1524,-430 1524,-424 1530,-418 1536,-418"/>
-<text text-anchor="middle" x="1707.5" y="-534.6" font-family="Arial Bold" font-size="13.00" fill="#0d47a1">Secrets / Identity Root</text>
-<text text-anchor="middle" x="1707.5" y="-520.6" font-family="Arial Bold" font-size="13.00" fill="#0d47a1">(Trust Level 4)</text>
+<text text-anchor="middle" x="1811.5" y="-534.6" font-family="Arial Bold" font-size="13.00" fill="#0d47a1">Secrets / Identity Root</text>
+<text text-anchor="middle" x="1811.5" y="-520.6" font-family="Arial Bold" font-size="13.00" fill="#0d47a1">(Trust Level 4)</text>
 </g>
 <!-- _anchor_public -->
 <!-- _anchor_edge -->

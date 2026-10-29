@@ -23,17 +23,17 @@
 <g id="clust3" class="cluster">
 <title>cluster_us_east</title>
 <polygon fill="#2a4a6f" stroke="#4a90d9" stroke-dasharray="5,2" points="130,-16 130,-537.95 758,-537.95 758,-16 130,-16"/>
-<text text-anchor="middle" x="444" y="-522.75" font-family="Courier New" font-size="14.00" fill="#90caf9">us&#45;east&#45;1 (N. Virginia)</text>
+<text text-anchor="middle" x="655" y="-522.75" font-family="Courier New" font-size="14.00" fill="#90caf9">us&#45;east&#45;1 (N. Virginia)</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_storage</title>
 <polygon fill="#2a4a6f" stroke="#4a90d9" stroke-dasharray="5,2" points="138,-397.74 138,-479.16 288,-479.16 288,-397.74 138,-397.74"/>
-<text text-anchor="middle" x="213" y="-463.96" font-family="Courier New" font-size="14.00" fill="#90caf9">Storage</text>
+<text text-anchor="middle" x="175" y="-463.96" font-family="Courier New" font-size="14.00" fill="#90caf9">Storage</text>
 </g>
 <g id="clust5" class="cluster">
 <title>cluster_vpc</title>
 <polygon fill="#2a4a6f" stroke="#4a90d9" stroke-dasharray="5,2" points="296,-24 296,-506.95 750,-506.95 750,-24 296,-24"/>
-<text text-anchor="middle" x="523" y="-491.75" font-family="Courier New" font-size="14.00" fill="#90caf9">Production VPC 10.0.0.0/16</text>
+<text text-anchor="middle" x="634.5" y="-491.75" font-family="Courier New" font-size="14.00" fill="#90caf9">Production VPC 10.0.0.0/16</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_public</title>

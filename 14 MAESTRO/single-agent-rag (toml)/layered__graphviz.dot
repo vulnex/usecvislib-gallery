@@ -1,5 +1,5 @@
 digraph "Single-Agent RAG Assistant" {
-	graph [bb="0,0,481,637",
+	graph [bb="0,0,507,637",
 		bgcolor=white,
 		compound=true,
 		fontname=Arial,
@@ -7,7 +7,7 @@ digraph "Single-Agent RAG Assistant" {
 		label="Single-Agent RAG Assistant",
 		labelloc=t,
 		lheight=0.25,
-		lp="240.5,624",
+		lp="253.5,624",
 		lwidth=2.81,
 		nodesep=0.6,
 		pad=0.5,
@@ -17,7 +17,7 @@ digraph "Single-Agent RAG Assistant" {
 	];
 	node [label="\N"];
 	subgraph "cluster_agent-ecosystem" {
-		graph [bb="291,521,458,603",
+		graph [bb="262,521,443,603",
 			color="#cccccc",
 			fillcolor="#f5f5f5",
 			fontcolor="#333333",
@@ -25,7 +25,7 @@ digraph "Single-Agent RAG Assistant" {
 			fontsize=14,
 			label="L7 — Agent Ecosystem",
 			lheight=0.21,
-			lp="374.5,591.5",
+			lp="352.5,591.5",
 			lwidth=2.10,
 			penwidth=1,
 			style="filled,rounded"
@@ -43,9 +43,88 @@ digraph "Single-Agent RAG Assistant" {
 			shape=box,
 			style="filled,rounded",
 			width=1.6806];
+		"anchor_agent-ecosystem"	[height=0,
+			label="",
+			pos="270,550.5",
+			shape=point,
+			style=invis,
+			width=0];
+	}
+	subgraph cluster_security {
+		graph [bb="247,427,463,502",
+			color="#cccccc",
+			fillcolor="#f5f5f5",
+			fontcolor="#333333",
+			fontname="Arial Bold",
+			fontsize=14,
+			label="L6 — Security and Compliance",
+			lheight=0.21,
+			lp="355,490.5",
+			lwidth=2.78,
+			penwidth=1,
+			style="filled,rounded"
+		];
+		security_summary	[fillcolor="#ffe0b2",
+			fontcolor="#bf360c",
+			fontname=Arial,
+			fontsize=10,
+			height=0.5,
+			label="Security & Compliance\n1 preventive | 0 detective",
+			pos="384,453",
+			shape=note,
+			style=filled,
+			width=1.75];
+		anchor_security	[height=0,
+			label="",
+			pos="270,453",
+			shape=point,
+			style=invis,
+			width=0];
+	}
+	subgraph cluster_observability {
+		graph [bb="150,369,390,408",
+			color="#cccccc",
+			fillcolor="#f5f5f5",
+			fontcolor="#333333",
+			fontname="Arial Bold",
+			fontsize=14,
+			label="L5 — Evaluation and Observability",
+			lheight=0.21,
+			lp="270,396.5",
+			lwidth=3.11,
+			penwidth=1,
+			style="filled,rounded"
+		];
+		anchor_observability	[height=0,
+			label="",
+			pos="270,377",
+			shape=point,
+			style=invis,
+			width=0];
+	}
+	subgraph cluster_infrastructure {
+		graph [bb="248,311,499,350",
+			color="#cccccc",
+			fillcolor="#f5f5f5",
+			fontcolor="#333333",
+			fontname="Arial Bold",
+			fontsize=14,
+			label="L4 — Deployment and Infrastructure",
+			lheight=0.21,
+			lp="373.5,338.5",
+			lwidth=3.26,
+			penwidth=1,
+			style="filled,rounded"
+		];
+		anchor_infrastructure	[height=0,
+			label="",
+			pos="270,319",
+			shape=point,
+			style=invis,
+			width=0];
 	}
 	subgraph "cluster_agent-frameworks" {
-		graph [bb="286,420,462,502",
+		graph [bb="262,210,443,292",
 			color="#cccccc",
 			fillcolor="#f5f5f5",
 			fontcolor="#333333",
@@ -53,7 +132,7 @@ digraph "Single-Agent RAG Assistant" {
 			fontsize=14,
 			label="L3 — Agent Frameworks",
 			lheight=0.21,
-			lp="374,490.5",
+			lp="352.5,280.5",
 			lwidth=2.22,
 			penwidth=1,
 			style="filled,rounded"
@@ -67,41 +146,19 @@ digraph "Single-Agent RAG Assistant" {
 			label=<<B>Support Agent</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#e53935'>●</FONT> 6 open (critical)</FONT>>,
 			margin="0.2,0.1",
 			penwidth=1.5,
-			pos="374,449.5",
+			pos="374,239.5",
 			shape=box,
 			style="filled,rounded",
 			width=1.6806];
-	}
-	subgraph "cluster_foundation-models" {
-		graph [bb="294,319,473,401",
-			color="#cccccc",
-			fillcolor="#f5f5f5",
-			fontcolor="#333333",
-			fontname="Arial Bold",
-			fontsize=14,
-			label="L1 — Foundation Models",
-			lheight=0.21,
-			lp="383.5,389.5",
-			lwidth=2.26,
-			penwidth=1,
-			style="filled,rounded"
-		];
-		"support_agent__foundation-models"	[color="#357abd",
-			fillcolor="#4a90d9",
-			fontcolor=white,
-			fontname=Arial,
-			fontsize=11,
-			height=0.59722,
-			label=<<B>Support Agent</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#e53935'>●</FONT> 8 open (critical)</FONT>>,
-			margin="0.2,0.1",
-			penwidth=1.5,
-			pos="374,348.5",
-			shape=box,
-			style="filled,rounded",
-			width=1.6806];
+		"anchor_agent-frameworks"	[height=0,
+			label="",
+			pos="270,239.5",
+			shape=point,
+			style=invis,
+			width=0];
 	}
 	subgraph "cluster_data-operations" {
-		graph [bb="8,218,443,300",
+		graph [bb="8,109,443,191",
 			color="#cccccc",
 			fillcolor="#f5f5f5",
 			fontcolor="#333333",
@@ -109,7 +166,7 @@ digraph "Single-Agent RAG Assistant" {
 			fontsize=14,
 			label="L2 — Data Operations",
 			lheight=0.21,
-			lp="225.5,288.5",
+			lp="225.5,179.5",
 			lwidth=1.99,
 			penwidth=1,
 			style="filled,rounded"
@@ -123,7 +180,7 @@ digraph "Single-Agent RAG Assistant" {
 			label=<<B>Support Agent</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#e53935'>●</FONT> 4 open (critical)</FONT>>,
 			margin="0.2,0.1",
 			penwidth=1.5,
-			pos="374,247.5",
+			pos="374,138.5",
 			shape=box,
 			style="filled,rounded",
 			width=1.6806];
@@ -135,7 +192,7 @@ digraph "Single-Agent RAG Assistant" {
 			height=0.51562,
 			label=<<B>Knowledge Base Corpus</B><BR/><FONT POINT-SIZE='9'>sensitivity: medium</FONT>>,
 			penwidth=1.2,
-			pos="204,247.5",
+			pos="204,138.5",
 			shape=cylinder,
 			style=filled,
 			width=1.8472];
@@ -147,100 +204,55 @@ digraph "Single-Agent RAG Assistant" {
 			height=0.51562,
 			label=<<B>Customer PII</B><BR/><FONT POINT-SIZE='9'>sensitivity: high</FONT>>,
 			penwidth=1.2,
-			pos="55,247.5",
+			pos="55,138.5",
 			shape=cylinder,
 			style=filled,
 			width=1.0972];
 	}
-	subgraph cluster_infrastructure {
-		graph [bb="102,160,353,199",
+	subgraph "cluster_foundation-models" {
+		graph [bb="285,8,464,90",
 			color="#cccccc",
 			fillcolor="#f5f5f5",
 			fontcolor="#333333",
 			fontname="Arial Bold",
 			fontsize=14,
-			label="L4 — Deployment and Infrastructure",
+			label="L1 — Foundation Models",
 			lheight=0.21,
-			lp="227.5,187.5",
-			lwidth=3.26,
+			lp="374.5,78.5",
+			lwidth=2.26,
 			penwidth=1,
 			style="filled,rounded"
 		];
-		anchor_infrastructure	[height=0,
-			label="",
-			pos="204,168",
-			shape=point,
-			style=invis,
-			width=0];
-	}
-	subgraph cluster_observability {
-		graph [bb="102,102,342,141",
-			color="#cccccc",
-			fillcolor="#f5f5f5",
-			fontcolor="#333333",
-			fontname="Arial Bold",
-			fontsize=14,
-			label="L5 — Evaluation and Observability",
-			lheight=0.21,
-			lp="222,129.5",
-			lwidth=3.11,
-			penwidth=1,
-			style="filled,rounded"
-		];
-		anchor_observability	[height=0,
-			label="",
-			pos="204,110",
-			shape=point,
-			style=invis,
-			width=0];
-	}
-	subgraph cluster_security {
-		graph [bb="181,8,397,83",
-			color="#cccccc",
-			fillcolor="#f5f5f5",
-			fontcolor="#333333",
-			fontname="Arial Bold",
-			fontsize=14,
-			label="L6 — Security and Compliance",
-			lheight=0.21,
-			lp="289,71.5",
-			lwidth=2.78,
-			penwidth=1,
-			style="filled,rounded"
-		];
-		security_summary	[fillcolor="#ffe0b2",
-			fontcolor="#bf360c",
+		"support_agent__foundation-models"	[color="#357abd",
+			fillcolor="#4a90d9",
+			fontcolor=white,
 			fontname=Arial,
-			fontsize=10,
-			height=0.5,
-			label="Security & Compliance\n1 preventive | 0 detective",
-			pos="318,34",
-			shape=note,
-			style=filled,
-			width=1.75];
-		anchor_security	[height=0,
-			label="",
-			pos="204,34",
-			shape=point,
-			style=invis,
-			width=0];
+			fontsize=11,
+			height=0.59722,
+			label=<<B>Support Agent</B><BR/><FONT POINT-SIZE='9'><I>task-oriented | reactive</I></FONT><BR/><FONT POINT-SIZE='9'><FONT COLOR='#e53935'>●</FONT> 8 open (critical)</FONT>>,
+			margin="0.2,0.1",
+			penwidth=1.5,
+			pos="374,37.5",
+			shape=box,
+			style="filled,rounded",
+			width=1.6806];
 	}
-	"support_agent__agent-ecosystem" -> "support_agent__agent-frameworks"	[pos="e,374,471.33 374,528.99 374,515.27 374,496.98 374,481.5",
+	"anchor_agent-ecosystem" -> anchor_security	[pos="e,270,454.07 270,549.43 270,547.14 270,488.6 270,464.36",
 		style=invis,
 		weight=10];
-	"support_agent__agent-frameworks" -> "support_agent__foundation-models"	[pos="e,374,370.33 374,427.99 374,414.27 374,395.98 374,380.5",
+	anchor_security -> anchor_observability	[pos="e,270,378.05 270,451.95 270,450.24 270,408.27 270,388.33",
 		style=invis,
 		weight=10];
-	"support_agent__foundation-models" -> "support_agent__data-operations"	[pos="e,374,269.33 374,326.99 374,313.27 374,294.98 374,279.5",
+	anchor_observability -> anchor_infrastructure	[pos="e,270,320.15 270,375.84 270,373.48 270,345.65 270,330.19",
 		style=invis,
 		weight=10];
-	asset_kb_corpus -> anchor_infrastructure	[pos="e,204,169.11 204,228.91 204,213.69 204,192.17 204,179.49",
+	anchor_infrastructure -> "anchor_agent-frameworks"	[pos="e,270,240.55 270,317.94 270,316.14 270,271.31 270,250.7",
 		style=invis,
 		weight=10];
-	anchor_infrastructure -> anchor_observability	[pos="e,204,111.15 204,166.84 204,164.48 204,136.65 204,121.19",
+	"support_agent__agent-frameworks" -> "support_agent__data-operations"	[pos="e,374,160.33 374,217.99 374,204.27 374,185.98 374,170.5",
 		style=invis,
 		weight=10];
-	anchor_observability -> anchor_security	[pos="e,204,35.052 204,108.95 204,107.24 204,65.269 204,45.333",
+	"support_agent__data-operations" -> "support_agent__foundation-models"	[pos="e,374,59.327 374,116.99 374,103.27 374,84.978 374,69.501",
 		style=invis,
 		weight=10];
 }

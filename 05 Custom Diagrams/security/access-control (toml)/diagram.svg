@@ -112,7 +112,7 @@
 <g id="node5" class="node">
 <title>svc_deploy</title>
 <ellipse fill="#95a5a6" stroke="#333333" stroke-dasharray="5,2" cx="517" cy="-790" rx="40.08" ry="18"/>
-<text text-anchor="middle" x="517" y="-787.2" font-family="Arial" font-size="11.00" fill="white">deploy&#45;bot</text>
+<text text-anchor="middle" x="517" y="-787.2" font-family="Arial" font-size="11.00" fill="#1f2937">deploy&#45;bot</text>
 </g>
 <!-- role_devops -->
 <g id="node12" class="node">
@@ -178,7 +178,7 @@
 <g id="node15" class="node">
 <title>perm_read</title>
 <polygon fill="#f39c12" stroke="#333333" points="329,-160 275,-160 275,-124 329,-124 329,-160"/>
-<text text-anchor="middle" x="302" y="-139.2" font-family="Arial" font-size="11.00" fill="white">Read</text>
+<text text-anchor="middle" x="302" y="-139.2" font-family="Arial" font-size="11.00" fill="#1f2937">Read</text>
 </g>
 <!-- role_viewer&#45;&gt;perm_read -->
 <g id="edge14" class="edge">
@@ -197,7 +197,7 @@
 <g id="node16" class="node">
 <title>perm_write</title>
 <polygon fill="#f39c12" stroke="#333333" points="441,-160 387,-160 387,-124 441,-124 441,-160"/>
-<text text-anchor="middle" x="414" y="-139.2" font-family="Arial" font-size="11.00" fill="white">Write</text>
+<text text-anchor="middle" x="414" y="-139.2" font-family="Arial" font-size="11.00" fill="#1f2937">Write</text>
 </g>
 <!-- role_developer&#45;&gt;perm_write -->
 <g id="edge15" class="edge">
@@ -216,7 +216,7 @@
 <g id="node18" class="node">
 <title>perm_deploy</title>
 <polygon fill="#f39c12" stroke="#333333" points="665,-160 611,-160 611,-124 665,-124 665,-160"/>
-<text text-anchor="middle" x="638" y="-139.2" font-family="Arial" font-size="11.00" fill="white">Deploy</text>
+<text text-anchor="middle" x="638" y="-139.2" font-family="Arial" font-size="11.00" fill="#1f2937">Deploy</text>
 </g>
 <!-- role_devops&#45;&gt;perm_deploy -->
 <g id="edge16" class="edge">
@@ -229,7 +229,7 @@
 <g id="node19" class="node">
 <title>perm_audit</title>
 <polygon fill="#f39c12" stroke="#333333" points="217,-160 163,-160 163,-124 217,-124 217,-160"/>
-<text text-anchor="middle" x="190" y="-139.2" font-family="Arial" font-size="11.00" fill="white">Audit</text>
+<text text-anchor="middle" x="190" y="-139.2" font-family="Arial" font-size="11.00" fill="#1f2937">Audit</text>
 </g>
 <!-- role_secops&#45;&gt;perm_audit -->
 <g id="edge17" class="edge">
@@ -248,7 +248,7 @@
 <g id="node17" class="node">
 <title>perm_delete</title>
 <polygon fill="#f39c12" stroke="#333333" points="553,-160 499,-160 499,-124 553,-124 553,-160"/>
-<text text-anchor="middle" x="526" y="-139.2" font-family="Arial" font-size="11.00" fill="white">Delete</text>
+<text text-anchor="middle" x="526" y="-139.2" font-family="Arial" font-size="11.00" fill="#1f2937">Delete</text>
 </g>
 <!-- role_admin&#45;&gt;perm_delete -->
 <g id="edge18" class="edge">
@@ -261,7 +261,7 @@
 <g id="node20" class="node">
 <title>perm_manage</title>
 <polygon fill="#f39c12" stroke="#333333" points="779,-160 723,-160 723,-124 779,-124 779,-160"/>
-<text text-anchor="middle" x="751" y="-139.2" font-family="Arial" font-size="11.00" fill="white">Manage</text>
+<text text-anchor="middle" x="751" y="-139.2" font-family="Arial" font-size="11.00" fill="#1f2937">Manage</text>
 </g>
 <!-- role_admin&#45;&gt;perm_manage -->
 <g id="edge19" class="edge">
@@ -360,7 +360,7 @@
 <polygon fill="#1abc9c" stroke="#daa520" points="911,-160 837,-160 837,-124 917,-124 917,-154 911,-160"/>
 <polyline fill="none" stroke="#daa520" points="911,-160 911,-154 "/>
 <polyline fill="none" stroke="#daa520" points="917,-154 911,-154 "/>
-<text text-anchor="middle" x="877" y="-139.2" font-family="Arial" font-size="11.00" fill="white">Require MFA</text>
+<text text-anchor="middle" x="877" y="-139.2" font-family="Arial" font-size="11.00" fill="#1f2937">Require MFA</text>
 </g>
 <!-- pol_mfa&#45;&gt;res_db_prod -->
 <g id="edge26" class="edge">
@@ -380,7 +380,7 @@
 <polygon fill="#1abc9c" stroke="#daa520" points="725.5,-268 614.5,-268 614.5,-232 731.5,-232 731.5,-262 725.5,-268"/>
 <polyline fill="none" stroke="#daa520" points="725.5,-268 725.5,-262 "/>
 <polyline fill="none" stroke="#daa520" points="731.5,-262 725.5,-262 "/>
-<text text-anchor="middle" x="673" y="-247.2" font-family="Arial" font-size="11.00" fill="white">Business Hours Only</text>
+<text text-anchor="middle" x="673" y="-247.2" font-family="Arial" font-size="11.00" fill="#1f2937">Business Hours Only</text>
 </g>
 <!-- pol_time&#45;&gt;perm_deploy -->
 <g id="edge28" class="edge">

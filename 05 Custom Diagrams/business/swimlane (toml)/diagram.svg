@@ -73,7 +73,7 @@
 <g id="node5" class="node">
 <title>approve_quote</title>
 <polygon fill="#f39c12" stroke="#333333" points="1538.42,-411 1484.77,-393 1538.42,-375 1592.08,-393 1538.42,-411"/>
-<text text-anchor="middle" x="1538.42" y="-390.2" font-family="Arial" font-size="11.00" fill="white">Approve?</text>
+<text text-anchor="middle" x="1538.42" y="-390.2" font-family="Arial" font-size="11.00" fill="#1f2937">Approve?</text>
 </g>
 <!-- receive_quote&#45;&gt;approve_quote -->
 <g id="edge13" class="edge">
@@ -239,7 +239,7 @@
 <g id="node19" class="node">
 <title>credit_ok</title>
 <polygon fill="#f39c12" stroke="#333333" points="980.47,-173 920.21,-155 980.47,-137 1040.73,-155 980.47,-173"/>
-<text text-anchor="middle" x="980.47" y="-152.2" font-family="Arial" font-size="11.00" fill="white">Credit OK?</text>
+<text text-anchor="middle" x="980.47" y="-152.2" font-family="Arial" font-size="11.00" fill="#1f2937">Credit OK?</text>
 </g>
 <!-- credit_check&#45;&gt;credit_ok -->
 <g id="edge8" class="edge">

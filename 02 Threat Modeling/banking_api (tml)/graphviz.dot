@@ -18,7 +18,7 @@ digraph "Banking API Platform" {
 		];
 		mobile_banking	[description="Customer mobile banking application",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -30,7 +30,7 @@ digraph "Banking API Platform" {
 			width=1.9028];
 		web_banking	[description="Customer web banking interface",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -42,7 +42,7 @@ digraph "Banking API Platform" {
 			width=1.8889];
 		tpp_provider	[description="PSD2 registered third-party payment provider",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -65,7 +65,7 @@ digraph "Banking API Platform" {
 		];
 		atm_network	[description="Automated teller machine network",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -76,7 +76,7 @@ digraph "Banking API Platform" {
 			width=1.3611];
 		swift_network	[description="International wire transfer network",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -87,7 +87,7 @@ digraph "Banking API Platform" {
 			width=1.5694];
 		card_network	[description="Visa/Mastercard payment network",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -98,7 +98,7 @@ digraph "Banking API Platform" {
 			width=1.375];
 		credit_bureau	[description="External credit scoring agency",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -109,7 +109,7 @@ digraph "Banking API Platform" {
 			width=1.3889];
 		regulator_api	[description="Central bank and regulatory reporting systems",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -132,7 +132,7 @@ digraph "Banking API Platform" {
 		];
 		bank_employee	[description="Internal bank staff with varying access levels",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -144,7 +144,7 @@ digraph "Banking API Platform" {
 			width=1.5556];
 		admin	[description="IT administrator with privileged access",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=True,
@@ -155,56 +155,14 @@ digraph "Banking API Platform" {
 			style="filled,dashed",
 			width=2.0278];
 	}
-	subgraph cluster_secure_zone {
-		graph [bb="771.5,459,938.5,588",
-			color="#e74c3c",
-			fontname=Arial,
-			label="High Security Zone (PCI)",
-			lheight=0.21,
-			lp="855,576.5",
-			lwidth=2.10,
-			penwidth=2,
-			style=dashed
-		];
-		hsm_proxy	[authenticatesDestination=True,
-			authenticatesSource=True,
-			description="Hardware Security Module interface for cryptographic operations",
-			fillcolor="#3498db",
-			fontcolor=white,
-			fontname=Arial,
-			hasAccessControl=True,
-			height=0.5,
-			isHardened=True,
-			isServer=True,
-			label="HSM Proxy",
-			pos="855,485",
-			shape=rectangle,
-			style=filled,
-			width=1.1944];
-		credentials_vault	[description="HashiCorp Vault - Secrets and API credentials",
-			fillcolor="#2ecc71",
-			fontcolor=white,
-			fontname=Arial,
-			hasAccessControl=True,
-			hasBackup=True,
-			height=0.5,
-			isAuditLogged=True,
-			isEncrypted=True,
-			isSQL=False,
-			label="Credentials Vault",
-			pos="855,539",
-			shape=cylinder,
-			storesCredentials=True,
-			style=filled,
-			width=1.6528];
-	}
 	subgraph cluster_dmz {
 		graph [bb="281,459,655,534",
 			color="#e74c3c",
 			fontname=Arial,
 			label="DMZ / API Zone",
+			labeljust=r,
 			lheight=0.21,
-			lp="468,522.5",
+			lp="598.5,522.5",
 			lwidth=1.35,
 			penwidth=2,
 			style=dashed
@@ -262,8 +220,9 @@ digraph "Banking API Platform" {
 			color="#e74c3c",
 			fontname=Arial,
 			label="Core Banking Zone",
+			labeljust=l,
 			lheight=0.21,
-			lp="726,439.5",
+			lp="576.5,439.5",
 			lwidth=1.62,
 			penwidth=2,
 			style=dashed
@@ -428,6 +387,49 @@ digraph "Banking API Platform" {
 			style=filled,
 			width=1.3333];
 	}
+	subgraph cluster_secure_zone {
+		graph [bb="771.5,459,938.5,588",
+			color="#e74c3c",
+			fontname=Arial,
+			label="High Security Zone (PCI)",
+			lheight=0.21,
+			lp="855,576.5",
+			lwidth=2.10,
+			penwidth=2,
+			style=dashed
+		];
+		hsm_proxy	[authenticatesDestination=True,
+			authenticatesSource=True,
+			description="Hardware Security Module interface for cryptographic operations",
+			fillcolor="#3498db",
+			fontcolor=white,
+			fontname=Arial,
+			hasAccessControl=True,
+			height=0.5,
+			isHardened=True,
+			isServer=True,
+			label="HSM Proxy",
+			pos="855,485",
+			shape=rectangle,
+			style=filled,
+			width=1.1944];
+		credentials_vault	[description="HashiCorp Vault - Secrets and API credentials",
+			fillcolor="#2ecc71",
+			fontcolor="#1f2937",
+			fontname=Arial,
+			hasAccessControl=True,
+			hasBackup=True,
+			height=0.5,
+			isAuditLogged=True,
+			isEncrypted=True,
+			isSQL=False,
+			label="Credentials Vault",
+			pos="855,539",
+			shape=cylinder,
+			storesCredentials=True,
+			style=filled,
+			width=1.6528];
+	}
 	subgraph cluster_data_zone {
 		graph [bb="1043,8,1235,407",
 			color="#e74c3c",
@@ -441,7 +443,7 @@ digraph "Banking API Platform" {
 		];
 		customer_db	[description="PostgreSQL - Customer PII and KYC documents",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -457,7 +459,7 @@ digraph "Banking API Platform" {
 			width=1.9028];
 		account_db	[description="PostgreSQL - Account balances and details",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -473,7 +475,7 @@ digraph "Banking API Platform" {
 			width=1.7639];
 		transaction_db	[description="PostgreSQL - Transaction history and ledger",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -489,7 +491,7 @@ digraph "Banking API Platform" {
 			width=2.0694];
 		session_store	[description="Redis cluster - Session tokens and MFA state",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,
@@ -504,7 +506,7 @@ digraph "Banking API Platform" {
 			width=1.4028];
 		fraud_rules_db	[description="Fraud detection rules and ML models",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -519,7 +521,7 @@ digraph "Banking API Platform" {
 			width=2.1111];
 		audit_log_db	[description="Immutable audit trail with WORM storage",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -535,7 +537,7 @@ digraph "Banking API Platform" {
 			width=1.875];
 		hsm	[description="FIPS 140-2 Level 3 HSM for key management",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,

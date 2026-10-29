@@ -23,8 +23,8 @@
 <g id="clust3" class="cluster">
 <title>cluster_boundary_DataTierPCIZone_d2006ce1bb</title>
 <polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="8,-47 8,-127 1198,-127 1198,-47 8,-47"/>
-<text text-anchor="start" x="571" y="-116" font-family="Arial" font-style="italic" font-size="10.00">Data Tier (PCI</text>
-<text text-anchor="start" x="590.5" y="-106" font-family="Arial" font-style="italic" font-size="10.00">Zone)</text>
+<text text-anchor="start" x="16" y="-116" font-family="Arial" font-style="italic" font-size="10.00">Data Tier (PCI</text>
+<text text-anchor="start" x="35.5" y="-106" font-family="Arial" font-style="italic" font-size="10.00">Zone)</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_boundary_ExternalServices_88f2d9c06f</title>

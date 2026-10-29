@@ -64,8 +64,9 @@ digraph "VibeSec Platform Architecture" {
 			fontname="Arial Bold",
 			fontsize=14,
 			label="API Gateway",
+			labeljust=r,
 			lheight=0.21,
-			lp="262,298.25",
+			lp="268,298.25",
 			lwidth=1.17,
 			penwidth=1,
 			style="filled,rounded"
@@ -92,8 +93,9 @@ digraph "VibeSec Platform Architecture" {
 			fontname="Arial Bold",
 			fontsize=14,
 			label=Services,
+			labeljust=r,
 			lheight=0.21,
-			lp="260,190.25",
+			lp="476,190.25",
 			lwidth=0.78,
 			penwidth=1,
 			style="filled,rounded"
@@ -146,8 +148,9 @@ digraph "VibeSec Platform Architecture" {
 			fontname="Arial Bold",
 			fontsize=14,
 			label=Data,
+			labeljust=l,
 			lheight=0.21,
-			lp="269.5,82.25",
+			lp="78,82.25",
 			lwidth=0.42,
 			penwidth=1,
 			style="filled,rounded"

@@ -111,8 +111,9 @@ digraph UML_Deployment_Diagram_with_Icons {
 			color="#4a90d9",
 			fontcolor="#90caf9",
 			label="Application Zone (AZ-2)",
+			labeljust=l,
 			lheight=0.21,
-			lp="695,582.5",
+			lp="632,582.5",
 			lwidth=2.64,
 			style=dashed
 		];
@@ -152,8 +153,9 @@ digraph UML_Deployment_Diagram_with_Icons {
 			color="#4a90d9",
 			fontcolor="#90caf9",
 			label="Data Zone",
+			labeljust=r,
 			lheight=0.21,
-			lp="428.5,265.5",
+			lp="534.5,265.5",
 			lwidth=1.04,
 			style=dashed
 		];

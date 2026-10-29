@@ -96,7 +96,7 @@ digraph "Web Application with Icons" {
 		style=solid];
 	cache	[description="Redis cache",
 		fillcolor="#2ecc71",
-		fontcolor=white,
+		fontcolor="#1f2937",
 		fontname=Arial,
 		height=0.5,
 		isEncrypted=True,

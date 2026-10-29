@@ -18,7 +18,7 @@ digraph "Healthcare EHR System" {
 		];
 		patient	[description="Patient accessing their health records via portal",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -42,7 +42,7 @@ digraph "Healthcare EHR System" {
 		];
 		physician	[description="Doctor accessing and updating patient records",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -54,7 +54,7 @@ digraph "Healthcare EHR System" {
 			width=1.0278];
 		nurse	[description="Nursing staff with limited record access",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -66,7 +66,7 @@ digraph "Healthcare EHR System" {
 			width=0.75];
 		admin	[description="IT administrator managing the system",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=True,
@@ -90,7 +90,7 @@ digraph "Healthcare EHR System" {
 		];
 		lab_system	[description="External laboratory information system",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -101,7 +101,7 @@ digraph "Healthcare EHR System" {
 			width=1.2361];
 		pharmacy_system	[description="External pharmacy for e-prescriptions",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -112,7 +112,7 @@ digraph "Healthcare EHR System" {
 			width=1.7778];
 		insurance_api	[description="Insurance eligibility and claims processing",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -123,7 +123,7 @@ digraph "Healthcare EHR System" {
 			width=1.4028];
 		hie_network	[description="Health Information Exchange for record sharing",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -361,7 +361,7 @@ digraph "Healthcare EHR System" {
 		];
 		patient_db	[description="PostgreSQL - Patient demographics and identifiers",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -377,7 +377,7 @@ digraph "Healthcare EHR System" {
 			width=1.6667];
 		medical_records_db	[description="PostgreSQL - Clinical notes, diagnoses, treatments",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -393,7 +393,7 @@ digraph "Healthcare EHR System" {
 			width=2.4861];
 		prescription_db	[description="PostgreSQL - Medication orders and history",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -409,7 +409,7 @@ digraph "Healthcare EHR System" {
 			width=2.0694];
 		imaging_storage	[description="DICOM image archive (PACS)",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -425,7 +425,7 @@ digraph "Healthcare EHR System" {
 			width=2.3194];
 		audit_log_db	[description="Immutable audit trail for HIPAA compliance",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -441,7 +441,7 @@ digraph "Healthcare EHR System" {
 			width=1.875];
 		identity_store	[description="User credentials and access policies",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -457,7 +457,7 @@ digraph "Healthcare EHR System" {
 			width=1.3333];
 		cache	[description="Redis - Session and temporary data",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,

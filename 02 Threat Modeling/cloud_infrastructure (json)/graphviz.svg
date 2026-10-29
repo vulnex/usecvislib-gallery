@@ -38,7 +38,7 @@
 <g id="node1" class="node">
 <title>internet_users</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="117,-301 16,-301 16,-265 117,-265 117,-301"/>
-<text text-anchor="middle" x="66.5" y="-279.3" font-family="Arial" font-size="14.00" fill="white">Internet Users</text>
+<text text-anchor="middle" x="66.5" y="-279.3" font-family="Arial" font-size="14.00" fill="#1f2937">Internet Users</text>
 </g>
 <!-- cdn -->
 <g id="node4" class="node">
@@ -57,7 +57,7 @@
 <g id="node2" class="node">
 <title>developers</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="109,-247 24,-247 24,-211 109,-211 109,-247"/>
-<text text-anchor="middle" x="66.5" y="-225.3" font-family="Arial" font-size="14.00" fill="white">Developers</text>
+<text text-anchor="middle" x="66.5" y="-225.3" font-family="Arial" font-size="14.00" fill="#1f2937">Developers</text>
 </g>
 <!-- bastion_host -->
 <g id="node6" class="node">
@@ -76,14 +76,14 @@
 <g id="node3" class="node">
 <title>admin</title>
 <polygon fill="#95a5a6" stroke="black" stroke-dasharray="5,2" points="113.5,-193 19.5,-193 19.5,-157 113.5,-157 113.5,-193"/>
-<text text-anchor="middle" x="66.5" y="-171.3" font-family="Arial" font-size="14.00" fill="white">Cloud Admin</text>
+<text text-anchor="middle" x="66.5" y="-171.3" font-family="Arial" font-size="14.00" fill="#1f2937">Cloud Admin</text>
 </g>
 <!-- secrets_manager -->
 <g id="node15" class="node">
 <title>secrets_manager</title>
 <path fill="#2ecc71" stroke="black" d="M1261,-48.73C1261,-50.53 1234.11,-52 1201,-52 1167.89,-52 1141,-50.53 1141,-48.73 1141,-48.73 1141,-19.27 1141,-19.27 1141,-17.47 1167.89,-16 1201,-16 1234.11,-16 1261,-17.47 1261,-19.27 1261,-19.27 1261,-48.73 1261,-48.73"/>
 <path fill="none" stroke="black" d="M1261,-48.73C1261,-46.92 1234.11,-45.45 1201,-45.45 1167.89,-45.45 1141,-46.92 1141,-48.73"/>
-<text text-anchor="middle" x="1201" y="-30.3" font-family="Arial" font-size="14.00" fill="white">Secrets Manager</text>
+<text text-anchor="middle" x="1201" y="-30.3" font-family="Arial" font-size="14.00" fill="#1f2937">Secrets Manager</text>
 </g>
 <!-- admin&#45;&gt;secrets_manager -->
 <g id="edge15" class="edge">
@@ -176,7 +176,7 @@
 <title>rds_primary</title>
 <path fill="#2ecc71" stroke="black" d="M1249,-210.73C1249,-212.53 1227.49,-214 1201,-214 1174.51,-214 1153,-212.53 1153,-210.73 1153,-210.73 1153,-181.27 1153,-181.27 1153,-179.47 1174.51,-178 1201,-178 1227.49,-178 1249,-179.47 1249,-181.27 1249,-181.27 1249,-210.73 1249,-210.73"/>
 <path fill="none" stroke="black" d="M1249,-210.73C1249,-208.92 1227.49,-207.45 1201,-207.45 1174.51,-207.45 1153,-208.92 1153,-210.73"/>
-<text text-anchor="middle" x="1201" y="-192.3" font-family="Arial" font-size="14.00" fill="white">RDS Primary</text>
+<text text-anchor="middle" x="1201" y="-192.3" font-family="Arial" font-size="14.00" fill="#1f2937">RDS Primary</text>
 </g>
 <!-- app_server&#45;&gt;rds_primary -->
 <g id="edge7" class="edge">
@@ -190,7 +190,7 @@
 <title>s3_bucket</title>
 <path fill="#2ecc71" stroke="black" d="M1243,-156.73C1243,-158.53 1224.17,-160 1201,-160 1177.83,-160 1159,-158.53 1159,-156.73 1159,-156.73 1159,-127.27 1159,-127.27 1159,-125.47 1177.83,-124 1201,-124 1224.17,-124 1243,-125.47 1243,-127.27 1243,-127.27 1243,-156.73 1243,-156.73"/>
 <path fill="none" stroke="black" d="M1243,-156.73C1243,-154.92 1224.17,-153.45 1201,-153.45 1177.83,-153.45 1159,-154.92 1159,-156.73"/>
-<text text-anchor="middle" x="1201" y="-138.3" font-family="Arial" font-size="14.00" fill="white">S3 Storage</text>
+<text text-anchor="middle" x="1201" y="-138.3" font-family="Arial" font-size="14.00" fill="#1f2937">S3 Storage</text>
 </g>
 <!-- app_server&#45;&gt;s3_bucket -->
 <g id="edge10" class="edge">
@@ -204,7 +204,7 @@
 <title>elasticache</title>
 <path fill="#2ecc71" stroke="black" d="M1245.5,-102.73C1245.5,-104.53 1225.55,-106 1201,-106 1176.45,-106 1156.5,-104.53 1156.5,-102.73 1156.5,-102.73 1156.5,-73.27 1156.5,-73.27 1156.5,-71.47 1176.45,-70 1201,-70 1225.55,-70 1245.5,-71.47 1245.5,-73.27 1245.5,-73.27 1245.5,-102.73 1245.5,-102.73"/>
 <path fill="none" stroke="black" d="M1245.5,-102.73C1245.5,-100.92 1225.55,-99.45 1201,-99.45 1176.45,-99.45 1156.5,-100.92 1156.5,-102.73"/>
-<text text-anchor="middle" x="1201" y="-84.3" font-family="Arial" font-size="14.00" fill="white">ElastiCache</text>
+<text text-anchor="middle" x="1201" y="-84.3" font-family="Arial" font-size="14.00" fill="#1f2937">ElastiCache</text>
 </g>
 <!-- app_server&#45;&gt;elasticache -->
 <g id="edge9" class="edge">
@@ -225,7 +225,7 @@
 <title>rds_replica</title>
 <path fill="#2ecc71" stroke="black" d="M1484,-210.73C1484,-212.53 1454.87,-214 1419,-214 1383.13,-214 1354,-212.53 1354,-210.73 1354,-210.73 1354,-181.27 1354,-181.27 1354,-179.47 1383.13,-178 1419,-178 1454.87,-178 1484,-179.47 1484,-181.27 1484,-181.27 1484,-210.73 1484,-210.73"/>
 <path fill="none" stroke="black" d="M1484,-210.73C1484,-208.92 1454.87,-207.45 1419,-207.45 1383.13,-207.45 1354,-208.92 1354,-210.73"/>
-<text text-anchor="middle" x="1419" y="-192.3" font-family="Arial" font-size="14.00" fill="white">RDS Read Replica</text>
+<text text-anchor="middle" x="1419" y="-192.3" font-family="Arial" font-size="14.00" fill="#1f2937">RDS Read Replica</text>
 </g>
 <!-- rds_primary&#45;&gt;rds_replica -->
 <g id="edge8" class="edge">

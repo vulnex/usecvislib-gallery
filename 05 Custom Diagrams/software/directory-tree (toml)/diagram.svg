@@ -96,7 +96,7 @@
 <polygon fill="#f39c12" stroke="#daa520" points="714,-210 663,-210 663,-174 720,-174 720,-204 714,-210"/>
 <polyline fill="none" stroke="#daa520" points="714,-210 714,-204 "/>
 <polyline fill="none" stroke="#daa520" points="720,-204 714,-204 "/>
-<text text-anchor="middle" x="691.5" y="-189.2" font-family="Arial" font-size="11.00" fill="white">setup.py</text>
+<text text-anchor="middle" x="691.5" y="-189.2" font-family="Arial" font-size="11.00" fill="#1f2937">setup.py</text>
 </g>
 <!-- root&#45;&gt;setup -->
 <g id="edge7" class="edge">
@@ -109,7 +109,7 @@
 <polygon fill="#f39c12" stroke="#daa520" points="822.5,-210 734.5,-210 734.5,-174 828.5,-174 828.5,-204 822.5,-210"/>
 <polyline fill="none" stroke="#daa520" points="822.5,-210 822.5,-204 "/>
 <polyline fill="none" stroke="#daa520" points="828.5,-204 822.5,-204 "/>
-<text text-anchor="middle" x="781.5" y="-189.2" font-family="Arial" font-size="11.00" fill="white">requirements.txt</text>
+<text text-anchor="middle" x="781.5" y="-189.2" font-family="Arial" font-size="11.00" fill="#1f2937">requirements.txt</text>
 </g>
 <!-- root&#45;&gt;requirements -->
 <g id="edge8" class="edge">
@@ -197,7 +197,7 @@
 <polygon fill="#1abc9c" stroke="#daa520" points="59,-36 0,-36 0,0 65,0 65,-30 59,-36"/>
 <polyline fill="none" stroke="#daa520" points="59,-36 59,-30 "/>
 <polyline fill="none" stroke="#daa520" points="65,-30 59,-30 "/>
-<text text-anchor="middle" x="32.5" y="-15.2" font-family="Arial" font-size="11.00" fill="white">basic.toml</text>
+<text text-anchor="middle" x="32.5" y="-15.2" font-family="Arial" font-size="11.00" fill="#1f2937">basic.toml</text>
 </g>
 <!-- shapes&#45;&gt;basic_toml -->
 <g id="edge15" class="edge">
@@ -210,7 +210,7 @@
 <polygon fill="#1abc9c" stroke="#daa520" points="149.5,-36 79.5,-36 79.5,0 155.5,0 155.5,-30 149.5,-36"/>
 <polyline fill="none" stroke="#daa520" points="149.5,-36 149.5,-30 "/>
 <polyline fill="none" stroke="#daa520" points="155.5,-30 149.5,-30 "/>
-<text text-anchor="middle" x="117.5" y="-15.2" font-family="Arial" font-size="11.00" fill="white">security.toml</text>
+<text text-anchor="middle" x="117.5" y="-15.2" font-family="Arial" font-size="11.00" fill="#1f2937">security.toml</text>
 </g>
 <!-- shapes&#45;&gt;security_toml -->
 <g id="edge16" class="edge">

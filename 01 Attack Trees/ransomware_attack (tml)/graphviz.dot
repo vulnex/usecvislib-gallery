@@ -3,7 +3,7 @@ digraph "Ransomware Attack" {
 		rankdir=TB
 	];
 	node [label="\N"];
-	Deploy_Ransomware	[fillcolor="#ff6b6b",
+	Deploy_Ransomware	[fillcolor="#e03131",
 		fontcolor=white,
 		height=0.5,
 		label="Deploy Ransomware",
@@ -180,7 +180,7 @@ digraph "Ransomware Attack" {
 	Data_Exfiltration -> Encrypt_Files	[color=black,
 		pos="e,279.5,130.25 279.5,165.95 279.5,158.41 279.5,149.37 279.5,140.5",
 		style=solid];
-	Demand_Ransom	[fillcolor="#ff6b6b",
+	Demand_Ransom	[fillcolor="#e03131",
 		fontcolor=white,
 		height=0.5,
 		label="Demand Ransom",

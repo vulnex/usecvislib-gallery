@@ -18,7 +18,7 @@ digraph "E-Commerce Platform" {
 		];
 		customer	[description="End user browsing and purchasing products",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=False,
@@ -30,7 +30,7 @@ digraph "E-Commerce Platform" {
 			width=1.0556];
 		admin_user	[description="Platform administrator managing products and orders",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isAdmin=True,
@@ -54,7 +54,7 @@ digraph "E-Commerce Platform" {
 		];
 		payment_gateway	[description="Third-party payment processor (Stripe/PayPal)",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -65,7 +65,7 @@ digraph "E-Commerce Platform" {
 			width=1.7778];
 		shipping_api	[description="FedEx/UPS shipping rate and tracking API",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=False,
@@ -76,7 +76,7 @@ digraph "E-Commerce Platform" {
 			width=2.0556];
 		email_service	[description="Transactional email provider (SendGrid)",
 			fillcolor="#95a5a6",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			height=0.5,
 			isTrusted=True,
@@ -161,8 +161,9 @@ digraph "E-Commerce Platform" {
 			color="#e74c3c",
 			fontname=Arial,
 			label="Application Services",
+			labeljust=l,
 			lheight=0.21,
-			lp="851,395.5",
+			lp="729,395.5",
 			lwidth=1.69,
 			penwidth=2,
 			style=dashed
@@ -285,7 +286,7 @@ digraph "E-Commerce Platform" {
 		];
 		user_db	[description="PostgreSQL - User accounts and profiles",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -302,7 +303,7 @@ digraph "E-Commerce Platform" {
 			width=1.4861];
 		product_db	[description="PostgreSQL - Product catalog and inventory",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -317,7 +318,7 @@ digraph "E-Commerce Platform" {
 			width=1.7361];
 		order_db	[description="PostgreSQL - Orders and transaction history",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -333,7 +334,7 @@ digraph "E-Commerce Platform" {
 			width=1.5694];
 		session_cache	[description="Redis - Session tokens and cart data",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,
@@ -347,7 +348,7 @@ digraph "E-Commerce Platform" {
 			width=1.4861];
 		payment_vault	[description="PCI-DSS compliant tokenized card storage",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
@@ -364,7 +365,7 @@ digraph "E-Commerce Platform" {
 			width=1.4444];
 		search_index	[description="Elasticsearch - Product search",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			height=0.5,
@@ -377,7 +378,7 @@ digraph "E-Commerce Platform" {
 			width=1.3333];
 		file_storage	[description="S3 - Product images and assets",
 			fillcolor="#2ecc71",
-			fontcolor=white,
+			fontcolor="#1f2937",
 			fontname=Arial,
 			hasAccessControl=True,
 			hasBackup=True,
